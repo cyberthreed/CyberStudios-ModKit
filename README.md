@@ -1,82 +1,161 @@
 
 <div align="center">
 
-# ✦ CyberStudios ModKit
+# ୨୧ CyberStudios ModKit ୨୧
 
-### open source modding, creative freedom & a little digital chaos ♡
+### ˚₊‧꒰ა welcome to my little modding corner ໒꒱ ‧₊˚
 
-**An open-source collection of game mods, development resources, and experiments created within CyberStudios™.**
+**a source-available collection of inZOI mods, creative experiments & development resources.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-C6B6F3?style=for-the-badge)](LICENSE)
-[![Game: inZOI](https://img.shields.io/badge/Game-inZOI-AED8F5?style=for-the-badge)](https://playinzoi.com/)
-[![Open Source](https://img.shields.io/badge/Open-Source-A8E8DC?style=for-the-badge&logo=github&logoColor=202842)](https://github.com/cyberthreed/CyberStudios-ModKit)
-[![CyberStudios](https://img.shields.io/badge/By-CyberStudios-F4C8EA?style=for-the-badge)](https://github.com/CyberStudiosTM)
+[![CyberStudios](https://img.shields.io/badge/CyberStudios-♡-F4C8EA?style=for-the-badge&labelColor=202842)](https://github.com/CyberStudiosTM)
+[![inZOI](https://img.shields.io/badge/Game-inZOI-AED8F5?style=for-the-badge&labelColor=202842)](https://playinzoi.com/)
+[![License](https://img.shields.io/badge/License-Source--Available-C6B6F3?style=for-the-badge&labelColor=202842)](#-09-licensing--usage)
+[![Contributions](https://img.shields.io/badge/PRs-Welcome-A8E8DC?style=for-the-badge&labelColor=202842)](CONTRIBUTING.md)
 
-*Made with curiosity. Shared with the community.*
+**☁️ dream in pixels. create without limits. ☁️**
 
-[Explore Repository](https://github.com/cyberthreed/CyberStudios-ModKit) · [CyberStudios Website](https://cyberthreed.github.io/CyberStudios/) · [Report an Issue](https://github.com/cyberthreed/CyberStudios-ModKit/issues)
+*✧ a little code, a little creativity, and endless possibilities ✧*
 
----
-
-**dream in pixels. create without limits.**
+[♡ Website](https://cyberthreed.github.io/CyberStudios/) · [✦ Repository](https://github.com/cyberthreed/CyberStudios-ModKit) · [🎀 Contribute](CONTRIBUTING.md) · [🐛 Issues](https://github.com/cyberthreed/CyberStudios-ModKit/issues)
 
 </div>
 
-## ◇ Welcome to ModKit
+---
 
-**CyberStudios ModKit** is the open-source home for my game modifications, technical experiments, and modding resources.
+<div align="center">
 
-I created this repository to make the development side of my projects more accessible to the community.
+## 𓆩♡𓆪 01. welcome to modkit
 
-Rather than keeping everything behind packaged downloads, I want other creators to have the opportunity to explore how my mods are structured, learn from their implementation, suggest improvements, and experiment with their own ideas.
+*˚₊‧ a little peek behind the pixels ‧₊˚*
 
-ModKit is both a growing source-code archive and a collaborative space for creative game modification.
+</div>
 
-Whether you're an experienced mod developer, someone learning to work with the inZOI ModKit, or simply curious about what happens behind the scenes, you're welcome to explore.
+**Haiii, welcome to CyberStudios ModKit!** ♡
 
-> **A note about this repository**
+*˚₊‧ a little peek behind the pixels ‧₊˚*
+
+This is the source-available home for my game modifications, development resources, and technical experiments.
+
+I created this repository because I wanted the development side of my projects to be more accessible. Not just the finished mods you download and play with, but the scripts, resources, experiments, and little details that go into making them work.
+
+Whether you're an experienced developer, someone learning how the inZOI ModKit works, or simply curious about what happens behind the scenes, you're welcome to explore!
+
+This repository is designed to grow alongside my projects, with room for community contributions and technical experimentation.
+
+> **୨୧ A LITTLE NOTE**
 >
-> This repository contains development files and source resources. It is not necessarily a collection of ready-to-install mods.
+> ModKit is intended to be source-available, not an unrestricted mod distribution archive.
 >
-> Individual projects may be experimental, incomplete, or intended for use with specific modding tools.
+> You're welcome to study the source, fork the repository, experiment privately, and submit pull requests under the applicable license.
+>
+> **Official mod uploads and releases are managed by CyberStudios.**
+>
+> Previously granted MIT permissions remain valid for materials received under that license.
+
+### ♡ what you're welcome to do
+
+| ✧ | Activity |
+| :---: | :--- |
+| ☁️ | Explore and study available source files |
+| 🎀 | Fork the repository through GitHub |
+| 💿 | Experiment with private modifications |
+| 🧸 | Report bugs and suggest improvements |
+| 🌸 | Submit pull requests for review |
+| ✦ | Contribute documentation, fixes, and translations |
+
+### ✧ what requires permission
+
+- Redistributing covered mods or modified packages.
+- Uploading mods to Nexus Mods, CurseForge, or other platforms.
+- Publishing unofficial packaged releases or download mirrors.
+- Selling or sublicensing covered materials.
+- Presenting unofficial builds as CyberStudios releases.
+
+These restrictions are subject to the license applicable to each version.
 
 ---
 
-## ✧ The Collection
+<div align="center">
 
-The following projects currently have source files available in this repository.
+## 𓆩♡𓆪 02. the mod collection
+
+*˚₊‧ tiny modifications, endless possibilities ‧₊˚*
+
+</div>
+
+Welcome to the collection! ♡
+
+Each project has its own purpose, from small quality-of-life adjustments to more ambitious gameplay systems.
+
+Some source projects are already available, while others will be added as their development materials are prepared.
 
 ### 🍷 TipsyZois
 
-**An intoxication-themed gameplay modification for inZOI.**
+**✧ a little too much fun for your Zois**
 
-TipsyZois explores how alcohol-related gameplay interactions, character states, and consequences can become part of a more expressive life simulation experience.
+TipsyZois is an intoxication gameplay project for inZOI, exploring how alcohol-related interactions and character states can create more expressive gameplay.
 
-Its development scope includes staged intoxication, gameplay effects, and related character interactions.
+Its broader development vision includes:
 
-**Source currently available:**
+- Multiple intoxication stages.
+- Character effects and reactions.
+- Alcohol-related interactions.
+- Hangover mechanics.
+- Recovery behaviors and gameplay consequences.
 
-- Unreal plugin project files
-- Content and resource directories
-- Metadata
-- Localization resources
-- Lua scripts
+Not every planned feature is necessarily implemented.
 
-**Project:** [Explore TipsyZois](TipsyZois/)
+**♡ Source:** [Explore TipsyZois](TipsyZois/)
 
-> The presence of source files does not indicate that every planned gameplay feature has been implemented or released.
+**✦ Download:** Official CyberStudios distribution listing.
 
-### ✦ More projects will be added
+> ☁️ Source files may represent development work rather than a complete, installable release.
 
-As additional CyberStudios mods are prepared for open-source publication, they'll be organized into their own project directories.
+### 💤 PowerNaps
 
-Each project can have its own documentation, requirements, implementation notes, and contribution guidance.
+**✧ five more minutes, please...**
+
+PowerNaps is a quality-of-life gameplay modification focused on making the **Take Power Nap** interaction faster and more convenient.
+
+It's designed to improve short naps without broadly changing the game's entire sleep system.
+
+**♡ Source:** To be linked when available.
+
+**✦ Download:** Official Nexus Mods listing to be added.
+
+### 🎉 PajamaParty
+
+**✧ sleepovers are better with friends**
+
+PajamaParty introduces a custom pajama party social event for inZOI, giving your Zois another way to gather, socialize, and make memories.
+
+**♡ Source:** To be linked when available.
+
+**✦ Download:** Official Nexus Mods listing to be added.
+
+### 💍 AllowProposalOnVacation
+
+**✧ love doesn't follow a travel schedule**
+
+AllowProposalOnVacation removes the restriction preventing marriage proposals while traveling or on vacation.
+
+A small gameplay adjustment that gives you more freedom to tell your Zois' stories wherever they happen.
+
+**♡ Source:** To be linked when available.
+
+**✦ Download:** Official Nexus Mods listing to be added.
 
 ---
 
-## 01 / Repository Structure
+<div align="center">
 
-The repository currently includes:
+## 𓆩♡𓆪 03. inside the modkit
+
+*˚₊‧ a little tour through the files ‧₊˚*
+
+</div>
+
+The repository currently includes the TipsyZois development project and supporting resources.
 
 ```text
 CyberStudios-ModKit/
@@ -89,35 +168,54 @@ CyberStudios-ModKit/
 │   ├── lua/
 │   └── TipsyZois_899D9EC7.uplugin
 │
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+│
+├── README.md
 ├── LICENSE
-└── README.md
+├── LICENSE.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+└── CODE_OF_CONDUCT.md
 ```
 
-### Directory Overview
+*The policy and template files above represent the intended repository layout. Some may still need to be committed.*
 
-| Directory | Purpose |
+### ✧ directory guide
+
+| Folder | What's inside? |
 | :--- | :--- |
-| `Content/` | Mod-specific Unreal content and assets |
+| `Content/` | Unreal content and mod assets |
 | `Meta/` | Project metadata |
-| `Resources/` | Supporting mod resources |
-| `l10n/` | Localization resources |
-| `lua/` | Lua scripts and gameplay-related logic |
+| `Resources/` | Supporting resources |
+| `l10n/` | Localization files |
+| `lua/` | Scripts and gameplay logic |
 | `*.uplugin` | Unreal plugin descriptor |
+| `.github/` | Issue and pull request templates |
 
-Individual projects may use different structures depending on their implementation.
+Individual mods may use different structures depending on their technical requirements.
 
 ---
 
-## 02 / Getting Started
+<div align="center">
 
-### Clone the Repository
+## 𓆩♡𓆪 04. getting started
+
+*˚₊‧ ready to explore? ‧₊˚*
+
+</div>
+
+### ♡ step one: clone the repository
 
 ```bash
 git clone https://github.com/cyberthreed/CyberStudios-ModKit.git
 cd CyberStudios-ModKit
 ```
 
-### Explore a Project
+### ♡ step two: choose a project
 
 Navigate to the directory for the mod you're interested in.
 
@@ -127,139 +225,320 @@ For example:
 CyberStudios-ModKit/TipsyZois/
 ```
 
-Review the available source files, metadata, scripts, and supporting resources.
+Explore its scripts, metadata, resources, and project files.
 
-### Working with inZOI Projects
+### ♡ step three: prepare your environment
 
-Depending on the project, development may require:
+Depending on the project, you may need:
 
-- A compatible version of inZOI
-- The official inZOI ModKit
-- A supported Unreal-based development environment
-- Additional tools identified in the individual project's documentation
+- A compatible version of inZOI.
+- The official inZOI ModKit.
+- Compatible Unreal development tools.
+- Project-specific dependencies.
+- Any additional instructions provided with the mod.
 
-Not every file is intended to be edited, executed, or installed independently.
-
-**Important:** Do not assume that copying an entire source directory into your game's mod folder will install the mod correctly.
-
-Use a packaged release and its installation instructions when available.
-
----
-
-## 03 / Contributing
-
-Contributions, feedback, and technical discussions are welcome! ♡
-
-I want this repository to encourage learning, experimentation, and thoughtful collaboration.
-
-### Ways to Contribute
-
-- Report reproducible bugs or unexpected behavior.
-- Suggest improvements to existing gameplay systems.
-- Help investigate technical issues.
-- Improve documentation and development guides.
-- Contribute localization fixes or translations.
-- Submit targeted code improvements.
-- Share findings about supported game and ModKit behavior.
-
-### Contribution Workflow
-
-1. Check the existing issues and project documentation.
-2. Open an issue for substantial changes before implementing them.
-3. Fork the repository and create a focused development branch.
-4. Make your changes while preserving existing functionality.
-5. Test your work wherever possible.
-6. Submit a pull request describing what changed and why.
-
-Please keep pull requests focused and avoid unrelated formatting or structural changes.
-
-### A Few Ground Rules
-
-- Respect other contributors.
-- Don't upload copyrighted third-party assets without permission.
-- Don't include private information, credentials, or proprietary game files.
-- Clearly describe untested or experimental behavior.
-- Avoid introducing destructive or intentionally harmful functionality.
-- Keep implementation decisions grounded in observable game behavior.
-
-**Opening a pull request does not guarantee that a change will be merged.**
-
-Final project direction and release decisions remain with the maintainer.
-
----
-
-## 04 / Open-Source Philosophy
-
-For me, open source is about more than making a repository public.
-
-It's an opportunity to share knowledge, encourage experimentation, and give other developers a clearer understanding of the systems behind a project.
-
-I want people to be able to study how things work, challenge assumptions, suggest better approaches, and explore what they can create themselves.
-
-At the same time, I believe good development requires honesty about limitations.
-
-A source repository may contain unfinished features, experimental approaches, or code that needs further testing.
-
-**Transparency matters more than pretending every experiment is finished.**
-
-This repository will continue evolving as the projects within it grow.
-
----
-
-## 05 / Releases & Installation
-
-**Source code and playable releases are not necessarily the same thing.**
-
-The contents of this repository are primarily intended for inspection, development, and collaboration.
-
-When a mod has an installable build available, refer to its official release listing and installation instructions.
-
-Do not assume that the latest source commit represents a stable or game-compatible build.
-
-Game updates, dependencies, and changes to the official ModKit can affect compatibility.
-
----
-
-## 06 / License
-
-This repository includes an [MIT License](LICENSE).
-
-Unless otherwise indicated, original software covered by that license may be used, modified, and redistributed under its terms, including preserving the required copyright and license notice.
-
-Third-party game assets, trademarks, tools, and other materials remain subject to their respective owners' rights and applicable licenses.
-
-**CyberStudios™ branding, original characters, and visual identity are not automatically granted unrestricted trademark or branding rights by the software license.**
-
-Check individual project documentation for any additional notices.
-
----
-
-## 07 / Community & Support
-
-Found an issue? Have an idea? Want to contribute?
-
-I'd love to see what you're exploring.
-
-| Resource | Link |
-| :--- | :--- |
-| 🐛 Bug Reports | [Open an Issue](https://github.com/cyberthreed/CyberStudios-ModKit/issues) |
-| ✧ Feature Requests | [Suggest an Improvement](https://github.com/cyberthreed/CyberStudios-ModKit/issues/new) |
-| 💻 Source Repository | [CyberStudios ModKit](https://github.com/cyberthreed/CyberStudios-ModKit) |
-| ☁️ CyberStudios Website | [Explore CyberStudios](https://cyberthreed.github.io/CyberStudios/) |
-| ♡ GitHub Organization | [CyberStudiosTM](https://github.com/CyberStudiosTM) |
+> **🎀 PLEASE REMEMBER**
+>
+> Source directories are not necessarily installable mods!
+>
+> Copying an entire development folder into your game's mod directory may not produce a working installation.
+>
+> For gameplay, use official packaged releases and their installation instructions.
 
 ---
 
 <div align="center">
 
-### ✦ Built within CyberStudios™
+## 𓆩♡𓆪 05. official downloads
 
-*an independent creative technology studio exploring game development, modding, software, and digital experiences.*
+*˚₊‧ made with love, released with care ‧₊˚*
 
-**made for curiosity. built for possibility.**
+</div>
 
-[CyberStudios Website](https://cyberthreed.github.io/CyberStudios/) · [GitHub](https://github.com/CyberStudiosTM)
+CyberStudios manages official distribution of its mods.
 
-♡ **welcome to my cyberspace** ♡
+**Nexus Mods** is the primary download platform for mods with official Nexus listings.
+
+**CurseForge** may also be available as a secondary download source for certain projects.
+
+Official links will be added to each project's section as they're confirmed.
+
+### ♡ distribution guidelines
+
+Please do not:
+
+- Reupload covered mods to other websites.
+- Redistribute covered mod archives.
+- Publish unofficial modified packages.
+- Create unauthorized download mirrors.
+- Represent forks as officially supported releases.
+
+If you'd like to improve a mod, submit a pull request instead!
+
+Approved changes can be reviewed, integrated, packaged, and published through the official CyberStudios distribution channels.
+
+These restrictions are subject to the applicable license, including previously granted MIT rights.
+
+---
+
+<div align="center">
+
+## 𓆩♡𓆪 06. let's create together!
+
+*˚₊‧ your ideas belong in our little cyberspace ‧₊˚*
+
+</div>
+
+Contributions are always appreciated! ♡
+
+Whether you're reporting a bug, suggesting a new feature, improving documentation, or submitting code, there's a place for you here.
+
+### 🎀 choose your contribution
+
+| ✧ | I want to... | Start here |
+| :---: | :--- | :--- |
+| 🐛 | Report a bug | [♡ Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md) |
+| 🌸 | Suggest a feature | [♡ Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md) |
+| 💻 | Submit code changes | [♡ Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) |
+| 📖 | Read contribution rules | [♡ Contributing Guide](CONTRIBUTING.md) |
+| 🛡️ | Report a security concern | [♡ Security Policy](SECURITY.md) |
+| 💌 | Review community standards | [♡ Code of Conduct](CODE_OF_CONDUCT.md) |
+
+### ☁️ ready to contribute?
+
+**01.** Read the [Contribution Guidelines](CONTRIBUTING.md).
+
+**02.** Check existing issues before opening a new one.
+
+**03.** Fork the repository and create a focused development branch.
+
+**04.** Make and test your changes.
+
+**05.** Open a pull request using the repository template.
+
+**06.** Wait for maintainer review and approval. ♡
+
+### ✧ quick links
+
+- 🐛 [Open a New Issue](https://github.com/cyberthreed/CyberStudios-ModKit/issues/new/choose)
+- 🌸 [Browse Existing Issues](https://github.com/cyberthreed/CyberStudios-ModKit/issues)
+- 💻 [Create a Pull Request](https://github.com/cyberthreed/CyberStudios-ModKit/compare)
+- 🎀 [View Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md)
+- 🧸 [View Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md)
+- 💌 [View Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md)
+
+### ✧ pull request checklist
+
+- [ ] I've explained what changed and why.
+- [ ] I've identified the affected mod.
+- [ ] I've tested my changes where possible.
+- [ ] I've documented compatibility concerns.
+- [ ] I haven't included unauthorized third-party assets.
+- [ ] I've reviewed the applicable license.
+- [ ] I understand that official releases are managed by CyberStudios.
+
+> **♡ A LITTLE MAINTAINER NOTE**
+>
+> Pull requests are proposals, not automatic approvals.
+>
+> CyberStudios reviews submissions and decides which changes become part of official releases.
+>
+> Contributors may fork, study, privately modify, and propose improvements under the applicable license.
+>
+> Official mod publishing remains managed by CyberStudios, subject to previously granted licensing rights.
+
+---
+
+<div align="center">
+
+## 𓆩♡𓆪 07. development guidelines
+
+*˚₊‧ thoughtful code makes better mods ‧₊˚*
+
+</div>
+
+I want this repository to encourage experimentation while maintaining clear, reliable development practices.
+
+### ✧ code quality
+
+Please:
+
+- Follow existing project conventions.
+- Preserve working gameplay behavior.
+- Avoid unnecessary dependencies.
+- Document compatibility assumptions.
+- Clearly identify experimental functionality.
+- Include testing evidence where practical.
+
+### ✧ assets & intellectual property
+
+Do not commit:
+
+- Unauthorized copyrighted assets.
+- Proprietary game files.
+- Extracted third-party resources without permission.
+- Credentials, tokens, or personal information.
+- Materials that violate third-party licenses.
+
+### ✧ AI-assisted development
+
+AI-assisted development is welcome.
+
+Contributors are responsible for reviewing, testing, and ensuring they have the rights to submit their work.
+
+AI-assisted contributions are held to the same technical, security, and licensing expectations as other contributions.
+
+---
+
+<div align="center">
+
+## 𓆩♡𓆪 08. safety first!
+
+*˚₊‧ keeping our little cyberspace safe ‧₊˚*
+
+</div>
+
+Security concerns should be reported privately whenever possible.
+
+If you discover an issue involving unsafe file handling, unexpected execution, exposed credentials, or another vulnerability, follow the [Security Policy](SECURITY.md).
+
+Avoid publicly disclosing exploit details before maintainers have had an opportunity to investigate.
+
+For ordinary gameplay bugs and compatibility issues, use the [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md).
+
+For improvement suggestions, use the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md).
+
+---
+
+<div align="center">
+
+## 𓆩♡𓆪 09. licensing & usage
+
+*˚₊‧ sharing knowledge while protecting creative work ‧₊˚*
+
+</div>
+
+CyberStudios ModKit is intended to use a **custom source-available licensing model**.
+
+The goal is to allow public source inspection, GitHub forks, private experimentation, and community pull requests while reserving control over public mod distribution.
+
+### ♡ intended permissions
+
+- View and study the source.
+- Fork through GitHub.
+- Make private modifications.
+- Submit improvements through pull requests.
+
+### ✧ reserved rights
+
+- Public redistribution of covered mods.
+- Third-party uploads and mirrors.
+- Unofficial packaged releases.
+- Official branding and publication decisions.
+
+### ⚖️ important licensing notice
+
+This repository was initially published under the **MIT License**.
+
+Existing permissions granted under MIT cannot be retroactively revoked.
+
+A custom CyberStudios ModKit Source License is being prepared for future materials and versions where CyberStudios has the necessary rights to apply it.
+
+Until that transition is completed, the applicable existing license remains controlling.
+
+**Source-available does not mean OSI-approved open source.**
+
+Read the repository's currently published [License](LICENSE) before reusing materials.
+
+---
+
+<div align="center">
+
+## 𓆩♡𓆪 10. community guidelines
+
+*˚₊‧ be kind, stay curious, create freely ‧₊˚*
+
+</div>
+
+CyberStudios is intended to be a welcoming environment for creators and developers.
+
+Please:
+
+- Treat other contributors respectfully.
+- Offer constructive feedback.
+- Respect project boundaries.
+- Credit other people's work.
+- Keep discussions productive.
+- Avoid harassment or discriminatory behavior.
+
+Maintainers may moderate discussions, close issues, or reject pull requests when necessary.
+
+Read the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+<div align="center">
+
+## 𓆩♡𓆪 11. project status
+
+*˚₊‧ our little collection is still growing ‧₊˚*
+
+</div>
+
+Not every project is represented by a complete source release.
+
+| Project | Source Availability |
+| :--- | :--- |
+| 🍷 TipsyZois | Available |
+| 💤 PowerNaps | To be added |
+| 🎉 PajamaParty | To be added |
+| 💍 AllowProposalOnVacation | To be added |
+
+Source availability is separate from whether a playable mod has been released.
+
+For the latest official builds, refer to CyberStudios' official distribution channels.
+
+---
+
+<div align="center">
+
+## 𓆩♡𓆪 12. links & resources
+
+*˚₊‧ your little navigation directory ‧₊˚*
+
+</div>
+
+| ♡ | Resource | Link |
+| :---: | :--- | :--- |
+| ☁️ | CyberStudios Website | [Visit Website](https://cyberthreed.github.io/CyberStudios/) |
+| 💿 | ModKit Repository | [Explore Source](https://github.com/cyberthreed/CyberStudios-ModKit) |
+| 🐛 | Bug Report Template | [Report a Bug](.github/ISSUE_TEMPLATE/bug_report.md) |
+| 🌸 | Feature Request Template | [Suggest a Feature](.github/ISSUE_TEMPLATE/feature_request.md) |
+| 💻 | Pull Request Template | [Submit Changes](.github/PULL_REQUEST_TEMPLATE.md) |
+| 🎀 | Contribution Guidelines | [Read Guide](CONTRIBUTING.md) |
+| 🛡️ | Security Policy | [Read Policy](SECURITY.md) |
+| 💌 | Code of Conduct | [Community Standards](CODE_OF_CONDUCT.md) |
+| ⚖️ | License | [Usage Terms](LICENSE) |
+| 💜 | CyberStudios Organization | [GitHub](https://github.com/CyberStudiosTM) |
+
+---
+
+<div align="center">
+
+### ☁️ ˚₊‧꒰ა you've reached the end of the page ໒꒱ ‧₊˚
+
+**thank you for visiting my little corner of cyberspace!**
+
+Whether you're here to learn, contribute, or peek behind the scenes, I hope you find something interesting to explore.
+
+♡ *built with curiosity, creativity & a little too much caffeine* ♡
+
+### ✦ CyberStudios™
+
+*an independent creative technology studio*
+
+**dream in pixels. create without limits.**
+
+[♡ Website](https://cyberthreed.github.io/CyberStudios/) · [✦ GitHub](https://github.com/CyberStudiosTM)
 
 </div>
