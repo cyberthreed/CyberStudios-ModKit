@@ -1,21 +1,108 @@
-MIT License
 
-Copyright (c) 2026 CYBER𓆩♱𓆪
+# CyberStudios ModKit Source License
+Version 1.0 — Proposed Draft
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Copyright © 2026 CyberStudios.
+All rights reserved except as expressly granted below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 1. Purpose
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+CyberStudios makes the covered source materials publicly
+available for learning, inspection, experimentation, and
+collaborative development.
+
+This license is source-available, not an Open Source
+Initiative-approved open-source license.
+
+## 2. Permissions
+
+Subject to this license, you may:
+
+- View and study the covered source materials.
+- Fork the repository using GitHub's supported features.
+- Create private modifications for personal learning,
+  testing, and development.
+- Submit proposed changes through pull requests to
+  the official CyberStudios repository.
+- Discuss the source and report bugs or vulnerabilities.
+
+These permissions do not authorize public distribution
+of modified or packaged versions.
+
+## 3. Restrictions
+
+Unless separately authorized in writing by CyberStudios,
+you may not:
+
+- Redistribute covered mod files or modified versions.
+- Reupload mods to Nexus Mods, CurseForge, or other
+  distribution platforms.
+- Publish unofficial builds or downloadable mod packages.
+- Sell, sublicense, or commercially distribute covered
+  source materials.
+- Represent modified versions as official CyberStudios
+  releases.
+- Use CyberStudios branding or original characters in
+  a manner implying official endorsement.
+
+Public repository forks permitted by GitHub's Terms
+of Service are not prohibited by this license merely
+because they are public forks.
+
+## 4. Contributions
+
+You may submit contributions through pull requests.
+
+By submitting a contribution, you represent that you
+have the rights necessary to submit it and grant
+CyberStudios a perpetual, worldwide, non-exclusive,
+royalty-free license to use, reproduce, modify,
+distribute, sublicense, and incorporate that
+contribution into official CyberStudios projects.
+
+You retain ownership of your original contributions.
+
+Submitting a contribution does not guarantee acceptance.
+
+Only authorized CyberStudios maintainers determine which
+changes are merged or included in official releases.
+
+## 5. Official Distribution
+
+CyberStudios retains control over official packaging,
+release management, and publication of covered mods.
+
+Approval of a pull request does not grant contributors
+permission to publish an unofficial mod release.
+
+## 6. Third-Party Materials
+
+This license applies only to materials CyberStudios has
+the legal authority to license under these terms.
+
+Third-party game assets, trademarks, tools, and other
+materials remain subject to their respective licenses
+and owners' rights.
+
+## 7. Existing Licenses
+
+This license does not revoke permissions already
+granted under earlier valid licenses, including MIT.
+
+Materials received under an earlier license may remain
+usable under that license's terms.
+
+## 8. Warranty Disclaimer
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY
+OF ANY KIND, TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+## 9. No Implied Rights
+
+No rights are granted except those expressly stated
+in this license or required by applicable law.
+
+---
+
+This is a proposed license draft requiring legal review
+before adoption.
