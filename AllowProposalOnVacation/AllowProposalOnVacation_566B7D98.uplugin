@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "607E206F4296372924FAB2A583924EEE",
+	"FriendlyName": "AllowProposalOnVacation",
+	"Description": "Add your summary here",
+	"Category": "UGC",
+	"DocsURL": "",
+	"MarketplaceURL": "https://legacy.curseforge.com/inzoi/mod/allowproposalonvacation-566b7d98",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"ModCode": "566B7D98",
+	"MigrationState": 5,
+	"CfUgcId": 1755606,
+	"AutoCookingType": "PCOnly"
+}

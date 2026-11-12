@@ -1,0 +1,103 @@
+{
+	"Struct": "Interaction",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Interaction[Id=Object_Bonfire01_CampFire_Sit]",
+			"Value":
+			{
+				"interactionTags": [],
+				"conditionId": "None",
+				"grabEntityConditionId": "None",
+				"interactionSlotUsage": "Single",
+				"enableSlotTags": [
+					"None"
+				],
+				"objectSlotUsage": "None",
+				"actionIdList": [
+					"MoveRotate",
+					"Cyber_PP_CampfireStory_Action"
+				],
+				"targetFilterInfoList": [],
+				"bAutoFindRepeat": false,
+				"autoFindRepeatMaxCount": 0,
+				"autoFindRepeatSearchRange": 500,
+				"targetFilterFindAll": false,
+				"spaceTargetFilterId": "None",
+				"noneTargetPlayable": false,
+				"checkSlotToEntity": false,
+				"enableOnlyConnectedChairObjectSlot": false,
+				"bCheckCanMoveToSlot": true,
+				"innerThoughtIconInfo":
+				{
+					"iconId": "None",
+					"probability": 0
+				},
+				"startScriptIdList": [],
+				"cancelScriptIdList": [],
+				"finishScriptIdList": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"grabParts": "None",
+				"PostureId": [
+					"Stand"
+				],
+				"BodyParts": [
+					"BothHands"
+				],
+				"id": "Object_Bonfire01_CampFire_SpookyStories"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Interaction[Id=Talk_Sit_V2]",
+			"Value":
+			{
+				"interactionTags": [],
+				"conditionId": "None",
+				"grabEntityConditionId": "None",
+				"interactionSlotUsage": "Single",
+				"enableSlotTags": [
+					"None"
+				],
+				"objectSlotUsage": "None",
+				"actionIdList": [
+					"MoveRotate",
+					"Cyber_PP_CampfireStory_Action"
+				],
+				"targetFilterInfoList": [],
+				"bAutoFindRepeat": false,
+				"autoFindRepeatMaxCount": 0,
+				"autoFindRepeatSearchRange": 500,
+				"targetFilterFindAll": false,
+				"spaceTargetFilterId": "None",
+				"noneTargetPlayable": false,
+				"checkSlotToEntity": false,
+				"enableOnlyConnectedChairObjectSlot": false,
+				"bCheckCanMoveToSlot": true,
+				"innerThoughtIconInfo":
+				{
+					"iconId": "None",
+					"probability": 0
+				},
+				"startScriptIdList": [],
+				"cancelScriptIdList": [],
+				"finishScriptIdList": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"grabParts": "None",
+				"PostureId": [
+					"Stand"
+				],
+				"BodyParts": [
+					"BothHands"
+				],
+				"id": "Campfire_Tell_SpookyStories"
+			},
+			"Enabled": true
+		}
+	]
+}

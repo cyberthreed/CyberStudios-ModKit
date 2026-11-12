@@ -1,0 +1,34 @@
+{
+  "Struct": "TalkSelection",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "TalkSelection[Id=Chatter]",
+      "Value": {
+        "order": 14,
+        "disableTalkSelectionLists": [],
+        "talkType": "Cyber_PP_Party",
+        "displayStringTextId": "mod_InteractionBagGroup_Cyber_PP_Group_DisplayStringTextId",
+        "conditionIds": [
+          "OnlyNotGhost_Talk_Category",
+          "IsSchoolPhase_NotEqual",
+          "NotWorkingBizStaff_Talk_Category",
+          "NotWorkingBizStaffSelf_Talk_Category",
+          "PajamaParty_IsParticipantTalk"
+        ],
+        "DisplayIcon": "/PajamaParty_F2D852DB/Textures/Cyber_PP_WarmCozy_EmotionIcon.Cyber_PP_WarmCozy_EmotionIcon",
+        "displayIconColorId": "None",
+        "interactionBagList": [
+          "Cyber_PP_IB_Secret",
+          "Cyber_PP_IB_Pajamas",
+          "Cyber_PP_IB_Dream"
+        ],
+        "leftMarkerId": "None",
+        "id": "Cyber_PP_TalkSelection"
+      },
+      "Enabled": true
+    }
+  ]
+}

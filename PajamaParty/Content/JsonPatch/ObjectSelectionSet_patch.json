@@ -1,0 +1,45 @@
+{
+	"Struct": "ObjectSelectionSet",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "ObjectSelectionSet[Id=Bonfire01]",
+			"Value":
+			{
+				"selectionSets": [
+					{
+						"stateGroupId": "Normal",
+						"selectionType": "Normal",
+						"interactionBagList": [
+							"Object_Bonfire01_CampFire_On",
+							"Object_Bonfire01_CampFire_Fish",
+							"Ghost_Object_Bonfire01_CampFire_On"
+						]
+					},
+					{
+						"stateGroupId": "OnOff",
+						"selectionType": "Normal",
+						"interactionBagList": [
+							"Object_Bonfire01_CampFire_Magicfire",
+							"Object_Bonfire01_Cook_Fish",
+							"Object_Bonfire01_CampFire_Sit",
+							"Object_Bonfire01_CampFire_Add_Firewood",
+							"Object_Bonfire01_CampFire_Play",
+							"Object_Bonfire01_CampFire_Marshmallow",
+							"Object_Bonfire01_CampFire_Off",
+							"Object_Bonfire01_CampFire_Fish",
+							"Ghost_Object_Bonfire01_CampFire_Off",
+							"Object_Bonfire01_CampFire_SpookyStories_Bag"
+						]
+					}
+				],
+				"isDisplayObjectString": true,
+				"bShowInteractionOnGroupClick": false,
+				"id": "Bonfire01_pp"
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"Struct": "AnimCharacter",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "AnimCharacter_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PP_CampfireStory_Anim",
+				"Comment": "",
+				"AttachMeshInfos": [],
+				"PlayingComponentName": "Root",
+				"StopOtherComponentOnFinish": false,
+				"StartAnimSection": "Default",
+				"CharacterAnimConfigList": [
+					{
+						"AnimInfoList": [
+							{
+								"Animation": "/Game/Characters/Anims/Interaction/Female/ANIM_F_CampFire_Sit_StartLoopEnd_Interaction_Montage.ANIM_F_CampFire_Sit_StartLoopEnd_Interaction_Montage",
+								"RateScale": 1,
+								"AnimGrowthStep": "Adult",
+								"LoopPlayLength": 11.5,
+								"RandomLoopAnims": [],
+								"Gender": "Female",
+								"TotalPlayLength": 22.799999237060547
+							},
+							{
+								"Animation": "/Game/Characters/Anims/Interaction/Male/ANIM_M_CampFire_Sit_StartLoopEnd_Interaction_Montage.ANIM_M_CampFire_Sit_StartLoopEnd_Interaction_Montage",
+								"RateScale": 1,
+								"AnimGrowthStep": "Adult",
+								"LoopPlayLength": 11.5,
+								"RandomLoopAnims": [],
+								"Gender": "Male",
+								"TotalPlayLength": 22.799999237060547
+							},
+							{
+								"Animation": "/Game/Characters/Anims/Interaction/Child/ANIM_C_CampFire_Sit_StartLoopEnd_Interaction_Montage.ANIM_C_CampFire_Sit_StartLoopEnd_Interaction_Montage",
+								"RateScale": 1,
+								"AnimGrowthStep": "Youth",
+								"LoopPlayLength": 11.5,
+								"RandomLoopAnims": [],
+								"Gender": "Default",
+								"TotalPlayLength": 22.799999237060547
+							}
+						],
+						"AnimPostureId": [
+							"Stand"
+						],
+						"AnimBodyParts": "BothHands",
+						"AnimGrabParts": "None",
+						"AnimSlotDirection": "None"
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

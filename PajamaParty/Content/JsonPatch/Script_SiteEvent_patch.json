@@ -1,0 +1,175 @@
+{
+  "Struct": "Script",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "Script_SiteEvent[Id=Script_BirthdayParty_Start]",
+      "Value": {
+        "scripts": [
+          {
+            "ifType": "If",
+            "conditions": [
+              {
+                "BaseObject": "Self",
+                "Command": "Buff",
+                "CompareType": "NotEqual",
+                "UseHand": "Default",
+                "S1": "pajamaparty_guest_buff",
+                "S2": "None",
+                "F1": 0,
+                "F2": 0
+              }
+            ],
+            "executes": [
+              {
+                "baseObject": "Self",
+                "command": "AddBuff",
+                "s1": "pajamaparty_guest_buff",
+                "s2": "None",
+                "f1": 1440,
+                "f2": 0,
+                "prob": 1
+              }
+            ]
+          }
+        ],
+        "id": "pajamaparty_guest_start"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Script_SiteEvent[Id=pajamaparty_guest_start]",
+      "Value": {
+        "scripts": [
+          {
+            "ifType": "If",
+            "conditions": [],
+            "executes": [
+              {
+                "baseObject": "Self",
+                "command": "RemoveBuff",
+                "s1": "pajamaparty_guest_buff",
+                "s2": "None",
+                "f1": 1440,
+                "f2": 0,
+                "prob": 1
+              }
+            ]
+          }
+        ],
+        "id": "pajamaparty_guest_end"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Script_SiteEvent[Id=pajamaparty_guest_start]",
+      "Value": {
+        "scripts": [
+          {
+            "ifType": "If",
+            "conditions": [
+              {
+                "BaseObject": "Self",
+                "Command": "Buff",
+                "CompareType": "NotEqual",
+                "UseHand": "Default",
+                "S1": "pajamaparty_host_buff",
+                "S2": "None",
+                "F1": 0,
+                "F2": 0
+              }
+            ],
+            "executes": [
+              {
+                "baseObject": "Self",
+                "command": "AddBuff",
+                "s1": "pajamaparty_host_buff",
+                "s2": "None",
+                "f1": 1440,
+                "f2": 0,
+                "prob": 1
+              }
+            ]
+          }
+        ],
+        "id": "pajamaparty_host_start"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Script_SiteEvent[Id=pajamaparty_guest_end]",
+      "Value": {
+        "scripts": [
+          {
+            "ifType": "If",
+            "conditions": [],
+            "executes": [
+              {
+                "baseObject": "Self",
+                "command": "RemoveBuff",
+                "s1": "pajamaparty_host_buff",
+                "s2": "None",
+                "f1": 1440,
+                "f2": 0,
+                "prob": 1
+              }
+            ]
+          }
+        ],
+        "id": "pajamaparty_host_end"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Script_SiteEvent",
+      "Value": {
+        "scripts": [
+          {
+            "ifType": "If",
+            "conditions": [
+              {
+                "BaseObject": "Self",
+                "Command": "Buff",
+                "CompareType": "NotEqual",
+                "UseHand": "Default",
+                "S1": "pajamaparty_guest_buff",
+                "S2": "None",
+                "F1": 0,
+                "F2": 0
+              },
+              {
+                "BaseObject": "Self",
+                "Command": "IsPlayingSiteEvent",
+                "CompareType": "Equal",
+                "UseHand": "Default",
+                "S1": "Cyber_PP_Event",
+                "S2": "None",
+                "F1": 0,
+                "F2": 0
+              }
+            ],
+            "executes": [
+              {
+                "baseObject": "Self",
+                "command": "AddBuff",
+                "s1": "pajamaparty_guest_buff",
+                "s2": "None",
+                "f1": 1440,
+                "f2": 0,
+                "prob": 1
+              }
+            ]
+          }
+        ],
+        "id": "Cyber_PP_GuestArrival"
+      },
+      "Enabled": true
+    }
+  ]
+}

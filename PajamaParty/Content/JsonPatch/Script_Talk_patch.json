@@ -1,0 +1,112 @@
+{
+	"Struct": "Script",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Script_Talk",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"Conditions": [],
+						"Executes": [
+							{
+								"S2": "None",
+								"BaseObject": "Self",
+								"S1": "pajamaparty_secret_buff",
+								"Command": "AddBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"S2": "None",
+								"BaseObject": "Target",
+								"S1": "pajamaparty_secret_buff",
+								"Command": "AddBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"IfType": "If"
+					}
+				],
+				"id": "Cyber_PP_TalkReward_Secret"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Talk",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"Conditions": [],
+						"Executes": [
+							{
+								"S2": "None",
+								"BaseObject": "Self",
+								"S1": "pajamaparty_pajamas_buff",
+								"Command": "AddBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"S2": "None",
+								"BaseObject": "Target",
+								"S1": "pajamaparty_pajamas_buff",
+								"Command": "AddBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"IfType": "If"
+					}
+				],
+				"id": "Cyber_PP_TalkReward_Pajamas"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Talk",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"Conditions": [],
+						"Executes": [
+							{
+								"S2": "None",
+								"BaseObject": "Self",
+								"S1": "pajamaparty_dream_buff",
+								"Command": "AddBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"S2": "None",
+								"BaseObject": "Target",
+								"S1": "pajamaparty_dream_buff",
+								"Command": "AddBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"IfType": "If"
+					}
+				],
+				"id": "Cyber_PP_TalkReward_Dream"
+			},
+			"Enabled": true
+		}
+	]
+}

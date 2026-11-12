@@ -1,0 +1,1055 @@
+{
+	"Struct": "Action",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_Action_Bed01",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": true,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": true,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"pn_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested2",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_DS_Action_Bed01",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": true,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": true,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"Cyber_DS_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_Action_Bed02",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep_SingleBed",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 7,
+						"F2": 8,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"pn_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested2",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_DS_Action_Bed02",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep_SingleBed",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 7,
+						"F2": 8,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"Cyber_DS_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_Action_Bed05",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep_SingleBed_Floor",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 7,
+						"F2": 8,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"pn_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested2",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_DS_Action_Bed05",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep_SingleBed_Floor",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 7,
+						"F2": 8,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"Cyber_DS_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_Action_Bed06",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep_DoubleBed_Floor",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"pn_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested2",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Action_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_DS_Action_Bed06",
+				"Comment": "",
+				"Actions": [
+					{
+						"ConditionId": "Action_NotWearingSleep",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangeOutfitCategory",
+						"S1": "Sleep",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [],
+						"CancelScriptIdList": [],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Sleep_DoubleBed_Floor",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"End_Sleepwalking"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": true,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "Sleep",
+						"S1": "None",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [
+							"Cyber_PN_StartDream_CustomOnly",
+							"Cyber_DS_AddActiveBuff"
+						],
+						"TickScriptIdList": [
+							"Cyber_PN_ReplaceNativeSleepBuff",
+							"Tick_Sleep_Energy"
+						],
+						"TickInterval": 0.10000000000000001,
+						"FinishScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"pn_AddWellRested",
+							"remove_activebuff"
+						],
+						"CancelScriptIdList": [
+							"Cyber_PN_EndDream_NoNativeBuffs",
+							"remove_activebuff"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					},
+					{
+						"ConditionId": "None",
+						"bCancelWhenMotiveInsufficient": false,
+						"Duration": 0,
+						"IsForceCancelable": false,
+						"IsWaitFinishAction": true,
+						"FinishPrev": false,
+						"bEnableInsertAutoMove": false,
+						"BaseObject": "Self",
+						"Command": "ChangePosture",
+						"S1": "Stand",
+						"S2": "None",
+						"F1": 0,
+						"F2": 0,
+						"StartScriptIdList": [],
+						"TickScriptIdList": [],
+						"TickInterval": 0,
+						"FinishScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"CancelScriptIdList": [
+							"Finish_RemoveOutfit_Sleep",
+							"Finish_TakeOff_Uniform",
+							"AddHope_SprayDeodorizer"
+						],
+						"NotifyScriptIds": [],
+						"ConsumeCurrencyId": "None",
+						"ConsumeCurrencyValue": 0
+					}
+				],
+				"ActionTags": [
+					"Sleep"
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

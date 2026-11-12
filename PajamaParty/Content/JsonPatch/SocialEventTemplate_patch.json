@@ -1,0 +1,1513 @@
+{
+  "Struct": "SocialEventTemplate",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "SocialEventTemplate[Id=Party]",
+      "Value": {
+        "bHideUI": false,
+        "isRepeatable": true,
+        "repeatReminderMessageId": "RepeatSocialEvent_Party",
+        "repeatDisbandMessageId": "RepeatSocialEvent_Disband",
+        "socialEventType": "Normal",
+        "autoScenarioPlayMinute": 10,
+        "presetObjectCategory": "SocialEvent1",
+        "failConditionId": "None",
+        "guideMainTextId": "mod_SocialEventTemplate_PajamaParty_GuideMainTextId",
+        "guideSubTextId": "mod_SocialEventTemplate_PajamaParty_GuideSubTextId",
+        "actionInfos": [
+          {
+            "ActionId": "ActionId1",
+            "VisibleConditions": [],
+            "InteractionBagId": "Co_Event_Welcome",
+            "InteractionTargetInfo": {
+              "TargetType": "Role",
+              "TargetId": "PartyGuest",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": true,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId2",
+            "VisibleConditions": [],
+            "InteractionBagId": "Co_Event_ThankForComing",
+            "InteractionTargetInfo": {
+              "TargetType": "Role",
+              "TargetId": "PartyGuest",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": true,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId3",
+            "VisibleConditions": [],
+            "InteractionBagId": "Event_ComeHere_Party",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "AllFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId5",
+            "VisibleConditions": [],
+            "InteractionBagId": "Event_Dance_On_LowTable",
+            "InteractionTargetInfo": {
+              "TargetType": "Object",
+              "TargetId": "RecipeOnly_LowTable02",
+              "TargetTag": "LowTableCanDance"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId8",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot0",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId9",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot1",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId10",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot2",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId11",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot3",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId12",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot4",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId13",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot5",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId14",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot6",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId15",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot7",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId16",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot8",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId17",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot9",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId18",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot10",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId19",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot11",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId20",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot12",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId21",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot13",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId22",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot14",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId23",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot15",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId24",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot16",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId25",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot17",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId26",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot18",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId27",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot19",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId28",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot20",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId29",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot21",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId30",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot22",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId31",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot23",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId32",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot24",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId33",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot25",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId34",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot26",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId35",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot27",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId36",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot28",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId37",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot29",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "ActionId38",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot0",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId39",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot1",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId40",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot2",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId41",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot3",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId42",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot4",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId43",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot5",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId44",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot6",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId45",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot7",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId46",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot8",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId47",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot9",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId48",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot10",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId49",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot11",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId50",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot12",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId51",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot13",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId52",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot14",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId53",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot15",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId54",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot16",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId55",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot17",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId56",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot18",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId57",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot19",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId58",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot20",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId59",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot21",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId60",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot22",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId61",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot23",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId62",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot24",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId63",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot25",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId64",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot26",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId65",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot27",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId66",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot28",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "ActionId67",
+            "VisibleConditions": [],
+            "InteractionBagId": "Self_GeneratedMotionSlot29",
+            "InteractionTargetInfo": {
+              "TargetType": "None",
+              "TargetId": "None",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyGuest",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 5,
+              "FinishOption": "HalfFinish"
+            },
+            "ActionDelayMinute": 2
+          },
+          {
+            "ActionId": "pajamaparty_action_secret",
+            "VisibleConditions": [],
+            "InteractionBagId": "Cyber_PP_IB_Secret",
+            "InteractionTargetInfo": {
+              "TargetType": "Role",
+              "TargetId": "PartyGuest",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": true,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "pajamaparty_action_pajamas",
+            "VisibleConditions": [],
+            "InteractionBagId": "Cyber_PP_IB_Pajamas",
+            "InteractionTargetInfo": {
+              "TargetType": "Role",
+              "TargetId": "PartyGuest",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": true,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "pajamaparty_action_dream",
+            "VisibleConditions": [],
+            "InteractionBagId": "Cyber_PP_IB_Dream",
+            "InteractionTargetInfo": {
+              "TargetType": "Role",
+              "TargetId": "PartyGuest",
+              "TargetTag": "None"
+            },
+            "bCanPlayAll": true,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          },
+          {
+            "ActionId": "pajamaparty_action_spooky_stories",
+            "VisibleConditions": [],
+            "InteractionBagId": "Object_Bonfire01_CampFire_SpookyStories_Bag",
+            "InteractionTargetInfo": {
+              "TargetType": "Object",
+              "TargetId": "Bonfire01",
+              "TargetTag": "Outdoor_Fire"
+            },
+            "bCanPlayAll": false,
+            "EvnetTargetInfo": {
+              "RoleId": "PartyMain",
+              "TargetType": "Role",
+              "TargetRoleOption": "Any",
+              "ActionPlayCount": 1,
+              "FinishOption": "OneFinish"
+            },
+            "ActionDelayMinute": 0
+          }
+        ],
+        "recommendSiteInfos": [
+          {
+            "mapName": "Gangnam_Map",
+            "siteIds": [
+              "Home"
+            ],
+            "sitePresetId": "None"
+          },
+          {
+            "mapName": "RedCity_Map",
+            "siteIds": [
+              "Home"
+            ],
+            "sitePresetId": "None"
+          },
+          {
+            "mapName": "Cahaya_Map",
+            "siteIds": [
+              "Home"
+            ],
+            "sitePresetId": "None"
+          }
+        ],
+        "arrivedRoomPurposeId": "None",
+        "moods": [],
+        "bGhostAvailable": false,
+        "disableAutonomyDuringScenario": false,
+        "uIVisibleInfo": {
+          "hideEventUI": false,
+          "visibleScenarioPlayButton": true,
+          "visibleScenarioResetButton": true,
+          "visibleActionPlayButton": true,
+          "visibleEventStopButton": true
+        },
+        "loadingScreenUIType": "None",
+        "eventType": "SocialEvent",
+        "eventCategory": "Default",
+        "displayInfo": {
+          "nameTextId": "mod_SocialEventTemplate_DisplayInfo_PajamaParty_NameTextId",
+          "descTextId": "mod_SocialEventTemplate_DisplayInfo_PajamaParty_DescTextId",
+          "icon": "/PajamaParty_F2D852DB/Textures/Cyber_PP_PajamasBuff_Icon.Cyber_PP_PajamasBuff_Icon",
+          "thumbnail": "/PajamaParty_F2D852DB/Textures/Cyber_PP_EventThumbnail_NoPeople_Wide.Cyber_PP_EventThumbnail_NoPeople_Wide"
+        },
+        "conditionInfo": {
+          "conditionId": "SocialEvent_Party",
+          "dimmedToolTipTextId": ""
+        },
+        "durationHour": 4,
+        "scheduleInfoId": "SocialEvent_Party",
+        "roleInfos": [
+          {
+            "listKey": "Role1",
+            "roleId": "PartyMain",
+            "nameTextId": "mod_SocialEventTemplate_RoleInfos_Role1_PajamaParty_NameTextId",
+            "roleDescTextId": "mod_SocialEventTemplate_RoleInfos_Role1_PajamaParty_RoleDescTextId",
+            "bShowRoleName": true,
+            "pickType": "RelatedOnly",
+            "requiredRole": true,
+            "isFixedRole": true,
+            "minRoleNum": 1,
+            "maxRoleNum": 1,
+            "pickNum": 1,
+            "isHostRole": true,
+            "isPossessCharacterRole": false,
+            "arrivedInteractionBagId": "None",
+            "roleConditionId": "SocialEvent_Party_Role1",
+            "activityInfo": {
+              "autonomyPickRatio": 1,
+              "recommendedActivitys": [
+                "Friendship_Positive_Talk"
+              ],
+              "bannedActivitys": [
+                "Event_Fighting",
+                "Event_Negative"
+              ],
+              "dressCodeInfo": {
+                "dressCodeType": "Sleep",
+                "defaultColorId": "SocialEvent_Party",
+                "colorCode": "",
+                "overrideCostumeId": "None"
+              }
+            },
+            "createScriptInfos": [],
+            "arrivedScriptInfos": [
+              {
+                "scriptId": "AddStat_NotPlayerCharacter_All_50",
+                "scriptTargetRoleId": "PartyMain"
+              }
+            ],
+            "startScriptInfos": [
+              {
+                "scriptId": "pajamaparty_host_start",
+                "scriptTargetRoleId": "None"
+              }
+            ],
+            "cancelScriptInfos": [
+              {
+                "scriptId": "RemoveBuff_Ignore_Door_Permission",
+                "scriptTargetRoleId": "PartyMain"
+              },
+              {
+                "scriptId": "pajamaparty_host_end",
+                "scriptTargetRoleId": "None"
+              }
+            ],
+            "finishScriptInfos": [
+              {
+                "scriptId": "AddPopup_EndEvent",
+                "scriptTargetRoleId": "PartyMain"
+              },
+              {
+                "scriptId": "RemoveBuff_Ignore_Door_Permission",
+                "scriptTargetRoleId": "PartyMain"
+              },
+              {
+                "scriptId": "pajamaparty_host_end",
+                "scriptTargetRoleId": "None"
+              }
+            ]
+          },
+          {
+            "listKey": "Role2",
+            "roleId": "PartyGuest",
+            "nameTextId": "mod_SocialEventTemplate_RoleInfos_Role2_PajamaParty_NameTextId",
+            "roleDescTextId": "mod_SocialEventTemplate_RoleInfos_Role2_PajamaParty_RoleDescTextId",
+            "bShowRoleName": true,
+            "pickType": "RelatedOnly",
+            "requiredRole": true,
+            "isFixedRole": false,
+            "minRoleNum": 1,
+            "maxRoleNum": 10,
+            "pickNum": 10,
+            "isHostRole": false,
+            "isPossessCharacterRole": false,
+            "arrivedInteractionBagId": "None",
+            "roleConditionId": "SocialEvent_Party_Role2",
+            "activityInfo": {
+              "autonomyPickRatio": 1,
+              "recommendedActivitys": [
+                "Friendship_Positive_Talk"
+              ],
+              "bannedActivitys": [
+                "Event_Fighting",
+                "Event_Negative"
+              ],
+              "dressCodeInfo": {
+                "dressCodeType": "Sleep",
+                "defaultColorId": "None",
+                "colorCode": "",
+                "overrideCostumeId": "None"
+              }
+            },
+            "createScriptInfos": [],
+            "arrivedScriptInfos": [
+              {
+                "scriptId": "AddStat_NotPlayerCharacter_All_50",
+                "scriptTargetRoleId": "PartyGuest"
+              },
+              {
+                "scriptId": "Cyber_PP_GuestArrival",
+                "scriptTargetRoleId": "PartyGuest"
+              }
+            ],
+            "startScriptInfos": [
+              {
+                "scriptId": "pajamaparty_guest_start",
+                "scriptTargetRoleId": "PartyGuest"
+              }
+            ],
+            "cancelScriptInfos": [
+              {
+                "scriptId": "RemoveBuff_Ignore_Door_Permission",
+                "scriptTargetRoleId": "PartyGuest"
+              },
+              {
+                "scriptId": "pajamaparty_guest_end",
+                "scriptTargetRoleId": "PartyGuest"
+              }
+            ],
+            "finishScriptInfos": [
+              {
+                "scriptId": "AddPopup_EndEvent",
+                "scriptTargetRoleId": "PartyGuest"
+              },
+              {
+                "scriptId": "pajamaparty_guest_end",
+                "scriptTargetRoleId": "PartyGuest"
+              }
+            ]
+          }
+        ],
+        "spawnObjectInfos": [],
+        "isFixedOverrideTimeline": false,
+        "bAutoGrantDoorPrivilege": true,
+        "id": "Cyber_PP_Event"
+      },
+      "Enabled": true
+    }
+  ]
+}

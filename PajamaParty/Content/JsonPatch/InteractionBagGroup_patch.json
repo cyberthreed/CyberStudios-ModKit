@@ -1,0 +1,19 @@
+{
+	"Struct": "InteractionBagGroup",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "InteractionBagGroup[Id=Group_NormalAction]",
+			"Value":
+			{
+				"displayStringTextId": "mod_InteractionBagGroup_Cyber_PP_Group_DisplayStringTextId",
+				"leftMarkerId": "None",
+				"panelIconId": "None",
+				"id": "Cyber_PP_Group"
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+  "Struct": "ObjectSelectionSet",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "ObjectSelectionSet",
+      "Value": {
+        "Id": "Cyber_PN_Selection_Bed01",
+        "Comment": "",
+        "SelectionSets": [
+          {
+            "StateGroupId": "Normal",
+            "SelectionType": "Normal",
+            "InteractionBagList": [
+              "Object_Bed_Disinfect_Perspective",
+              "Object_Sit_Bed02",
+              "Object_Select_MyBed01_R",
+              "Object_Select_MyBed01_L",
+              "Sleep_Bed",
+              "Sleep_Bed_Uncomfortable_Lv1",
+              "C_Hide_and_seek_Tired_Lv1",
+              "C_Hide_and_seek",
+              "Object_Bed_Disinfect_Normal",
+              "Object_Reform",
+              "Object_Reform_Spd1",
+              "Object_Reform_Spd2",
+              "Ghost_Sleep_Bed",
+              "Coop_Pillow_Fight",
+              "Cyber_PN_Bag_Bed01",
+              "Cyber_DS_Bag_Bed01"
+            ]
+          },
+          {
+            "StateGroupId": "MakeLove",
+            "SelectionType": "Normal",
+            "InteractionBagList": []
+          }
+        ],
+        "IsDisplayObjectString": true,
+        "bShowInteractionOnGroupClick": false
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "ObjectSelectionSet",
+      "Value": {
+        "Id": "Cyber_PN_Selection_Bed02",
+        "Comment": "",
+        "SelectionSets": [
+          {
+            "StateGroupId": "Normal",
+            "SelectionType": "Normal",
+            "InteractionBagList": [
+              "Object_Bed_Disinfect_Perspective",
+              "Object_Sit_Bed02",
+              "Object_Select_MyBed02",
+              "Sleep_Bed02",
+              "Sleep_Bed02_Uncomfortable_Lv1",
+              "C_Hide_and_seek_Tired_Lv1",
+              "C_Hide_and_seek",
+              "Object_Bed_Disinfect_Normal",
+              "Object_Reform",
+              "Object_Reform_Spd1",
+              "Object_Reform_Spd2",
+              "Ghost_Sleep_Bed02",
+              "Cyber_PN_Bag_Bed02",
+              "Cyber_DS_Bag_Bed02"
+            ]
+          },
+          {
+            "StateGroupId": "Using",
+            "SelectionType": "Normal",
+            "InteractionBagList": [
+              "Object_kidbed_TakeCare_Child"
+            ]
+          }
+        ],
+        "IsDisplayObjectString": true,
+        "bShowInteractionOnGroupClick": false
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "ObjectSelectionSet",
+      "Value": {
+        "Id": "Cyber_PN_Sleep",
+        "Comment": "",
+        "SelectionSets": [
+          {
+            "StateGroupId": "Normal",
+            "SelectionType": "Normal",
+            "InteractionBagList": [
+              "Sleep_Bed05",
+              "Object_Bed_Disinfect_Perspective",
+              "Object_Select_MyBed05",
+              "Sleep_Bed05_Uncomfortable_Lv1",
+              "Object_Bed_Disinfect_Normal",
+              "Object_Reform",
+              "Object_Reform_Spd1",
+              "Object_Reform_Spd2",
+              "Ghost_Sleep_Bed05",
+              "Cyber_PN_Bag",
+              "Cyber_DS_Bag"
+            ]
+          },
+          {
+            "StateGroupId": "Using",
+            "SelectionType": "Normal",
+            "InteractionBagList": []
+          }
+        ],
+        "IsDisplayObjectString": true,
+        "bShowInteractionOnGroupClick": false
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "ObjectSelectionSet",
+      "Value": {
+        "Id": "Cyber_PN_Selection_Bed06",
+        "Comment": "",
+        "SelectionSets": [
+          {
+            "StateGroupId": "Normal",
+            "SelectionType": "Normal",
+            "InteractionBagList": [
+              "Sleep_Bed06",
+              "Object_Bed_Disinfect_Perspective",
+              "Object_Select_MyBed06_R",
+              "Object_Select_MyBed06_L",
+              "Sleep_Bed06_Uncomfortable_Lv1",
+              "Object_Bed_Disinfect_Normal",
+              "Object_Reform",
+              "Object_Reform_Spd1",
+              "Object_Reform_Spd2",
+              "Ghost_Sleep_Bed06",
+              "Cyber_PN_Bag_Bed06",
+              "Cyber_DS_Bag_Bed06"
+            ]
+          },
+          {
+            "StateGroupId": "Using",
+            "SelectionType": "Normal",
+            "InteractionBagList": []
+          }
+        ],
+        "IsDisplayObjectString": true,
+        "bShowInteractionOnGroupClick": false
+      },
+      "Enabled": true
+    }
+  ]
+}

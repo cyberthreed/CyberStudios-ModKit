@@ -1,0 +1,44 @@
+{
+  "Struct": "Action",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "Action_Interaction",
+      "Value": {
+        "Id": "Cyber_PP_CampfireStory_Action",
+        "Comment": "",
+        "Actions": [
+          {
+            "ConditionId": "None",
+            "bCancelWhenMotiveInsufficient": false,
+            "Duration": 0,
+            "IsForceCancelable": true,
+            "IsWaitFinishAction": true,
+            "FinishPrev": false,
+            "bEnableInsertAutoMove": false,
+            "BaseObject": "Self",
+            "Command": "PlayAnim",
+            "S1": "Cyber_PP_CampfireStory_Anim",
+            "S2": "None",
+            "F1": 0,
+            "F2": 0,
+            "StartScriptIdList": [],
+            "TickScriptIdList": [],
+            "TickInterval": 0.5,
+            "FinishScriptIdList": [
+              "Cyber_PP_Spooky_Progress"
+            ],
+            "CancelScriptIdList": [],
+            "NotifyScriptIds": [],
+            "ConsumeCurrencyId": "None",
+            "ConsumeCurrencyValue": 0
+          }
+        ],
+        "ActionTags": []
+      },
+      "Enabled": true
+    }
+  ]
+}

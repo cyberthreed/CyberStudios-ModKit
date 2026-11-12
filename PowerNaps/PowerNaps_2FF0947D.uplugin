@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "EB6D83334DB0C8076BD8048147ABD379",
+	"FriendlyName": "PowerNaps",
+	"Description": "Add your summary here",
+	"Category": "UGC",
+	"DocsURL": "",
+	"MarketplaceURL": "https://legacy.curseforge.com/inzoi/mod/powernaps-2ff0947d",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"ModCode": "2FF0947D",
+	"MigrationState": 5,
+	"CfUgcId": 1763673,
+	"AutoCookingType": "PCOnly"
+}

@@ -1,0 +1,111 @@
+{
+	"Struct": "InteractionBag",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "InteractionBag[Id=Object_Bonfire01_CampFire_Sit]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "Energy",
+						"reward": 10,
+						"tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"addOnAnimId": "Default",
+				"tPOTags": [
+					"TPOPlan_CampfireSit"
+				],
+				"customTPOPlanTag": "TPOPlan_CampfireSit",
+				"autonomyGroupTag": "AutonomyGroup_Sit",
+				"groupId": "Cyber_PP_Group",
+				"postureGroupId": "StandGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"PajamaParty_IsParticipant"
+				],
+				"interactionEnableConditionIds": [
+					"PajamaParty_IsParticipant"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 508,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"Id": "Object_Bonfire01_CampFire_SpookyStories_Bag",
+						"Probability": 1,
+						"bSequencial": false,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [],
+						"MainInteractionId": "Object_Bonfire01_CampFire_SpookyStories",
+						"InteractionInfos": [
+							{
+								"InteractionId": "Object_Bonfire01_CampFire_SpookyStories",
+								"Label": "A",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Object_Bonfire01_CampFire_Sit_SpookyStories_DisplayCategoryTextId",
+					"displayTextId": "mod_InteractionBag_DisplayInfo_Object_Bonfire01_CampFire_Sit_SpookyStories_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "None",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "None",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 75,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 75,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Sitting by the campfire",
+				"actionHintTextList": "None",
+				"id": "Object_Bonfire01_CampFire_SpookyStories_Bag"
+			},
+			"Enabled": true
+		}
+	]
+}

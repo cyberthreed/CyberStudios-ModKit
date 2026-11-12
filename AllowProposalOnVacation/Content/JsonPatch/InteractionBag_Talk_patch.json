@@ -1,0 +1,1359 @@
+{
+	"Struct": "InteractionBag",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_HighRelationship_MF]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk",
+					"Mission_Romance_Positive_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose07_MF"
+				],
+				"interactionEnableConditionIds": [
+					"Propose07_MF"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "None",
+						"probability": 1,
+						"bSequencial": true,
+						"enableConditionId": "None",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_HighRelationship_MF",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_HighRelationship_MF_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [
+					"AffairGuilt_Faithful"
+				],
+				"startHowlingInfos": [
+					{
+						"howlingId": "Howling_Affair_Confirmed",
+						"prob": 1
+					}
+				],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing romance",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_HighRelationship_MF"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_LowRelationship_MF]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose06_MF"
+				],
+				"interactionEnableConditionIds": [
+					"Propose06_MF"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "Trait_Success",
+						"probability": 0.69999998807907104,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MF_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Trait_Fail",
+						"probability": 0.30000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MF_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Success",
+						"probability": 0.80000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_MF",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MF_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Fail",
+						"probability": 0.20000000298023224,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_MF",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MF_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_LowRelationship_MF_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing marriage",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_LowRelationship_MF"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_LowRelationship_MM]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose06_MM"
+				],
+				"interactionEnableConditionIds": [
+					"Propose06_MM"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "Trait_Success",
+						"probability": 0.69999998807907104,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MM_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Trait_Fail",
+						"probability": 0.30000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MM_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Success",
+						"probability": 0.80000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_MM",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MM_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Fail",
+						"probability": 0.20000000298023224,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_MM",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_MM_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_LowRelationship_MM_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing marriage",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_LowRelationship_MM"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_HighRelationship_MM]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk",
+					"Mission_Romance_Positive_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose07_MM_Enable"
+				],
+				"interactionEnableConditionIds": [
+					"Propose07_MM_Enable"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "None",
+						"probability": 1,
+						"bSequencial": true,
+						"enableConditionId": "None",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_HighRelationship_MM",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_HighRelationship_MM_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [
+					"AffairGuilt_Faithful"
+				],
+				"startHowlingInfos": [
+					{
+						"howlingId": "Howling_Affair_Confirmed",
+						"prob": 1
+					}
+				],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing romance",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_HighRelationship_MM"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_LowRelationship_FM]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose06_FM"
+				],
+				"interactionEnableConditionIds": [
+					"Propose06_FM"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "Trait_Success",
+						"probability": 0.69999998807907104,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FM_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Trait_Fail",
+						"probability": 0.30000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FM_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Success",
+						"probability": 0.80000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_FM",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FM_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Fail",
+						"probability": 0.20000000298023224,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_FM",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FM_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_LowRelationship_FM_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing marriage",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_LowRelationship_FM"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_HighRelationship_FM]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk",
+					"Mission_Romance_Positive_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose07_FM"
+				],
+				"interactionEnableConditionIds": [
+					"Propose07_FM"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "None",
+						"probability": 1,
+						"bSequencial": true,
+						"enableConditionId": "None",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_HighRelationship_FM",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_HighRelationship_FM_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [
+					"AffairGuilt_Faithful"
+				],
+				"startHowlingInfos": [
+					{
+						"howlingId": "Howling_Affair_Confirmed",
+						"prob": 1
+					}
+				],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing romance",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_HighRelationship_FM"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_LowRelationship_FF]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose06_FF"
+				],
+				"interactionEnableConditionIds": [
+					"Propose06_FF"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "Trait_Success",
+						"probability": 0.69999998807907104,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FF_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Trait_Fail",
+						"probability": 0.30000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Co_Propose_Romance_LowRelationship",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FF_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Success",
+						"probability": 0.80000001192092896,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_FF",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FF_Success",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					},
+					{
+						"id": "Fail",
+						"probability": 0.20000000298023224,
+						"bSequencial": false,
+						"enableConditionId": "Propose06_FF",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_LowRelationship_FF_Fail",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_LowRelationship_FF_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing marriage",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_LowRelationship_FF"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "InteractionBag_Talk[Id=Co_Propose_Romance_HighRelationship_FF]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "NONE",
+						"reward": 0,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"interactionBagTags": [
+					"Ambition_Propose",
+					"Special_Talk",
+					"Mission_Romance_Positive_Talk"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"Propose07_FF"
+				],
+				"interactionEnableConditionIds": [
+					"Propose07_FF"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 480,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"id": "None",
+						"probability": 1,
+						"bSequencial": true,
+						"enableConditionId": "None",
+						"sequenceStartInfos": [
+							{
+								"conditionId": "SiteRoleNPC",
+								"startLabel": "B"
+							}
+						],
+						"mainInteractionId": "None",
+						"interactionInfos": [
+							{
+								"interactionId": "TalkBase_Talkable",
+								"label": "A",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"interactionId": "TalkBase",
+								"label": "B",
+								"successNextLabel": "None",
+								"failNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"coopId": "Co_Propose_Romance_HighRelationship_FF",
+						"bIsTalk": true,
+						"nextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "",
+					"displayTextId": "InteractionBag_DisplayInfo_Co_Propose_Romance_HighRelationship_FF_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Marriage.Action_Talk_Marriage",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "Hope_Icon_Marriage",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": true,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"finishScriptIds": [
+					"AffairGuilt_Faithful"
+				],
+				"startHowlingInfos": [
+					{
+						"howlingId": "Howling_Affair_Confirmed",
+						"prob": 1
+					}
+				],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 1440,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 1440,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Proposing romance",
+				"actionHintTextList": "None",
+				"id": "Co_Propose_Romance_HighRelationship_FF"
+			},
+			"Enabled": true
+		}
+	]
+}

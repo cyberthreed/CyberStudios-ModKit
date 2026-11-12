@@ -1,0 +1,431 @@
+{
+    "Struct":  "Buff",
+    "BaseVersion":  "20261011.16078.W.MODKIT.EGS",
+    "SaveVersion":  "20261011.16078.W.MODKIT.EGS",
+    "PatchList":  [
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=Like_Excited_Fun]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  true,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  1,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "pajamaparty_guest_emotion",
+                                                              "emotionValue":  3,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "CatOperator_Icon_Like"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_guest_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_guest_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "pajamaparty_guest_buff"
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=Buff_Halloween_Spooky]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  true,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  0,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "spookystories_spooked_emotion",
+                                                              "emotionValue":  4,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "Buff_Icon_Surprised"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_Buff_spookystories_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_Buff_spookystories_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "spookystories_buff"
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=pajamaparty_guest_buff]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  true,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  1,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "pajamaparty_host_emotion",
+                                                              "emotionValue":  3,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "CatOperator_Icon_Like"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_host_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_host_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "pajamaparty_host_buff"
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=spookystories_buff]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  true,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  0,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "spookystories_spooked_emotion",
+                                                              "emotionValue":  5,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "Buff_Icon_Surprised"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_Buff_spookystories_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_Buff_spookystories_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "spookystories_buff_lv2"
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=spookystories_buff_lv2]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  true,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  0,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "spookystories_spooked_emotion",
+                                                              "emotionValue":  8,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "Buff_Icon_Surprised"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_Buff_spookystories_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_Buff_spookystories_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "spookystories_buff_lv3"
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=pajamaparty_guest_buff]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  false,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  1,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "pajamaparty_pajamas_emotion",
+                                                              "emotionValue":  4,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "CatOperator_Icon_Like"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_pajamas_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_pajamas_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "pajamaparty_pajamas_buff"
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=pajamaparty_guest_buff]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  false,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  1,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "pajamaparty_conspiratorial_emotion",
+                                                              "emotionValue":  3,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "CatOperator_Icon_Like"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_secret_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_secret_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "pajamaparty_secret_buff"
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "Buff[Id=pajamaparty_secret_buff]",
+                          "Value":  {
+                                        "buffBasicInfo":  {
+                                                              "isEssential":  false,
+                                                              "duration":  30,
+                                                              "expireTime":  {
+                                                                                 "afterDay":  -1,
+                                                                                 "targetHour":  -1,
+                                                                                 "targetMinute":  -1
+                                                                             },
+                                                              "tickInterval":  1,
+                                                              "scriptInterval":  0,
+                                                              "emotionId":  "pajamaparty_whimsical_emotion",
+                                                              "emotionValue":  3,
+                                                              "emotionReasonPriority":  "Invalid",
+                                                              "tags":  [
+
+                                                                       ],
+                                                              "tagIconId":  "CatOperator_Icon_Like"
+                                                          },
+                                        "buffDisplayInfo":  {
+                                                                "displayTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_dream_DisplayTextId",
+                                                                "reasonTextId":  "mod_Buff_BuffDisplayInfo_pajamaparty_dream_ReasonTextId",
+                                                                "iconId":  "None",
+                                                                "emotionColorId1":  "None",
+                                                                "emotionColorId2":  "None",
+                                                                "hiddenFromUI":  false,
+                                                                "alarmIconMaterialId":  "None",
+                                                                "isHighlight":  false,
+                                                                "emotionReasonTitleTextId":  "",
+                                                                "emotionReasonDescTextId":  ""
+                                                            },
+                                        "addScriptIdList":  [
+
+                                                            ],
+                                        "cancelScriptIdList":  [
+
+                                                               ],
+                                        "finishScriptIdList":  [
+
+                                                               ],
+                                        "tickScriptIdList":  [
+
+                                                             ],
+                                        "intervalScriptIdList":  [
+
+                                                                 ],
+                                        "id":  "pajamaparty_dream_buff"
+                                    },
+                          "Enabled":  true
+                      }
+                  ]
+}

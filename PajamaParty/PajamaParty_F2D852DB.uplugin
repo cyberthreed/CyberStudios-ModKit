@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "BCAF118942310C8A38BB88B961BA227F",
+	"FriendlyName": "PajamaParty",
+	"Description": "Add your summary here",
+	"Category": "UGC",
+	"DocsURL": "",
+	"MarketplaceURL": "https://legacy.curseforge.com/inzoi/mod/pajamaparty-f2d852db",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"ModCode": "F2D852DB",
+	"MigrationState": 5,
+	"CfUgcId": 1763888,
+	"AutoCookingType": "PCOnly"
+}

@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "schema": "DataAssetPatch",
+    "scriptPath": "/Script/BlueUtils.B1StatDataAsset",
+    "typeId": "DA_Stat"
+  },
+  "PatchList": []
+}

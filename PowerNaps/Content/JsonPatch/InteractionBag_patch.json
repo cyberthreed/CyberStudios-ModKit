@@ -1,0 +1,1183 @@
+{
+  "Struct": "InteractionBag",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_PN_Interaction_Bed01",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_PN_Interaction_Bed01",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_PN_Bag_Bed01"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_DS_Interaction_Bed01",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_DS_Interaction_Bed01",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_DeepSleep_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_DS_Bag_Bed01"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_PN_Interaction_Bed02",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_PN_Interaction_Bed02",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_PN_Bag_Bed02"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_DS_Interaction_Bed02",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_DS_Interaction_Bed02",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_DeepSleep_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_DS_Bag_Bed02"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_PN_Interaction_Bed05",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_PN_Interaction_Bed05",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_PN_Bag"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_DS_Interaction_Bed05",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_DS_Interaction_Bed05",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_DeepSleep_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_DS_Bag"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_PN_Interaction_Bed06",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_PN_Interaction_Bed06",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_PN_Bag_Bed06"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "InteractionBag",
+      "Value": {
+        "interactionRewards": [
+          {
+            "statId": "Sleep",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Customer_Service_Usage",
+            "reward": 15,
+            "tier": "Full"
+          },
+          {
+            "statId": "Staff_CustomerService",
+            "reward": 15,
+            "tier": "Full"
+          }
+        ],
+        "preferenceRewards": [
+          {
+            "traitRewards": [],
+            "preferenceRewards": [],
+            "emotionRewards": [
+              {
+                "emotionId": "Tired",
+                "levelFrom": 1,
+                "levelTo": 1,
+                "bonus": 8
+              },
+              {
+                "emotionId": "Uneasy",
+                "levelFrom": 2,
+                "levelTo": 2,
+                "bonus": -5
+              }
+            ],
+            "relationshipRewards": []
+          }
+        ],
+        "interactionBagTags": [
+          "IR_Freq_Normal",
+          "Target_Sleep_Check",
+          "Event_Sleeping",
+          "GeneralEffectTag_Check_Sleep"
+        ],
+        "addOnAnimId": "Default",
+        "tPOTags": [
+          "TPO_IB_Tag_Sleep",
+          "TPO_IB_Tag_Sleep_Bed"
+        ],
+        "customTPOPlanTag": "None",
+        "autonomyGroupTag": "None",
+        "groupId": "None",
+        "postureGroupId": "AllGroup",
+        "interactionBagCategory": "None",
+        "strongEmotionFilters": [],
+        "enqueueConditionIds": [],
+        "interactionVisibleConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "interactionEnableConditionIds": [
+          "Check_MyHousehold_Ownership"
+        ],
+        "autonomyTimeRanges": [],
+        "agingConditionFlags": 508,
+        "autonomyAgingConditionFlags": 0,
+        "zoiGroupFlags": 0,
+        "zoiGroupRotationCoopId": "None",
+        "bAddSameInteractionToGroupMember": false,
+        "competitionRuleId": "None",
+        "repeatCount": 1,
+        "interactionSequence": [
+          {
+            "id": "None",
+            "probability": 1,
+            "bSequencial": false,
+            "enableConditionId": "None",
+            "sequenceStartInfos": [],
+            "mainInteractionId": "Cyber_DS_Interaction_Bed06",
+            "interactionInfos": [
+              {
+                "interactionId": "Cyber_DS_Interaction_Bed06",
+                "label": "D",
+                "successNextLabel": "E",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              },
+              {
+                "interactionId": "Self_Stretching",
+                "label": "E",
+                "successNextLabel": "None",
+                "failNextLabel": "None",
+                "bIsOptional": false
+              }
+            ],
+            "coopId": "None",
+            "bIsTalk": false,
+            "nextInteractionBagId": "None"
+          }
+        ],
+        "displayInfo": {
+          "displayCategoryTextId": "mod_InteractionBag_DisplayInfo_Sleep_PowerNap_DisplayCategoryTextId",
+          "displayTextId": "mod_InteractionBag_DisplayInfo_Sleep_DeepSleep_DisplayTextId",
+          "overrideQueueTextId": "",
+          "icon": "None",
+          "interactionQueueIcon": "None",
+          "panelIcon": "None",
+          "panelIconId": "None",
+          "panelIconColorId": "None",
+          "leftMarkerId": "None",
+          "panelIconWithBG": {
+            "iconId": "None",
+            "bGColor1Id": "None",
+            "bGColor2Id": "None"
+          },
+          "bHideUI": false
+        },
+        "bRejectable": false,
+        "bUniqueInQueue": false,
+        "bForFixedDesk": false,
+        "bNonCancelable": false,
+        "selectedScriptId": "None",
+        "startScriptIds": [],
+        "finishScriptIds": [
+          "Common_HouseHoldBiz_FinishScript",
+          "remove_activebuff"
+        ],
+        "startHowlingInfos": [],
+        "consumeCurrencyId": "None",
+        "consumeCurrencyValue": 0,
+        "bIgnoreConsumeCurrencyCheck": false,
+        "bGhostAvailable": false,
+        "autonomyCooltimeMin": 0,
+        "bAlwaysExposeToSLM": false,
+        "autonomySLMCooltimeMin": 0,
+        "actionsPerformedInThePastHourText": "None",
+        "actionHintText": "None",
+        "currentStateHintText": "None",
+        "actionHintTextForSLM": "Sleeping in bed",
+        "actionHintTextList": "None",
+        "id": "Cyber_DS_Bag_Bed06"
+      },
+      "Enabled": true
+    }
+  ]
+}

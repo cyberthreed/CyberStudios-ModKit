@@ -1,0 +1,250 @@
+{
+	"Struct": "Buff",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Buff[Id=Bonus_Sleep]",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"TagIconId": "Desire_Icon_Sleep",
+					"Tags": [],
+					"TickInterval": 0,
+					"EmotionId": "sleep_emotion",
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"EmotionValue": 5,
+					"ScriptInterval": 0,
+					"Duration": 120,
+					"EmotionReasonPriority": "Invalid"
+				},
+				"buffDisplayInfo":
+				{
+					"displayTextId": "mod_Buff_BuffDisplayInfo_Bonus_well_rested_DisplayTextId",
+					"reasonTextId": "mod_Buff_BuffDisplayInfo_Bonus_deep_sleep_DescTextId",
+					"iconId": "None",
+					"emotionColorId1": "None",
+					"emotionColorId2": "None",
+					"hiddenFromUI": false,
+					"alarmIconMaterialId": "None",
+					"isHighlight": false,
+					"emotionReasonTitleTextId": "",
+					"emotionReasonDescTextId": ""
+				},
+				"addScriptIdList": [],
+				"cancelScriptIdList": [],
+				"finishScriptIdList": [],
+				"tickScriptIdList": [],
+				"intervalScriptIdList": [],
+				"id": "wellrested_buff"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff[Id=wellrested_buff]",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"TagIconId": "Desire_Icon_Sleep",
+					"Tags": [],
+					"TickInterval": 0,
+					"EmotionId": "powernap_emotion",
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"EmotionValue": 5,
+					"ScriptInterval": 0,
+					"Duration": 120,
+					"EmotionReasonPriority": "Invalid"
+				},
+				"buffDisplayInfo":
+				{
+					"displayTextId": "mod_Buff_BuffDisplayInfo_Bonus_well_rested_DisplayTextId",
+					"reasonTextId": "mod_Buff_BuffDisplayInfo_Bonus_well_rested_DescTextId",
+					"iconId": "None",
+					"emotionColorId1": "None",
+					"emotionColorId2": "None",
+					"hiddenFromUI": false,
+					"alarmIconMaterialId": "None",
+					"isHighlight": false,
+					"emotionReasonTitleTextId": "",
+					"emotionReasonDescTextId": ""
+				},
+				"addScriptIdList": [],
+				"cancelScriptIdList": [],
+				"finishScriptIdList": [],
+				"tickScriptIdList": [],
+				"intervalScriptIdList": [],
+				"id": "wellrested_buff_powernap"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff[Id=wellrested_buff]",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TickInterval": 0,
+					"EmotionId": "recharging_emotion",
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"Duration": -1,
+					"ScriptInterval": 0,
+					"EmotionValue": 10,
+					"TagIconId": "Desire_Icon_Sleep"
+				},
+				"buffDisplayInfo":
+				{
+					"displayTextId": "mod_Buff_BuffDisplayInfo_Bonus_resting_well_DisplayTextId",
+					"reasonTextId": "mod_Buff_BuffDisplayInfo_Bonus_resting_well_DescTextId",
+					"iconId": "None",
+					"emotionColorId1": "None",
+					"emotionColorId2": "None",
+					"hiddenFromUI": false,
+					"alarmIconMaterialId": "None",
+					"isHighlight": false,
+					"emotionReasonTitleTextId": "",
+					"emotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [
+					"Cyber_PN_AddRecoveryModifier"
+				],
+				"CancelScriptIdList": [
+					"Cyber_PN_RemoveRecoveryModifier"
+				],
+				"FinishScriptIdList": [
+					"Cyber_PN_RemoveRecoveryModifier"
+				],
+				"tickScriptIdList": [],
+				"intervalScriptIdList": [],
+				"id": "resting_well_buff"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff[Id=resting_well_buff]",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TickInterval": 0,
+					"EmotionId": "recharging_emotion",
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"Duration": -1,
+					"ScriptInterval": 0,
+					"EmotionValue": 10,
+					"TagIconId": "Desire_Icon_Sleep"
+				},
+				"buffDisplayInfo":
+				{
+					"displayTextId": "mod_Buff_BuffDisplayInfo_Bonus_resting_well_powernap_DisplayTextId",
+					"reasonTextId": "mod_Buff_BuffDisplayInfo_Bonus_resting_well_powernap_DescTextId",
+					"iconId": "None",
+					"emotionColorId1": "None",
+					"emotionColorId2": "None",
+					"hiddenFromUI": false,
+					"alarmIconMaterialId": "None",
+					"isHighlight": false,
+					"emotionReasonTitleTextId": "",
+					"emotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [
+					"Cyber_PN_AddRecoveryModifier"
+				],
+				"CancelScriptIdList": [
+					"Cyber_PN_RemoveRecoveryModifier"
+				],
+				"FinishScriptIdList": [
+					"Cyber_PN_RemoveRecoveryModifier"
+				],
+				"tickScriptIdList": [],
+				"intervalScriptIdList": [],
+				"id": "resting_well_buff_powernap"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff[Id=resting_well_buff]",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TickInterval": 0,
+					"EmotionId": "recharging_emotion",
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"Duration": -1,
+					"ScriptInterval": 0,
+					"EmotionValue": 10,
+					"TagIconId": "Desire_Icon_Sleep"
+				},
+				"buffDisplayInfo":
+				{
+					"displayTextId": "mod_Buff_BuffDisplayInfo_Bonus_resting_well_DisplayTextId",
+					"reasonTextId": "mod_Buff_BuffDisplayInfo_Bonus_resting_well_DescTextId",
+					"iconId": "None",
+					"emotionColorId1": "None",
+					"emotionColorId2": "None",
+					"hiddenFromUI": false,
+					"alarmIconMaterialId": "None",
+					"isHighlight": false,
+					"emotionReasonTitleTextId": "",
+					"emotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [
+					"Cyber_PN_AddRecoveryModifier"
+				],
+				"CancelScriptIdList": [
+					"Cyber_PN_RemoveRecoveryModifier"
+				],
+				"FinishScriptIdList": [
+					"Cyber_PN_RemoveRecoveryModifier"
+				],
+				"tickScriptIdList": [],
+				"intervalScriptIdList": [],
+				"id": "resting_well_buff_deepsleep"
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "schema": "DataAssetPatch",
+    "scriptPath": "/Script/BlueUtils.B1CaptureDataAsset",
+    "typeId": "DA_Capture"
+  },
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.Adult.animInfoList",
+      "Value": {
+        "emotionId": "sleep_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Calm.ANIM_F_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Calm.ANIM_F_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.Adult.animInfoList",
+      "Value": {
+        "emotionId": "powernap_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Calm.ANIM_F_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Calm.ANIM_F_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.Adult.animInfoList",
+      "Value": {
+        "emotionId": "recharging_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Asleep.ANIM_F_Face_Portrait_Asleep",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_IdleBase.ANIM_F_Portrait_IdleBase"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.Youth.animInfoList",
+      "Value": {
+        "emotionId": "sleep_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Calm.ANIM_C_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Calm.ANIM_C_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.Youth.animInfoList",
+      "Value": {
+        "emotionId": "powernap_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Calm.ANIM_C_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Calm.ANIM_C_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.Youth.animInfoList",
+      "Value": {
+        "emotionId": "recharging_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Asleep.ANIM_F_Face_Portrait_Asleep",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_IdleBase.ANIM_C_Portrait_IdleBase"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.Adult.animInfoList",
+      "Value": {
+        "emotionId": "sleep_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Calm.ANIM_M_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Calm.ANIM_M_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.Adult.animInfoList",
+      "Value": {
+        "emotionId": "powernap_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Calm.ANIM_M_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Calm.ANIM_M_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.Adult.animInfoList",
+      "Value": {
+        "emotionId": "recharging_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Asleep.ANIM_M_Face_Portrait_Asleep",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_IdleBase.ANIM_M_Portrait_IdleBase"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.Youth.animInfoList",
+      "Value": {
+        "emotionId": "sleep_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Calm.ANIM_C_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Calm.ANIM_C_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.Youth.animInfoList",
+      "Value": {
+        "emotionId": "powernap_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Calm.ANIM_C_Face_Portrait_Calm",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Calm.ANIM_C_Portrait_Calm"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.Youth.animInfoList",
+      "Value": {
+        "emotionId": "recharging_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Asleep.ANIM_F_Face_Portrait_Asleep",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_IdleBase.ANIM_C_Portrait_IdleBase"
+      },
+      "Enabled": true
+    }
+  ]
+}

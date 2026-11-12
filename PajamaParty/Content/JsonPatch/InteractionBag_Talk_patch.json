@@ -1,0 +1,682 @@
+{
+	"Struct": "InteractionBag",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Talk[Id=Co_Perspective_Fulfillment_Friendship]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "Society",
+						"reward": 10,
+						"tier": "Invalid"
+					},
+					{
+						"statId": "Customer_Service_Usage",
+						"reward": 5,
+						"tier": "Invalid"
+					},
+					{
+						"statId": "Staff_CustomerService",
+						"reward": 5,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"InteractionBagTags": [
+					"Talk_All"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"PajamaParty_IsParticipantTalk"
+				],
+				"interactionEnableConditionIds": [
+					"PajamaParty_IsParticipantTalk"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 508,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "SiteRoleNPC",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "TalkBase_Talkable",
+								"Label": "A",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "TalkBase",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "Cyber_PP_CoopTalk_Secret",
+						"bIsTalk": true,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "mod_InteractionBagGroup_Cyber_PP_Group_DisplayStringTextId",
+					"displayTextId": "mod_InteractionBag_DisplayInfo_Co_PP_Secret_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Chatter.Action_Talk_Chatter",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "None",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"FinishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 0,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Sharing a secret",
+				"actionHintTextList": "None",
+				"id": "Cyber_PP_IB_Secret"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Talk[Id=Cyber_PP_IB_Secret]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "Society",
+						"reward": 10,
+						"tier": "Invalid"
+					},
+					{
+						"statId": "Customer_Service_Usage",
+						"reward": 5,
+						"tier": "Invalid"
+					},
+					{
+						"statId": "Staff_CustomerService",
+						"reward": 5,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"InteractionBagTags": [
+					"Talk_All"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"PajamaParty_IsParticipantTalk"
+				],
+				"interactionEnableConditionIds": [
+					"PajamaParty_IsParticipantTalk"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 508,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "SiteRoleNPC",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "TalkBase_Talkable",
+								"Label": "A",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "TalkBase",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "Cyber_PP_CoopTalk_Pajamas",
+						"bIsTalk": true,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "mod_InteractionBagGroup_Cyber_PP_Group_DisplayStringTextId",
+					"displayTextId": "mod_InteractionBag_DisplayInfo_Co_PP_Pajamas_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Chatter.Action_Talk_Chatter",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "None",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"FinishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 0,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Talking about pajamas",
+				"actionHintTextList": "None",
+				"id": "Cyber_PP_IB_Pajamas"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Talk[Id=Cyber_PP_IB_Secret]",
+			"Value":
+			{
+				"interactionRewards": [
+					{
+						"statId": "Society",
+						"reward": 10,
+						"tier": "Invalid"
+					},
+					{
+						"statId": "Customer_Service_Usage",
+						"reward": 5,
+						"tier": "Invalid"
+					},
+					{
+						"statId": "Staff_CustomerService",
+						"reward": 5,
+						"tier": "Invalid"
+					}
+				],
+				"preferenceRewards": [],
+				"InteractionBagTags": [
+					"Talk_All"
+				],
+				"addOnAnimId": "Default",
+				"tPOTags": [],
+				"customTPOPlanTag": "None",
+				"autonomyGroupTag": "None",
+				"groupId": "None",
+				"postureGroupId": "TalkGroup",
+				"interactionBagCategory": "None",
+				"strongEmotionFilters": [],
+				"enqueueConditionIds": [],
+				"interactionVisibleConditionIds": [
+					"PajamaParty_IsParticipantTalk"
+				],
+				"interactionEnableConditionIds": [
+					"PajamaParty_IsParticipantTalk"
+				],
+				"autonomyTimeRanges": [],
+				"agingConditionFlags": 508,
+				"autonomyAgingConditionFlags": 0,
+				"zoiGroupFlags": 0,
+				"zoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"competitionRuleId": "None",
+				"repeatCount": 1,
+				"interactionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "SiteRoleNPC",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "TalkBase_Talkable",
+								"Label": "A",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "TalkBase",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "Cyber_PP_CoopTalk_Dream",
+						"bIsTalk": true,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"displayInfo":
+				{
+					"displayCategoryTextId": "mod_InteractionBagGroup_Cyber_PP_Group_DisplayStringTextId",
+					"displayTextId": "mod_InteractionBag_DisplayInfo_Co_PP_Dream_DisplayTextId",
+					"overrideQueueTextId": "",
+					"icon": "/Game/UI/Icon/Object/Action_Talk_Chatter.Action_Talk_Chatter",
+					"interactionQueueIcon": "None",
+					"panelIcon": "None",
+					"panelIconId": "None",
+					"panelIconColorId": "None",
+					"leftMarkerId": "None",
+					"panelIconWithBG":
+					{
+						"iconId": "None",
+						"bGColor1Id": "None",
+						"bGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"selectedScriptId": "None",
+				"startScriptIds": [],
+				"FinishScriptIds": [],
+				"startHowlingInfos": [],
+				"consumeCurrencyId": "None",
+				"consumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"autonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"autonomySLMCooltimeMin": 0,
+				"actionsPerformedInThePastHourText": "None",
+				"actionHintText": "None",
+				"currentStateHintText": "None",
+				"actionHintTextForSLM": "Sharing a crazy dream",
+				"actionHintTextList": "None",
+				"id": "Cyber_PP_IB_Dream"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Talk",
+			"Value":
+			{
+				"Id": "Cyber_PP_Feedback_Secret",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "NONE",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "None",
+				"PostureGroupId": "TalkGroup",
+				"InteractionBagCategory": "None",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [],
+				"InteractionEnableConditionIds": [],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "TalkFeedbackBase",
+								"Label": "A",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Perspective_Fulfillment_Friendship_FeedBack_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Chatter.Action_Talk_Chatter'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "Sharing a recent fun experience",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Talk",
+			"Value":
+			{
+				"Id": "Cyber_PP_Feedback_Pajamas",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "NONE",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "None",
+				"PostureGroupId": "TalkGroup",
+				"InteractionBagCategory": "None",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [],
+				"InteractionEnableConditionIds": [],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "TalkFeedbackBase",
+								"Label": "A",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Perspective_Fulfillment_Friendship_FeedBack_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Chatter.Action_Talk_Chatter'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "Sharing a recent fun experience",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Talk",
+			"Value":
+			{
+				"Id": "Cyber_PP_Feedback_Dream",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "NONE",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "None",
+				"PostureGroupId": "TalkGroup",
+				"InteractionBagCategory": "None",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [],
+				"InteractionEnableConditionIds": [],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "TalkFeedbackBase",
+								"Label": "A",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Perspective_Fulfillment_Friendship_FeedBack_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Chatter.Action_Talk_Chatter'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": false
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": false,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "Sharing a recent fun experience",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		}
+	]
+}

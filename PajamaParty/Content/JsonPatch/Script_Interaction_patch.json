@@ -1,0 +1,268 @@
+{
+	"Struct": "Script",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=Add_Buff_Object_Bonfire_Sit]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "spookystories_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "Cyber_PP_AddBuff_SpookyStories"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=Cyber_PP_AddBuff_SpookyStories]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "Equal",
+								"useHand": "Default",
+								"s1": "spookystories_buff_lv2",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							},
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "NotEqual",
+								"useHand": "Default",
+								"s1": "spookystories_buff_lv3",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							}
+						],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "RemoveBuff",
+								"s1": "spookystories_buff_lv2",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							},
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "spookystories_buff_lv3",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					},
+					{
+						"ifType": "Elif",
+						"conditions": [
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "Equal",
+								"useHand": "Default",
+								"s1": "spookystories_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							},
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "NotEqual",
+								"useHand": "Default",
+								"s1": "spookystories_buff_lv2",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							},
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "NotEqual",
+								"useHand": "Default",
+								"s1": "spookystories_buff_lv3",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							}
+						],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "RemoveBuff",
+								"s1": "spookystories_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							},
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "spookystories_buff_lv2",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					},
+					{
+						"ifType": "Elif",
+						"conditions": [
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "NotEqual",
+								"useHand": "Default",
+								"s1": "spookystories_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							},
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "NotEqual",
+								"useHand": "Default",
+								"s1": "spookystories_buff_lv2",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							},
+							{
+								"baseObject": "Self",
+								"command": "Buff",
+								"compareType": "NotEqual",
+								"useHand": "Default",
+								"s1": "spookystories_buff_lv3",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0
+							}
+						],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "spookystories_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "Cyber_PP_Spooky_Progress"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=Cyber_PP_AddBuff_SpookyStories]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "pajamaparty_secret_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "Cyber_PP_AddBuff_Secret"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=Cyber_PP_AddBuff_Secret]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "pajamaparty_pajamas_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "Cyber_PP_AddBuff_Pajamas"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=Cyber_PP_AddBuff_Pajamas]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "pajamaparty_dream_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "Cyber_PP_AddBuff_Dream"
+			},
+			"Enabled": true
+		}
+	]
+}

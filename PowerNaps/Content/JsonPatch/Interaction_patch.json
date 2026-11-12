@@ -1,0 +1,413 @@
+{
+  "Struct": "Interaction",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_PN_Interaction_Bed01",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_PN_Action_Bed01"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_DS_Interaction_Bed01",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_DS_Action_Bed01"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_PN_Interaction_Bed02",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Sleep_2",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_PN_Action_Bed02"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_DS_Interaction_Bed02",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Sleep_2",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_DS_Action_Bed02"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_PN_Interaction_Bed05",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Sleep_2",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_PN_Action_Bed05"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_DS_Interaction_Bed05",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Sleep_2",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_DS_Action_Bed05"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_PN_Interaction_Bed06",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Sleep_2",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_PN_Action_Bed06"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "Interaction",
+      "Value": {
+        "Id": "Cyber_DS_Interaction_Bed06",
+        "Comment": "",
+        "InteractionTags": [
+          "Sleep",
+          "Sleep_2",
+          "Outfit_Change_Sleep"
+        ],
+        "ConditionId": "None",
+        "GrabEntityConditionId": "None",
+        "InteractionSlotUsage": "Double",
+        "EnableSlotTags": [
+          "None"
+        ],
+        "ObjectSlotUsage": "None",
+        "ActionIdList": [
+          "MoveRotate",
+          "Cyber_DS_Action_Bed06"
+        ],
+        "TargetFilterInfoList": [],
+        "bAutoFindRepeat": false,
+        "AutoFindRepeatMaxCount": 0,
+        "AutoFindRepeatSearchRange": 500,
+        "TargetFilterFindAll": false,
+        "SpaceTargetFilterId": "None",
+        "NoneTargetPlayable": false,
+        "CheckSlotToEntity": false,
+        "EnableOnlyConnectedChairObjectSlot": false,
+        "bCheckCanMoveToSlot": true,
+        "InnerThoughtIconInfo": {
+          "IconId": "None",
+          "Probability": 0
+        },
+        "StartScriptIdList": [],
+        "CancelScriptIdList": [
+          "remove_activebuff"
+        ],
+        "FinishScriptIdList": [
+          "remove_activebuff"
+        ],
+        "ConsumeCurrencyId": "None",
+        "ConsumeCurrencyValue": 0,
+        "GrabParts": "None",
+        "PostureId": [],
+        "BodyParts": []
+      },
+      "Enabled": true
+    }
+  ]
+}

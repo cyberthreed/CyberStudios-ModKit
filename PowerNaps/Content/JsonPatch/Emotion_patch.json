@@ -1,0 +1,173 @@
+{
+	"Struct": "Emotion",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=Calm]",
+			"Value":
+			{
+				"type": "Calm",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 16,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Happy.Buff_Icon_Happy'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Calm_Joyful",
+								"BodyAnimId": "EmoReact_Calm_Joyful"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Calm1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_sleep_emotion_DescTextId",
+						"EmotionColorId2": "Emotion_Calm2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_sleep_emotion_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Calm",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Calm1",
+						"ModifierId": "Calm_Level1",
+						"PlayMFXId": "Calm",
+						"PortraitColorId2": "Emotion_Calm2"
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "sleep_emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=sleep_emotion]",
+			"Value":
+			{
+				"type": "Calm",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 16,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Happy.Buff_Icon_Happy'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Calm_Joyful",
+								"BodyAnimId": "EmoReact_Calm_Joyful"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Calm1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_sleep_emotion_DescTextId",
+						"EmotionColorId2": "Emotion_Calm2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_sleep_emotion_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Calm",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Calm1",
+						"ModifierId": "Calm_Level1",
+						"PlayMFXId": "Calm",
+						"PortraitColorId2": "Emotion_Calm2"
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "powernap_emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=sleep_emotion]",
+			"Value":
+			{
+				"type": "Sleep",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 16,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Happy.Buff_Icon_Happy'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Sleeping1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Calm_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_recharging_emotion_DescTextId",
+						"EmotionColorId2": "Emotion_Sleeping2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_recharging_emotion_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Calm",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Sleeping1",
+						"ModifierId": "Calm_Level1",
+						"PlayMFXId": "Calm",
+						"PortraitColorId2": "Emotion_Sleeping2"
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "recharging_emotion"
+			},
+			"Enabled": true
+		}
+	]
+}

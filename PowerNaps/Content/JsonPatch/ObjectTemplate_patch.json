@@ -1,0 +1,43 @@
+{
+  "Struct": "ObjectTemplate",
+  "BaseVersion": "20261011.16078.W.MODKIT.EGS",
+  "SaveVersion": "20261011.16078.W.MODKIT.EGS",
+  "PatchList": [
+    {
+      "Method": "Override",
+      "Query": "ObjectTemplate[Id=Bed01_Template].ObjectSelectionSetId",
+      "Value": "Cyber_PN_Selection_Bed01",
+      "Enabled": true
+    },
+    {
+      "Method": "Override",
+      "Query": "ObjectTemplate[Id=Bed04_Template].ObjectSelectionSetId",
+      "Value": "Cyber_PN_Selection_Bed01",
+      "Enabled": true
+    },
+    {
+      "Method": "Override",
+      "Query": "ObjectTemplate[Id=Bed02_Template].ObjectSelectionSetId",
+      "Value": "Cyber_PN_Selection_Bed02",
+      "Enabled": true
+    },
+    {
+      "Method": "Override",
+      "Query": "ObjectTemplate[Id=BedAssemble02_Template].ObjectSelectionSetId",
+      "Value": "Cyber_PN_Selection_Bed02",
+      "Enabled": true
+    },
+    {
+      "Method": "Override",
+      "Query": "ObjectTemplate[Id=Bed05_Template].ObjectSelectionSetId",
+      "Value": "Cyber_PN_Sleep",
+      "Enabled": true
+    },
+    {
+      "Method": "Override",
+      "Query": "ObjectTemplate[Id=Bed06_Template].ObjectSelectionSetId",
+      "Value": "Cyber_PN_Selection_Bed06",
+      "Enabled": true
+    }
+  ]
+}

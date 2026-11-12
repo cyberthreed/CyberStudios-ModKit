@@ -1,0 +1,487 @@
+{
+    "Struct":  "CoopTalk",
+    "BaseVersion":  "20261011.16078.W.MODKIT.EGS",
+    "SaveVersion":  "20261011.16078.W.MODKIT.EGS",
+    "PatchList":  [
+                      {
+                          "Method":  "Append",
+                          "Query":  "CoopTalk",
+                          "Value":  {
+                                        "Id":  "Cyber_PP_CoopTalk_Secret",
+                                        "Comment":  "",
+                                        "CoopTalkInfo":  {
+                                                             "bOneTime":  false,
+                                                             "bFixedStand":  true,
+                                                             "bCancelCurrentInteraction":  false,
+                                                             "TalkMood":  "Positive",
+                                                             "CoopTalkTags":  [
+
+                                                                              ],
+                                                             "TargetInteractionBagId":  "Cyber_PP_Feedback_Secret",
+                                                             "bNotPlayingHostAnim":  false,
+                                                             "HostAnimInfo":  [
+                                                                                  {
+                                                                                      "HostGenderFilter":  "Default",
+                                                                                      "HostBodyAgeFilter":  "Default",
+                                                                                      "TargetGenderFilter":  "Default",
+                                                                                      "TargetBodyAgeFilter":  "Default",
+                                                                                      "AnimEntries":  [
+                                                                                                          {
+                                                                                                              "AnimId":  "Child_Friendship_H02",
+                                                                                                              "VoiceId":  "Child_Friend_Happiness_L_Speaker",
+                                                                                                              "Weight":  1
+                                                                                                          }
+                                                                                                      ]
+                                                                                  }
+                                                                              ],
+                                                             "HostUpperBodyAnimInfo":  [
+                                                                                           {
+                                                                                               "HostGenderFilter":  "Default",
+                                                                                               "HostBodyAgeFilter":  "Default",
+                                                                                               "TargetGenderFilter":  "Default",
+                                                                                               "TargetBodyAgeFilter":  "Default",
+                                                                                               "AnimEntries":  [
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker",
+                                                                                                                       "VoiceId":  "Positive1_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   },
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker_02",
+                                                                                                                       "VoiceId":  "Positive2_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   },
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker_03",
+                                                                                                                       "VoiceId":  "Positive3_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   }
+                                                                                                               ]
+                                                                                           }
+                                                                                       ],
+                                                             "HostFaceAnimInfo":  [
+                                                                                      {
+                                                                                          "HostGenderFilter":  "Default",
+                                                                                          "HostBodyAgeFilter":  "Default",
+                                                                                          "TargetGenderFilter":  "Default",
+                                                                                          "TargetBodyAgeFilter":  "Default",
+                                                                                          "AnimEntries":  [
+                                                                                                              {
+                                                                                                                  "AnimId":  "Face_Happiness_L",
+                                                                                                                  "VoiceId":  "None",
+                                                                                                                  "Weight":  1
+                                                                                                              }
+                                                                                                          ]
+                                                                                      }
+                                                                                  ],
+                                                             "HostNotifyScriptIds":  [
+
+                                                                                     ],
+                                                             "bNotPlayingTargetAnim":  false,
+                                                             "TargetAnimInfo":  [
+                                                                                    {
+                                                                                        "HostGenderFilter":  "Default",
+                                                                                        "HostBodyAgeFilter":  "Default",
+                                                                                        "TargetGenderFilter":  "Default",
+                                                                                        "TargetBodyAgeFilter":  "Default",
+                                                                                        "AnimEntries":  [
+                                                                                                            {
+                                                                                                                "AnimId":  "Child_Friendship_H02_Feedback",
+                                                                                                                "VoiceId":  "Child_Friend_Happiness_L_Listener",
+                                                                                                                "Weight":  1
+                                                                                                            }
+                                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                             "TargetUpperBodyAnimInfo":  [
+                                                                                             {
+                                                                                                 "HostGenderFilter":  "Default",
+                                                                                                 "HostBodyAgeFilter":  "Default",
+                                                                                                 "TargetGenderFilter":  "Default",
+                                                                                                 "TargetBodyAgeFilter":  "Default",
+                                                                                                 "AnimEntries":  [
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener",
+                                                                                                                         "VoiceId":  "Positive1_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     },
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener_02",
+                                                                                                                         "VoiceId":  "Positive2_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     },
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener_03",
+                                                                                                                         "VoiceId":  "Positive3_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     }
+                                                                                                                 ]
+                                                                                             }
+                                                                                         ],
+                                                             "TargetFaceAnimInfo":  [
+                                                                                        {
+                                                                                            "HostGenderFilter":  "Default",
+                                                                                            "HostBodyAgeFilter":  "Default",
+                                                                                            "TargetGenderFilter":  "Default",
+                                                                                            "TargetBodyAgeFilter":  "Default",
+                                                                                            "AnimEntries":  [
+                                                                                                                {
+                                                                                                                    "AnimId":  "Face_Happiness_L_FeedBack",
+                                                                                                                    "VoiceId":  "None",
+                                                                                                                    "Weight":  1
+                                                                                                                }
+                                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                             "TargetNotifyScriptIds":  [
+
+                                                                                       ],
+                                                             "SpeakerIconInfo":  {
+                                                                                     "IconId":  "None",
+                                                                                     "Probability":  0
+                                                                                 },
+                                                             "ListenerIconInfo":  {
+                                                                                      "IconId":  "InnerThoughtIcon_Friend_Business_Family_Positive",
+                                                                                      "Probability":  1
+                                                                                  },
+                                                             "WalkingIconInfo":  {
+                                                                                     "IconId":  "None",
+                                                                                     "Probability":  0
+                                                                                 },
+                                                             "StartScriptIds":  [
+
+                                                                                ],
+                                                             "FinishScriptIds":  [
+                                                                                     "Script_Talk_AddStat_Society_20",
+                                                                                     "Script_Talk_If_Positive_AddStat_Karma",
+                                                                                     "Cyber_PP_TalkReward_Secret"
+                                                                                 ],
+                                                             "StartHowlingInfos":  [
+
+                                                                                   ]
+                                                         }
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "CoopTalk",
+                          "Value":  {
+                                        "Id":  "Cyber_PP_CoopTalk_Pajamas",
+                                        "Comment":  "",
+                                        "CoopTalkInfo":  {
+                                                             "bOneTime":  false,
+                                                             "bFixedStand":  true,
+                                                             "bCancelCurrentInteraction":  false,
+                                                             "TalkMood":  "Positive",
+                                                             "CoopTalkTags":  [
+
+                                                                              ],
+                                                             "TargetInteractionBagId":  "Cyber_PP_Feedback_Pajamas",
+                                                             "bNotPlayingHostAnim":  false,
+                                                             "HostAnimInfo":  [
+                                                                                  {
+                                                                                      "HostGenderFilter":  "Default",
+                                                                                      "HostBodyAgeFilter":  "Default",
+                                                                                      "TargetGenderFilter":  "Default",
+                                                                                      "TargetBodyAgeFilter":  "Default",
+                                                                                      "AnimEntries":  [
+                                                                                                          {
+                                                                                                              "AnimId":  "Child_Friendship_H02",
+                                                                                                              "VoiceId":  "Child_Friend_Happiness_L_Speaker",
+                                                                                                              "Weight":  1
+                                                                                                          }
+                                                                                                      ]
+                                                                                  }
+                                                                              ],
+                                                             "HostUpperBodyAnimInfo":  [
+                                                                                           {
+                                                                                               "HostGenderFilter":  "Default",
+                                                                                               "HostBodyAgeFilter":  "Default",
+                                                                                               "TargetGenderFilter":  "Default",
+                                                                                               "TargetBodyAgeFilter":  "Default",
+                                                                                               "AnimEntries":  [
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker",
+                                                                                                                       "VoiceId":  "Positive1_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   },
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker_02",
+                                                                                                                       "VoiceId":  "Positive2_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   },
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker_03",
+                                                                                                                       "VoiceId":  "Positive3_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   }
+                                                                                                               ]
+                                                                                           }
+                                                                                       ],
+                                                             "HostFaceAnimInfo":  [
+                                                                                      {
+                                                                                          "HostGenderFilter":  "Default",
+                                                                                          "HostBodyAgeFilter":  "Default",
+                                                                                          "TargetGenderFilter":  "Default",
+                                                                                          "TargetBodyAgeFilter":  "Default",
+                                                                                          "AnimEntries":  [
+                                                                                                              {
+                                                                                                                  "AnimId":  "Face_Happiness_L",
+                                                                                                                  "VoiceId":  "None",
+                                                                                                                  "Weight":  1
+                                                                                                              }
+                                                                                                          ]
+                                                                                      }
+                                                                                  ],
+                                                             "HostNotifyScriptIds":  [
+
+                                                                                     ],
+                                                             "bNotPlayingTargetAnim":  false,
+                                                             "TargetAnimInfo":  [
+                                                                                    {
+                                                                                        "HostGenderFilter":  "Default",
+                                                                                        "HostBodyAgeFilter":  "Default",
+                                                                                        "TargetGenderFilter":  "Default",
+                                                                                        "TargetBodyAgeFilter":  "Default",
+                                                                                        "AnimEntries":  [
+                                                                                                            {
+                                                                                                                "AnimId":  "Child_Friendship_H02_Feedback",
+                                                                                                                "VoiceId":  "Child_Friend_Happiness_L_Listener",
+                                                                                                                "Weight":  1
+                                                                                                            }
+                                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                             "TargetUpperBodyAnimInfo":  [
+                                                                                             {
+                                                                                                 "HostGenderFilter":  "Default",
+                                                                                                 "HostBodyAgeFilter":  "Default",
+                                                                                                 "TargetGenderFilter":  "Default",
+                                                                                                 "TargetBodyAgeFilter":  "Default",
+                                                                                                 "AnimEntries":  [
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener",
+                                                                                                                         "VoiceId":  "Positive1_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     },
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener_02",
+                                                                                                                         "VoiceId":  "Positive2_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     },
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener_03",
+                                                                                                                         "VoiceId":  "Positive3_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     }
+                                                                                                                 ]
+                                                                                             }
+                                                                                         ],
+                                                             "TargetFaceAnimInfo":  [
+                                                                                        {
+                                                                                            "HostGenderFilter":  "Default",
+                                                                                            "HostBodyAgeFilter":  "Default",
+                                                                                            "TargetGenderFilter":  "Default",
+                                                                                            "TargetBodyAgeFilter":  "Default",
+                                                                                            "AnimEntries":  [
+                                                                                                                {
+                                                                                                                    "AnimId":  "Face_Happiness_L_FeedBack",
+                                                                                                                    "VoiceId":  "None",
+                                                                                                                    "Weight":  1
+                                                                                                                }
+                                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                             "TargetNotifyScriptIds":  [
+
+                                                                                       ],
+                                                             "SpeakerIconInfo":  {
+                                                                                     "IconId":  "None",
+                                                                                     "Probability":  0
+                                                                                 },
+                                                             "ListenerIconInfo":  {
+                                                                                      "IconId":  "InnerThoughtIcon_Friend_Business_Family_Positive",
+                                                                                      "Probability":  1
+                                                                                  },
+                                                             "WalkingIconInfo":  {
+                                                                                     "IconId":  "None",
+                                                                                     "Probability":  0
+                                                                                 },
+                                                             "StartScriptIds":  [
+
+                                                                                ],
+                                                             "FinishScriptIds":  [
+                                                                                     "Script_Talk_AddStat_Society_20",
+                                                                                     "Script_Talk_If_Positive_AddStat_Karma",
+                                                                                     "Cyber_PP_TalkReward_Pajamas"
+                                                                                 ],
+                                                             "StartHowlingInfos":  [
+
+                                                                                   ]
+                                                         }
+                                    },
+                          "Enabled":  true
+                      },
+                      {
+                          "Method":  "Append",
+                          "Query":  "CoopTalk",
+                          "Value":  {
+                                        "Id":  "Cyber_PP_CoopTalk_Dream",
+                                        "Comment":  "",
+                                        "CoopTalkInfo":  {
+                                                             "bOneTime":  false,
+                                                             "bFixedStand":  true,
+                                                             "bCancelCurrentInteraction":  false,
+                                                             "TalkMood":  "Positive",
+                                                             "CoopTalkTags":  [
+
+                                                                              ],
+                                                             "TargetInteractionBagId":  "Cyber_PP_Feedback_Dream",
+                                                             "bNotPlayingHostAnim":  false,
+                                                             "HostAnimInfo":  [
+                                                                                  {
+                                                                                      "HostGenderFilter":  "Default",
+                                                                                      "HostBodyAgeFilter":  "Default",
+                                                                                      "TargetGenderFilter":  "Default",
+                                                                                      "TargetBodyAgeFilter":  "Default",
+                                                                                      "AnimEntries":  [
+                                                                                                          {
+                                                                                                              "AnimId":  "Child_Friendship_H02",
+                                                                                                              "VoiceId":  "Child_Friend_Happiness_L_Speaker",
+                                                                                                              "Weight":  1
+                                                                                                          }
+                                                                                                      ]
+                                                                                  }
+                                                                              ],
+                                                             "HostUpperBodyAnimInfo":  [
+                                                                                           {
+                                                                                               "HostGenderFilter":  "Default",
+                                                                                               "HostBodyAgeFilter":  "Default",
+                                                                                               "TargetGenderFilter":  "Default",
+                                                                                               "TargetBodyAgeFilter":  "Default",
+                                                                                               "AnimEntries":  [
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker",
+                                                                                                                       "VoiceId":  "Positive1_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   },
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker_02",
+                                                                                                                       "VoiceId":  "Positive2_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   },
+                                                                                                                   {
+                                                                                                                       "AnimId":  "TalkPool_Positive_Sit_Speaker_03",
+                                                                                                                       "VoiceId":  "Positive3_Fit_Speaker_Short",
+                                                                                                                       "Weight":  1
+                                                                                                                   }
+                                                                                                               ]
+                                                                                           }
+                                                                                       ],
+                                                             "HostFaceAnimInfo":  [
+                                                                                      {
+                                                                                          "HostGenderFilter":  "Default",
+                                                                                          "HostBodyAgeFilter":  "Default",
+                                                                                          "TargetGenderFilter":  "Default",
+                                                                                          "TargetBodyAgeFilter":  "Default",
+                                                                                          "AnimEntries":  [
+                                                                                                              {
+                                                                                                                  "AnimId":  "Face_Happiness_L",
+                                                                                                                  "VoiceId":  "None",
+                                                                                                                  "Weight":  1
+                                                                                                              }
+                                                                                                          ]
+                                                                                      }
+                                                                                  ],
+                                                             "HostNotifyScriptIds":  [
+
+                                                                                     ],
+                                                             "bNotPlayingTargetAnim":  false,
+                                                             "TargetAnimInfo":  [
+                                                                                    {
+                                                                                        "HostGenderFilter":  "Default",
+                                                                                        "HostBodyAgeFilter":  "Default",
+                                                                                        "TargetGenderFilter":  "Default",
+                                                                                        "TargetBodyAgeFilter":  "Default",
+                                                                                        "AnimEntries":  [
+                                                                                                            {
+                                                                                                                "AnimId":  "Child_Friendship_H02_Feedback",
+                                                                                                                "VoiceId":  "Child_Friend_Happiness_L_Listener",
+                                                                                                                "Weight":  1
+                                                                                                            }
+                                                                                                        ]
+                                                                                    }
+                                                                                ],
+                                                             "TargetUpperBodyAnimInfo":  [
+                                                                                             {
+                                                                                                 "HostGenderFilter":  "Default",
+                                                                                                 "HostBodyAgeFilter":  "Default",
+                                                                                                 "TargetGenderFilter":  "Default",
+                                                                                                 "TargetBodyAgeFilter":  "Default",
+                                                                                                 "AnimEntries":  [
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener",
+                                                                                                                         "VoiceId":  "Positive1_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     },
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener_02",
+                                                                                                                         "VoiceId":  "Positive2_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     },
+                                                                                                                     {
+                                                                                                                         "AnimId":  "TalkPool_Positive_Sit_Listener_03",
+                                                                                                                         "VoiceId":  "Positive3_Fit_Listener_Short",
+                                                                                                                         "Weight":  1
+                                                                                                                     }
+                                                                                                                 ]
+                                                                                             }
+                                                                                         ],
+                                                             "TargetFaceAnimInfo":  [
+                                                                                        {
+                                                                                            "HostGenderFilter":  "Default",
+                                                                                            "HostBodyAgeFilter":  "Default",
+                                                                                            "TargetGenderFilter":  "Default",
+                                                                                            "TargetBodyAgeFilter":  "Default",
+                                                                                            "AnimEntries":  [
+                                                                                                                {
+                                                                                                                    "AnimId":  "Face_Happiness_L_FeedBack",
+                                                                                                                    "VoiceId":  "None",
+                                                                                                                    "Weight":  1
+                                                                                                                }
+                                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                             "TargetNotifyScriptIds":  [
+
+                                                                                       ],
+                                                             "SpeakerIconInfo":  {
+                                                                                     "IconId":  "None",
+                                                                                     "Probability":  0
+                                                                                 },
+                                                             "ListenerIconInfo":  {
+                                                                                      "IconId":  "InnerThoughtIcon_Friend_Business_Family_Positive",
+                                                                                      "Probability":  1
+                                                                                  },
+                                                             "WalkingIconInfo":  {
+                                                                                     "IconId":  "None",
+                                                                                     "Probability":  0
+                                                                                 },
+                                                             "StartScriptIds":  [
+
+                                                                                ],
+                                                             "FinishScriptIds":  [
+                                                                                     "Script_Talk_AddStat_Society_20",
+                                                                                     "Script_Talk_If_Positive_AddStat_Karma",
+                                                                                     "Cyber_PP_TalkReward_Dream"
+                                                                                 ],
+                                                             "StartHowlingInfos":  [
+
+                                                                                   ]
+                                                         }
+                                    },
+                          "Enabled":  true
+                      }
+                  ]
+}

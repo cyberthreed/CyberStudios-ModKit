@@ -1,0 +1,493 @@
+{
+  "meta": {
+    "schema": "DataAssetPatch",
+    "scriptPath": "/Script/BlueUtils.B1CaptureDataAsset",
+    "typeId": "DA_Capture"
+  },
+  "PatchList": [
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_pajamas_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Touched.ANIM_F_Face_Portrait_Touched",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Touched.ANIM_F_Portrait_Touched"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Afraid.ANIM_F_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Afraid.ANIM_F_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Afraid.ANIM_F_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Afraid.ANIM_F_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Terrified.ANIM_F_Face_Portrait_Terrified",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Terrified.ANIM_F_Portrait_Terrified"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Curious.ANIM_F_Face_Portrait_Curious",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Curious.ANIM_F_Portrait_Curious"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Thrilled.ANIM_F_Face_Portrait_Thrilled",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Thrilled.ANIM_F_Portrait_Thrilled"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Enthusiastic.ANIM_F_Face_Portrait_Enthusiastic",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Enthusiastic.ANIM_F_Portrait_Enthusiastic"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Deeplymoved.ANIM_F_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Deeplymoved.ANIM_F_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Deeplymoved.ANIM_F_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Deeplymoved.ANIM_F_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_host_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Joyful.ANIM_F_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Joyful.ANIM_F_Portrait_Joyful"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_guest_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Joyful.ANIM_F_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Joyful.ANIM_F_Portrait_Joyful"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_pajamas_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Touched.ANIM_C_Face_Portrait_Touched",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Touched.ANIM_C_Portrait_Touched"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Afraid.ANIM_C_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Afraid.ANIM_C_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Afraid.ANIM_C_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Afraid.ANIM_C_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Terrified.ANIM_C_Face_Portrait_Terrified",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Terrified.ANIM_C_Portrait_Terrified"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Curious.ANIM_C_Face_Portrait_Curious",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Curious.ANIM_C_Portrait_Curious"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Thrilled.ANIM_C_Face_Portrait_Thrilled",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Thrilled.ANIM_C_Portrait_Thrilled"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Enthusiastic.ANIM_C_Face_Portrait_Enthusiastic",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Enthusiastic.ANIM_C_Portrait_Enthusiastic"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Deeplymoved.ANIM_C_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Deeplymoved.ANIM_C_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Deeplymoved.ANIM_C_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Deeplymoved.ANIM_C_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_host_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Joyful.ANIM_C_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Joyful.ANIM_C_Portrait_Joyful"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.femaleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_guest_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Joyful.ANIM_C_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Joyful.ANIM_C_Portrait_Joyful"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_pajamas_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Touched.ANIM_M_Face_Portrait_Touched",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Touched.ANIM_M_Portrait_Touched"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Afraid.ANIM_M_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Afraid.ANIM_M_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Afraid.ANIM_M_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Afraid.ANIM_M_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Terrified.ANIM_M_Face_Portrait_Terrified",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Terrified.ANIM_M_Portrait_Terrified"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Curious.ANIM_M_Face_Portrait_Curious",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Curious.ANIM_M_Portrait_Curious"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Thrilled.ANIM_M_Face_Portrait_Thrilled",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Thrilled.ANIM_M_Portrait_Thrilled"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Enthusiastic.ANIM_M_Face_Portrait_Enthusiastic",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Enthusiastic.ANIM_M_Portrait_Enthusiastic"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Deeplymoved.ANIM_M_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Deeplymoved.ANIM_M_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Deeplymoved.ANIM_M_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Deeplymoved.ANIM_M_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_host_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Joyful.ANIM_M_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Joyful.ANIM_M_Portrait_Joyful"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.adult.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_guest_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Joyful.ANIM_M_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Joyful.ANIM_M_Portrait_Joyful"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_pajamas_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Touched.ANIM_C_Face_Portrait_Touched",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Touched.ANIM_C_Portrait_Touched"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Afraid.ANIM_C_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Afraid.ANIM_C_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Afraid.ANIM_C_Face_Portrait_Afraid",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Afraid.ANIM_C_Portrait_Afraid"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "spookystories_spooked_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Terrified.ANIM_C_Face_Portrait_Terrified",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Terrified.ANIM_C_Portrait_Terrified"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Curious.ANIM_C_Face_Portrait_Curious",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Curious.ANIM_C_Portrait_Curious"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Thrilled.ANIM_C_Face_Portrait_Thrilled",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Thrilled.ANIM_C_Portrait_Thrilled"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_conspiratorial_emotion",
+        "emotionLevel": 3,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Enthusiastic.ANIM_C_Face_Portrait_Enthusiastic",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Enthusiastic.ANIM_C_Portrait_Enthusiastic"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Deeplymoved.ANIM_C_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Deeplymoved.ANIM_C_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_whimsical_emotion",
+        "emotionLevel": 2,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Deeplymoved.ANIM_C_Face_Portrait_Deeplymoved",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Deeplymoved.ANIM_C_Portrait_Deeplymoved"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_host_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Joyful.ANIM_C_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Joyful.ANIM_C_Portrait_Joyful"
+      },
+      "Enabled": true
+    },
+    {
+      "Method": "Append",
+      "Query": "DA_Capture.maleEmotionPoseAnims.youth.animInfoList",
+      "Value": {
+        "emotionId": "pajamaparty_guest_emotion",
+        "emotionLevel": 1,
+        "emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Facial/ANIM_C_Face_Portrait_Joyful.ANIM_C_Face_Portrait_Joyful",
+        "emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Child/Emotion/Body/ANIM_C_Portrait_Joyful.ANIM_C_Portrait_Joyful"
+      },
+      "Enabled": true
+    }
+  ]
+}

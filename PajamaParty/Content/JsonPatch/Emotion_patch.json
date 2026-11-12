@@ -1,0 +1,558 @@
+{
+	"Struct": "Emotion",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=Excited]",
+			"Value":
+			{
+				"type": "Excited",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 11,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Excited.Buff_Icon_Excited'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Calm_Like_House",
+								"BodyAnimId": "EmoReact_Calm_Like_House"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Excited1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamas_DescTextId",
+						"EmotionColorId2": "Emotion_Excited2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamas_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Excited",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Excited1",
+						"ModifierId": "Excited_Level1",
+						"PlayMFXId": "Excited",
+						"PortraitColorId2": "Emotion_Excited2"
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "pajamaparty_pajamas_emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=Worried]",
+			"Value":
+			{
+				"type": "Worried",
+				"tendency": "Negative",
+				"activateValue": 0,
+				"uIOrder": 2,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Fear.Buff_Icon_Fear'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Surprised_Shocked",
+								"BodyAnimId": "EmoReact_Surprised_Shocked"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Worried1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_spooked_DescTextId",
+						"EmotionColorId2": "Emotion_Worried2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_spooked_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Worried",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Worried1",
+						"ModifierId": "Worried_Level1",
+						"PlayMFXId": "Worried",
+						"PortraitColorId2": "Emotion_Worried2"
+					},
+					{
+						"ValueGreaterThan": 4,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Surprised_Shocked",
+								"BodyAnimId": "EmoReact_Surprised_Shocked"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Worried1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level2_spooked_DescTextId",
+						"EmotionColorId2": "Emotion_Worried2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_spooked_DisplayTextId",
+						"Level": 2,
+						"DisableTooltipTextId": "Emotion_EmotionLevelDatas_Level2_Worried_DisableTooltipTextId",
+						"FacialExpressionId": "Afraid",
+						"DisableInteractionBagTags": [
+							"Lock_Emotion_Worried_Lv2"
+						],
+						"PortraitColorId1": "Emotion_Worried1",
+						"ModifierId": "Worried_Level2",
+						"PlayMFXId": "Afraid",
+						"PortraitColorId2": "Emotion_Worried2"
+					},
+					{
+						"ValueGreaterThan": 7,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Worried_Terrified",
+								"BodyAnimId": "EmoReact_Worried_Terrified"
+							}
+						],
+						"ApplyScriptId": "Emotion_FX_Worried_Level3",
+						"EmotionColorId1": "Emotion_Worried1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_OverLowTeen_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Child_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Toddler_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Infant_Worried_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level3_spooked_DescTextId",
+						"EmotionColorId2": "Emotion_Worried2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_spooked_DisplayTextId",
+						"Level": 3,
+						"DisableTooltipTextId": "Emotion_EmotionLevelDatas_Level3_Worried_DisableTooltipTextId",
+						"FacialExpressionId": "Terrified",
+						"DisableInteractionBagTags": [
+							"Lock_Emotion_Worried_Lv3",
+							"Positive_Talk"
+						],
+						"PortraitColorId1": "Emotion_Worried1",
+						"ModifierId": "Worried_Level3",
+						"PlayMFXId": "Terrified",
+						"PortraitColorId2": "Emotion_Worried2"
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "spookystories_spooked_emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=pajamaparty_pajamas_emotion]",
+			"Value":
+			{
+				"type": "Excited",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 11,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Excited.Buff_Icon_Excited'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Funny_Giggling",
+								"BodyAnimId": "EmoReact_Funny_Giggling"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Excited1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_conspiratorial_DescTextId",
+						"EmotionColorId2": "Emotion_Excited2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_conspiratorial_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Excited",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Excited1",
+						"ModifierId": "Excited_Level1",
+						"PlayMFXId": "Excited",
+						"PortraitColorId2": "Emotion_Excited2"
+					},
+					{
+						"ValueGreaterThan": 4,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Funny_Giggling",
+								"BodyAnimId": "EmoReact_Funny_Giggling"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Excited1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_conspiratorial_DescTextId",
+						"EmotionColorId2": "Emotion_Excited2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_conspiratorial_DisplayTextId",
+						"Level": 2,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Thrilled",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Excited1",
+						"ModifierId": "Excited_Level2",
+						"PlayMFXId": "Thrilled",
+						"PortraitColorId2": "Emotion_Excited2"
+					},
+					{
+						"ValueGreaterThan": 7,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Funny_Giggling",
+								"BodyAnimId": "EmoReact_Funny_Giggling"
+							}
+						],
+						"ApplyScriptId": "Emotion_FX_Excited_Level3",
+						"EmotionColorId1": "Emotion_Excited1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_OverLowTeen_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Child_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Toddler_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Infant_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_conspiratorial_DescTextId",
+						"EmotionColorId2": "Emotion_Excited2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_conspiratorial_DisplayTextId",
+						"Level": 3,
+						"DisableTooltipTextId": "Emotion_EmotionLevelDatas_Level3_Excited_DisableTooltipTextId",
+						"FacialExpressionId": "Enthusiastic",
+						"DisableInteractionBagTags": [
+							"Negative_Talk"
+						],
+						"PortraitColorId1": "Emotion_Excited1",
+						"ModifierId": "Excited_Level3",
+						"PlayMFXId": "Enthusiastic",
+						"PortraitColorId2": "Emotion_Excited2"
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "pajamaparty_conspiratorial_emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=Touched]",
+			"Value":
+			{
+				"type": "Touched",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 17,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Touched.Buff_Icon_Touched'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Curious_Eureka",
+								"BodyAnimId": "EmoReact_Curious_Eureka"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Touched1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_Cyber_PP_Whimsical_DescTextId",
+						"EmotionColorId2": "Emotion_Touched2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_Cyber_PP_Whimsical_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Touched",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Touched1",
+						"ModifierId": "Touched_Level1",
+						"PlayMFXId": "Touched",
+						"PortraitColorId2": "Emotion_Touched2"
+					},
+					{
+						"ValueGreaterThan": 4,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Curious_Eureka",
+								"BodyAnimId": "EmoReact_Curious_Eureka"
+							}
+						],
+						"ApplyScriptId": "Emotion_FX_Touched_Level2",
+						"EmotionColorId1": "Emotion_Touched1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Touched_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_Cyber_PP_Whimsical_DescTextId",
+						"EmotionColorId2": "Emotion_Touched2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_Cyber_PP_Whimsical_DisplayTextId",
+						"Level": 2,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Deeplymoved",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Touched1",
+						"ModifierId": "Touched_Level2",
+						"PlayMFXId": "Deeplymoved",
+						"PortraitColorId2": "Emotion_Touched2"
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "pajamaparty_whimsical_emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion",
+			"Value":
+			{
+				"Id": "pajamaparty_host_emotion",
+				"Comment": "",
+				"Type": "Excited",
+				"Tendency": "Positive",
+				"ActivateValue": 0,
+				"UIOrder": 11,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Excited.Buff_Icon_Excited'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Calm_Excited_Short",
+								"BodyAnimId": "EmoReact_Calm_Excited_Short"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Excited1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_host_DescTextId",
+						"EmotionColorId2": "Emotion_Excited2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_host_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Excited",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Excited1",
+						"ModifierId": "Excited_Level1",
+						"PlayMFXId": "Excited",
+						"PortraitColorId2": "Emotion_Excited2"
+					}
+				],
+				"AdmitDesireBuffLevelDatas": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion",
+			"Value":
+			{
+				"Id": "pajamaparty_guest_emotion",
+				"Comment": "",
+				"Type": "Excited",
+				"Tendency": "Positive",
+				"ActivateValue": 0,
+				"UIOrder": 11,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Excited.Buff_Icon_Excited'",
+				"EmotionLevelDatas": [
+					{
+						"ValueGreaterThan": 0,
+						"ReactionAnims": [
+							{
+								"FaceAnimId": "EmoReactFace_Calm_Excited_Short",
+								"BodyAnimId": "EmoReact_Calm_Excited_Short"
+							}
+						],
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Excited1",
+						"GrowthStepDescTooltips": [
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 504
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 4
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 2
+							},
+							{
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Excited_DescTooltipTextId",
+								"GrowthStepFlags": 1
+							}
+						],
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_DescTextId",
+						"EmotionColorId2": "Emotion_Excited2",
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_pajamaparty_DisplayTextId",
+						"Level": 1,
+						"DisableTooltipTextId": "",
+						"FacialExpressionId": "Excited",
+						"DisableInteractionBagTags": [],
+						"PortraitColorId1": "Emotion_Excited1",
+						"ModifierId": "Excited_Level1",
+						"PlayMFXId": "Excited",
+						"PortraitColorId2": "Emotion_Excited2"
+					}
+				],
+				"AdmitDesireBuffLevelDatas": []
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,307 @@
+{
+	"Struct": "Script",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=Add_Buff_Object_Bonfire_Sit]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "wellrested_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "pn_AddWellRested"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=pn_AddWellRested]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "AddBuff",
+								"s1": "wellrested_buff_powernap",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "pn_AddWellRested2"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=pn_AddWellRested]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "resting_well_buff_powernap",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				],
+				"id": "pn_AddActiveBuff"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction[Id=pn_AddActiveBuff]",
+			"Value":
+			{
+				"scripts": [
+					{
+						"ifType": "If",
+						"conditions": [],
+						"executes": [
+							{
+								"baseObject": "Self",
+								"command": "RemoveBuff",
+								"s1": "resting_well_buff",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							},
+							{
+								"baseObject": "Self",
+								"command": "RemoveBuff",
+								"s1": "resting_well_buff_powernap",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							},
+							{
+								"baseObject": "Self",
+								"command": "RemoveBuff",
+								"s1": "resting_well_buff_deepsleep",
+								"s2": "None",
+								"f1": 0,
+								"f2": 0,
+								"prob": 1
+							}
+						]
+					}
+				],
+				"id": "remove_activebuff"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_DS_AddActiveBuff",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "resting_well_buff_deepsleep",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_AddRecoveryModifier",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddModifier",
+								"S1": "Cyber_PN_SleepRecovery2x",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_RemoveRecoveryModifier",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveModifier",
+								"S1": "Cyber_PN_SleepRecovery2x",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_EndDream_NoNativeBuffs",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "EndDream",
+								"S1": "None",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_StartDream_CustomOnly",
+				"Comment": "",
+				"Scripts": [
+					{
+						"Conditions": [],
+						"Executes": [
+							{
+								"S2": "None",
+								"BaseObject": "Self",
+								"S1": "None",
+								"Command": "StartDream",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"S2": "None",
+								"BaseObject": "Self",
+								"S1": "Sleep",
+								"Command": "RemoveBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"IfType": "If"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "Cyber_PN_ReplaceNativeSleepBuff",
+				"Comment": "",
+				"Scripts": [
+					{
+						"Conditions": [
+							{
+								"S2": "None",
+								"UseHand": "Default",
+								"F2": 0,
+								"F1": 0,
+								"CompareType": "Equal",
+								"Command": "Buff",
+								"BaseObject": "Self",
+								"S1": "Sleep"
+							}
+						],
+						"Executes": [
+							{
+								"S2": "None",
+								"BaseObject": "Self",
+								"S1": "Sleep",
+								"Command": "RemoveBuff",
+								"Prob": 1,
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"IfType": "If"
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}
