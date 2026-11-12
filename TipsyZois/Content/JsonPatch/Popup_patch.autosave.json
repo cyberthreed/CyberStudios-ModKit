@@ -1,0 +1,74 @@
+{
+	"Struct": "Popup",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Popup",
+			"Value":
+			{
+				"Id": "TipsyZois_DUICrashPopup",
+				"Comment": "",
+				"PopupType": "Common",
+				"DetailType": "Default",
+				"Title": "mod_Buff_TipsyZois_DUI_CrashPopup_Title",
+				"Desc": "mod_Buff_TipsyZois_DUI_CrashPopup_Desc",
+				"OpenPlayAudioId": "Warning_Popup",
+				"bUseLoadButton": false,
+				"bDisableAutoCloseTimer": false,
+				"ButtonDetail": [
+					{
+						"ListKey": "btn",
+						"ButtonText": "mod_Buff_TipsyZois_DUI_CrashPopup_Continue",
+						"ButtonType": "Primary",
+						"ScriptId": "TipsyZois_DUICrashResponse",
+						"MinDesiredWidth": 0,
+						"MaxDesiredWidth": 0,
+						"Height": 0
+					}
+				],
+				"bShowNeverShowCheckBox": false
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Popup",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoning_DeathPopup",
+				"Comment": "Native poison-death route, used only after untreated alcohol-poisoning natural expiration.",
+				"PopupType": "Drama",
+				"DetailType": "Death",
+				"Title": "mod_Buff_TipsyZois_AlcoholPoisoning_Death_Title",
+				"Desc": "mod_Buff_TipsyZois_AlcoholPoisoning_Death_Desc",
+				"OpenPlayAudioId": "Death_Popup",
+				"bUseLoadButton": true,
+				"bDisableAutoCloseTimer": true,
+				"ButtonDetail": [
+					{
+						"ListKey": "btn1",
+						"ButtonText": "Popup_ButtonDetail_btn1_NoticeDeathByPoison_ButtonText",
+						"ButtonType": "Secondary",
+						"ScriptId": "None",
+						"MinDesiredWidth": 220,
+						"MaxDesiredWidth": 220,
+						"Height": 40
+					},
+					{
+						"ListKey": "btn0",
+						"ButtonText": "Popup_ButtonDetail_btn0_NoticeDeathByPoison_ButtonText",
+						"ButtonType": "Primary",
+						"ScriptId": "None",
+						"MinDesiredWidth": 220,
+						"MaxDesiredWidth": 220,
+						"Height": 40
+					}
+				],
+				"bShowNeverShowCheckBox": false
+			},
+			"Enabled": true
+		}
+	]
+}

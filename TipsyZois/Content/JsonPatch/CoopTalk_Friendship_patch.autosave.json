@@ -1,0 +1,520 @@
+{
+	"Struct": "CoopTalk",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "CoopTalk_Friendship",
+			"Value":
+			{
+				"Id": "Co_TipsyZois_LoosenUp",
+				"Comment": "",
+				"CoopTalkInfo":
+				{
+					"bOneTime": false,
+					"bFixedStand": false,
+					"bCancelCurrentInteraction": false,
+					"TalkMood": "Positive",
+					"CoopTalkTags": [],
+					"TargetInteractionBagId": "Friendship_G05_FeedBack",
+					"bNotPlayingHostAnim": false,
+					"HostAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive1_Fit",
+									"VoiceId": "Positive1_Fit_Speaker",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive2_Fit",
+									"VoiceId": "Positive2_Fit_Speaker",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive3_Fit",
+									"VoiceId": "Positive3_Fit_Speaker",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostUpperBodyAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker",
+									"VoiceId": "Positive1_Fit_Speaker_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker_02",
+									"VoiceId": "Positive2_Fit_Speaker_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker_03",
+									"VoiceId": "Positive3_Fit_Speaker_Short",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostFaceAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive_Fit_Face",
+									"VoiceId": "None",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostNotifyScriptIds": [],
+					"bNotPlayingTargetAnim": false,
+					"TargetAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive1_Feedback_Fit",
+									"VoiceId": "Positive1_Fit_Listener",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive2_Feedback_Fit",
+									"VoiceId": "Positive2_Fit_Listener",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive3_Feedback_Fit",
+									"VoiceId": "Positive3_Fit_Listener",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetUpperBodyAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener",
+									"VoiceId": "Positive1_Fit_Listener_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener_02",
+									"VoiceId": "Positive2_Fit_Listener_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener_03",
+									"VoiceId": "Positive3_Fit_Listener_Short",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetFaceAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive_Fit_Face_Feedback",
+									"VoiceId": "None",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetNotifyScriptIds": [],
+					"SpeakerIconInfo":
+					{
+						"IconId": "None",
+						"Probability": 0
+					},
+					"ListenerIconInfo":
+					{
+						"IconId": "InnerThoughtIcon_Friend_Business_Family_Positive",
+						"Probability": 1
+					},
+					"WalkingIconInfo":
+					{
+						"IconId": "None",
+						"Probability": 0
+					},
+					"StartScriptIds": [],
+					"FinishScriptIds": [],
+					"StartHowlingInfos": []
+				}
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "CoopTalk_Friendship",
+			"Value":
+			{
+				"Id": "Co_TipsyZois_DrunkenStory",
+				"Comment": "",
+				"CoopTalkInfo":
+				{
+					"bOneTime": false,
+					"bFixedStand": false,
+					"bCancelCurrentInteraction": false,
+					"TalkMood": "Positive",
+					"CoopTalkTags": [],
+					"TargetInteractionBagId": "Friendship_G05_FeedBack",
+					"bNotPlayingHostAnim": false,
+					"HostAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive1_Fit",
+									"VoiceId": "Positive1_Fit_Speaker",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive2_Fit",
+									"VoiceId": "Positive2_Fit_Speaker",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive3_Fit",
+									"VoiceId": "Positive3_Fit_Speaker",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostUpperBodyAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker",
+									"VoiceId": "Positive1_Fit_Speaker_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker_02",
+									"VoiceId": "Positive2_Fit_Speaker_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker_03",
+									"VoiceId": "Positive3_Fit_Speaker_Short",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostFaceAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive_Fit_Face",
+									"VoiceId": "None",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostNotifyScriptIds": [],
+					"bNotPlayingTargetAnim": false,
+					"TargetAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive1_Feedback_Fit",
+									"VoiceId": "Positive1_Fit_Listener",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive2_Feedback_Fit",
+									"VoiceId": "Positive2_Fit_Listener",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive3_Feedback_Fit",
+									"VoiceId": "Positive3_Fit_Listener",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetUpperBodyAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener",
+									"VoiceId": "Positive1_Fit_Listener_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener_02",
+									"VoiceId": "Positive2_Fit_Listener_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener_03",
+									"VoiceId": "Positive3_Fit_Listener_Short",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetFaceAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive_Fit_Face_Feedback",
+									"VoiceId": "None",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetNotifyScriptIds": [],
+					"SpeakerIconInfo":
+					{
+						"IconId": "None",
+						"Probability": 0
+					},
+					"ListenerIconInfo":
+					{
+						"IconId": "InnerThoughtIcon_Friend_Business_Family_Positive",
+						"Probability": 1
+					},
+					"WalkingIconInfo":
+					{
+						"IconId": "None",
+						"Probability": 0
+					},
+					"StartScriptIds": [],
+					"FinishScriptIds": [],
+					"StartHowlingInfos": []
+				}
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "CoopTalk_Friendship",
+			"Value":
+			{
+				"Id": "Co_TipsyZois_BrilliantIdea",
+				"Comment": "",
+				"CoopTalkInfo":
+				{
+					"bOneTime": false,
+					"bFixedStand": false,
+					"bCancelCurrentInteraction": false,
+					"TalkMood": "Positive",
+					"CoopTalkTags": [],
+					"TargetInteractionBagId": "Friendship_G05_FeedBack",
+					"bNotPlayingHostAnim": false,
+					"HostAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive1_Fit",
+									"VoiceId": "Positive1_Fit_Speaker",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive2_Fit",
+									"VoiceId": "Positive2_Fit_Speaker",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive3_Fit",
+									"VoiceId": "Positive3_Fit_Speaker",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostUpperBodyAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker",
+									"VoiceId": "Positive1_Fit_Speaker_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker_02",
+									"VoiceId": "Positive2_Fit_Speaker_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Speaker_03",
+									"VoiceId": "Positive3_Fit_Speaker_Short",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostFaceAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive_Fit_Face",
+									"VoiceId": "None",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"HostNotifyScriptIds": [],
+					"bNotPlayingTargetAnim": false,
+					"TargetAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive1_Feedback_Fit",
+									"VoiceId": "Positive1_Fit_Listener",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive2_Feedback_Fit",
+									"VoiceId": "Positive2_Fit_Listener",
+									"Weight": 1
+								},
+								{
+									"AnimId": "Positive3_Feedback_Fit",
+									"VoiceId": "Positive3_Fit_Listener",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetUpperBodyAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener",
+									"VoiceId": "Positive1_Fit_Listener_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener_02",
+									"VoiceId": "Positive2_Fit_Listener_Short",
+									"Weight": 1
+								},
+								{
+									"AnimId": "TalkPool_Positive_Sit_Listener_03",
+									"VoiceId": "Positive3_Fit_Listener_Short",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetFaceAnimInfo": [
+						{
+							"HostGenderFilter": "Default",
+							"HostBodyAgeFilter": "Default",
+							"TargetGenderFilter": "Default",
+							"TargetBodyAgeFilter": "Default",
+							"AnimEntries": [
+								{
+									"AnimId": "Positive_Fit_Face_Feedback",
+									"VoiceId": "None",
+									"Weight": 1
+								}
+							]
+						}
+					],
+					"TargetNotifyScriptIds": [],
+					"SpeakerIconInfo":
+					{
+						"IconId": "None",
+						"Probability": 0
+					},
+					"ListenerIconInfo":
+					{
+						"IconId": "InnerThoughtIcon_Friend_Business_Family_Positive",
+						"Probability": 1
+					},
+					"WalkingIconInfo":
+					{
+						"IconId": "None",
+						"Probability": 0
+					},
+					"StartScriptIds": [],
+					"FinishScriptIds": [],
+					"StartHowlingInfos": []
+				}
+			},
+			"Enabled": true
+		}
+	]
+}

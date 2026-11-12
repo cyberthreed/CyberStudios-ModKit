@@ -1,0 +1,41 @@
+{
+	"Struct": "Crime",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Crime",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI",
+				"Comment": "",
+				"DisplayTextId": "mod_Buff_TipsyZois_DUI_Charge",
+				"CrimeScoreMin": 0,
+				"CrimeScoreMax": 100,
+				"CrimeScoreReportThreshold": 100,
+				"CriminalBehaviors": [
+					{
+						"InteractionIds": [],
+						"TalkInteractionBagIds": [],
+						"VehicleAccidentIds": [],
+						"MobileMessageTags": [],
+						"ScriptTriggerTags": [
+							"TipsyZois_DUI_Crash"
+						],
+						"ConditionIds": [],
+						"ScoreAddMin": 100,
+						"ScoreAddMax": 100
+					}
+				],
+				"CriminalBehaviorScriptIds": [
+					"TipsyZois_DUICriminalBehavior"
+				],
+				"CrimeReportScriptIds": [
+					"TipsyZois_DUICrimeReport"
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

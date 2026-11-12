@@ -1,0 +1,1091 @@
+{
+	"Struct": "Script",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Script_Food[Id=Drink_Effect]",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_AlcoholPoisoningPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					},
+					{
+						"IfType": "Elif",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					},
+					{
+						"IfType": "Elif",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					},
+					{
+						"IfType": "Elif",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					},
+					{
+						"IfType": "Elif",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_FeelingGood",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_FeelingGood",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					},
+					{
+						"IfType": "Elif",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_FeelingGood",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				],
+				"id": "TipsyZois_ApplyFeelingGood"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Food",
+			"Value":
+			{
+				"Id": "TipsyZois_ApplyTraitDrinkReaction",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Trait",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Alcoholic",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Alcoholic_Craving",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					},
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Trait",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Lightweight",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Lightweight_QuickEffects",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					},
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Trait",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_StraightEdge",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_StraightEdge_Discomfort",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "Script_Food[Id=Drink_Effect].Scripts",
+			"Value": [
+				{
+					"IfType": "If",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "Quality",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "Bad",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "Drink_BeverageCraft_Quality_Bad",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "Elif",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "Quality",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "Superb",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "Drink_BeverageCraft_Quality_Superb",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "Elif",
+					"Conditions": [],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "Drink_BeverageCraft_NormalEffect",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "If",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Buff",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_Blackout_Stage",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_AlcoholPoisoningPending",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "Elif",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Buff",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_Wasted_Stage",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_UpgradeInProgress",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "RemoveBuff",
+							"S1": "TipsyZois_Wasted_Stage",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_Blackout_Stage",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "Elif",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Buff",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_Drunk",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_UpgradeInProgress",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "RemoveBuff",
+							"S1": "TipsyZois_Drunk",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_Wasted_Stage",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "Elif",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Buff",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_Tipsy",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "RemoveBuff",
+							"S1": "TipsyZois_Tipsy",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_Drunk",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "Elif",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Buff",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_FeelingGood",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "RemoveBuff",
+							"S1": "TipsyZois_FeelingGood",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_Tipsy",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "Elif",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_FeelingGood",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "If",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Trait",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_Alcoholic",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "RemoveBuff",
+							"S1": "TipsyZois_Alcoholic_Craving",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "If",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Trait",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_Lightweight",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_Lightweight_QuickEffects",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				},
+				{
+					"IfType": "If",
+					"Conditions": [
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedStrawberryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedCarrotJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedMangoJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedGreenJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Target",
+							"Command": "IsObject",
+							"CompareType": "NotEqual",
+							"UseHand": "Default",
+							"S1": "ServedBerryJuice",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						},
+						{
+							"BaseObject": "Self",
+							"Command": "Trait",
+							"CompareType": "Equal",
+							"UseHand": "Default",
+							"S1": "TipsyZois_StraightEdge",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0
+						}
+					],
+					"Executes": [
+						{
+							"BaseObject": "Self",
+							"Command": "AddBuff",
+							"S1": "TipsyZois_StraightEdge_Discomfort",
+							"S2": "None",
+							"F1": 0,
+							"F2": 0,
+							"Prob": 1
+						}
+					]
+				}
+			],
+			"Enabled": true
+		}
+	]
+}

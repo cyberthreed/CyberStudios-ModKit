@@ -1,0 +1,28 @@
+{
+	"Struct": "ObjectSelectionSet",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Override",
+			"Query": "ObjectSelectionSet[Id=MedicalKit01].SelectionSets",
+			"Value": [
+				{
+					"StateGroupId": "Normal",
+					"SelectionType": "Normal",
+					"InteractionBagList": [
+						"Object_MedicalKit01",
+						"Object_MedicalKit02",
+						"Object_MedicalKit03",
+						"Object_MedicalKit04",
+						"Object_MedicalKit06",
+						"Object_MedicalKit_Looking",
+						"TipsyZois_CureAlcoholPoisoning",
+						"TipsyZois_CureHangover"
+					]
+				}
+			],
+			"Enabled": true
+		}
+	]
+}

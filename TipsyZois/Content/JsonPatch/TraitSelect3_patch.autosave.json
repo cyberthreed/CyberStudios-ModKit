@@ -1,0 +1,23 @@
+{
+	"Struct": "TraitSelect3",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "TraitSelect3",
+			"Value":
+			{
+				"Id": "TipsyZois_TraitCategory",
+				"Comment": "",
+				"TraitCategoryTextId": "mod_Buff_TipsyZois_Traits_Category",
+				"TraitIds": [
+					"TipsyZois_Lightweight",
+					"TipsyZois_Alcoholic",
+					"TipsyZois_StraightEdge"
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

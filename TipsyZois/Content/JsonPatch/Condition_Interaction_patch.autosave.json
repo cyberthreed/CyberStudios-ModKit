@@ -1,0 +1,973 @@
+{
+	"Struct": "Condition",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261026.16562.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"Id": "TipsyZois_HasAlcoholPoisoning",
+				"Comment": "",
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"Id": "TipsyZois_HasTipsy",
+				"Comment": "",
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"Id": "TipsyZois_HasDrunk",
+				"Comment": "",
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"Id": "TipsyZois_HasWasted",
+				"Comment": "",
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Trait",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Lightweight",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_TalkTrait_Lightweight",
+				"Comment": "Actor-only trait gate; donor target eligibility is preserved."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Trait",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Alcoholic",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Alcoholic_Craving",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_TalkTrait_Alcoholic",
+				"Comment": "Actor-only trait gate; donor target eligibility is preserved."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Trait",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_StraightEdge",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_TalkTrait_StraightEdge",
+				"Comment": "Actor-only trait gate; donor target eligibility is preserved."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Target",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_TalkTarget",
+				"Comment": "Private target eligibility from the native conversation donor; excludes donor-specific friendship-tier selection."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [],
+				"OrConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Hangover_Standard",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					},
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_HangoverLong",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"Id": "TipsyZois_HasHangover",
+				"Comment": ""
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_FeelingGood",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingPose",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_SocialStage_FeelingGood",
+				"Comment": "Exact active intoxication stage; no poisoning or active blackout sleepwalking."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingPose",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_SocialStage_Tipsy",
+				"Comment": "Exact active intoxication stage; no poisoning or active blackout sleepwalking."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingPose",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_SocialStage_Drunk",
+				"Comment": "Exact active intoxication stage; no poisoning or active blackout sleepwalking."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingPose",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_SocialStage_Wasted",
+				"Comment": "Exact active intoxication stage; no poisoning or active blackout sleepwalking."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingPose",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_SocialStage_Blackout",
+				"Comment": "Exact active intoxication stage; no poisoning or active blackout sleepwalking."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "IsLovable",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "None",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsFamilyRelationship",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "None",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "LowTeen",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Whitelist_Freelance_Delivery_NPC",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Dowon_Prisoner_01",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "BlissBay_Prisoner_01",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Dowon_TinyShop_Owner",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "BlissBay_TinyShop_Owner",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Dowon_Ghost_Exorcist_01",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Dowon_ARLibrary",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "BlissBay_Ghost_Exorcist_01",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "BlissBay_ARLibrary",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Blissbay_BlackMarket_Owner",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Dowon_BlackMarket_Owner",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Cahaya_TinyShop_Owner",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Cahaya_Ghost_Exorcist_01",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Cahaya_ARLibrary",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsStaticNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "Cahaya_BlackMarket_Owner",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsUniqueEventNpc",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "None",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "RandomVisitor_Robber",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_SocialRomance",
+				"Comment": "Private target eligibility from the native conversation donor; excludes donor-specific friendship-tier selection."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Condition_Interaction",
+			"Value":
+			{
+				"AndConditionsList": [
+					{
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "GrowthStep",
+								"CompareType": "GreaterOrEqual",
+								"UseHand": "Default",
+								"S1": "Youth",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Target",
+								"Command": "IsFamilyRelationship",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "None",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						]
+					}
+				],
+				"OrConditionsList": [],
+				"Id": "TipsyZois_SocialParenting",
+				"Comment": "Private target eligibility from the native conversation donor; excludes donor-specific friendship-tier selection."
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"Struct": "ScheduleInfo",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "ScheduleInfo",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Trial",
+				"Comment": "",
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Common/Tex/Shape/Common_Alarm_001.Common_Alarm_001'",
+				"TitleText": "mod_Buff_TipsyZois_DUI_Schedule_Title",
+				"DescText": "mod_Buff_TipsyZois_DUI_Schedule_Desc",
+				"OverideScheduleImage": "None",
+				"bIsNeedConvertTitleText": false,
+				"bIsNeedConvertDescText": false
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"Struct": "Buff",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Buff_System",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Whitelist_Trial",
+				"Comment": "Private DUI hearing interaction whitelist; preserves native trial flow.",
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"Duration": 190,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "Normal",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [
+						"WBuffTag_TipsyZois_DUI_Trial",
+						"BuffTag_NpcSystem"
+					],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "",
+					"ReasonTextId": "",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		}
+	]
+}

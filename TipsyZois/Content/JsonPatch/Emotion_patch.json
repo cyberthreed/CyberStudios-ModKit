@@ -1,0 +1,815 @@
+{
+	"Struct": "Emotion",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=Convinced]",
+			"Value":
+			{
+				"type": "Curious",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 13,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Happy.Buff_Icon_Happy'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_Convinced_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_Convinced_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "Convinced_Level1",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Calm1",
+						"EmotionColorId2": "Emotion_Calm2",
+						"PortraitColorId1": "Emotion_Calm1",
+						"PortraitColorId2": "Emotion_Calm2",
+						"FacialExpressionId": "Curious",
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Calm_Joyful",
+								"FaceAnimId": "EmoReactFace_Calm_Joyful"
+							}
+						],
+						"PlayMFXId": "Curious",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level2_Convinced_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level2_Convinced_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "Convinced_Level2",
+						"ApplyScriptId": "Emotion_Convinced_Level2",
+						"EmotionColorId1": "Emotion_Calm1",
+						"EmotionColorId2": "Emotion_Calm2",
+						"PortraitColorId1": "Emotion_Calm1",
+						"PortraitColorId2": "Emotion_Calm2",
+						"FacialExpressionId": "Curious",
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Calm_Joyful",
+								"FaceAnimId": "EmoReactFace_Calm_Joyful"
+							}
+						],
+						"PlayMFXId": "Curious",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "TipsyZois_FeelingGood_Emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=TipsyZois_FeelingGood_Emotion]",
+			"Value":
+			{
+				"type": "Curious",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 13,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Fun.Buff_Icon_Fun'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisTipsy_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisTipsy_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "Convinced_Level1",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Funny1",
+						"EmotionColorId2": "Emotion_Funny2",
+						"PortraitColorId1": "Emotion_Funny1",
+						"PortraitColorId2": "Emotion_Funny2",
+						"FacialExpressionId": "Convinced",
+						"ReactionAnims": [],
+						"PlayMFXId": "Convinced",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisTipsy_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisTipsy_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "Convinced_Level2",
+						"ApplyScriptId": "Emotion_Convinced_Level2",
+						"EmotionColorId1": "Emotion_Funny1",
+						"EmotionColorId2": "Emotion_Funny2",
+						"PortraitColorId1": "Emotion_Funny1",
+						"PortraitColorId2": "Emotion_Funny2",
+						"FacialExpressionId": "Confident",
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Convinced_Confident",
+								"FaceAnimId": "None"
+							},
+							{
+								"BodyAnimId": "EmoReact_Convinced_Reaction_Convinced_Lv2",
+								"FaceAnimId": "EmoReactFace_Convinced_Reaction_Convinced_Lv2"
+							}
+						],
+						"PlayMFXId": "Confident",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "TipsyZois_Tipsy_Emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=TipsyZois_FeelingGood_Emotion]",
+			"Value":
+			{
+				"type": "Convinced",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 13,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Bewilderment.Buff_Icon_Bewilderment'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisDrunk_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisDrunk_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "Convinced_Level1",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Cringing1",
+						"EmotionColorId2": "Emotion_Cringing2",
+						"PortraitColorId1": "Emotion_Cringing1",
+						"PortraitColorId2": "Emotion_Cringing2",
+						"FacialExpressionId": "Convinced",
+						"ReactionAnims": [],
+						"PlayMFXId": "Convinced",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisDrunk_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisDrunk_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "Convinced_Level2",
+						"ApplyScriptId": "Emotion_Convinced_Level2",
+						"EmotionColorId1": "Emotion_Cringing1",
+						"EmotionColorId2": "Emotion_Cringing2",
+						"PortraitColorId1": "Emotion_Cringing1",
+						"PortraitColorId2": "Emotion_Cringing2",
+						"FacialExpressionId": "Confident",
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Convinced_Confident",
+								"FaceAnimId": "None"
+							},
+							{
+								"BodyAnimId": "EmoReact_Convinced_Reaction_Convinced_Lv2",
+								"FaceAnimId": "EmoReactFace_Convinced_Reaction_Convinced_Lv2"
+							}
+						],
+						"PlayMFXId": "Confident",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "TipsyZois_Drunk_Emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=TipsyZois_FeelingGood_Emotion]",
+			"Value":
+			{
+				"type": "Convinced",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 13,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Discomfort.Buff_Icon_Discomfort'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisWasted_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisWasted_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "Convinced_Level1",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Uncomfortable1",
+						"EmotionColorId2": "Emotion_Uncomfortable2",
+						"PortraitColorId1": "Emotion_Uncomfortable1",
+						"PortraitColorId2": "Emotion_Uncomfortable2",
+						"FacialExpressionId": "Convinced",
+						"ReactionAnims": [],
+						"PlayMFXId": "Convinced",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisWasted_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisWasted_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "Convinced_Level2",
+						"ApplyScriptId": "Emotion_Convinced_Level2",
+						"EmotionColorId1": "Emotion_Uncomfortable1",
+						"EmotionColorId2": "Emotion_Uncomfortable2",
+						"PortraitColorId1": "Emotion_Uncomfortable1",
+						"PortraitColorId2": "Emotion_Uncomfortable2",
+						"FacialExpressionId": "Confident",
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Convinced_Confident",
+								"FaceAnimId": "None"
+							},
+							{
+								"BodyAnimId": "EmoReact_Convinced_Reaction_Convinced_Lv2",
+								"FaceAnimId": "EmoReactFace_Convinced_Reaction_Convinced_Lv2"
+							}
+						],
+						"PlayMFXId": "Confident",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "TipsyZois_Wasted_Emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=TipsyZois_FeelingGood_Emotion]",
+			"Value":
+			{
+				"type": "Convinced",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 13,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Touched.Buff_Icon_Touched'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisBlackout_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisBlackout_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "Convinced_Level1",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Touched1",
+						"EmotionColorId2": "Emotion_Touched2",
+						"PortraitColorId1": "Emotion_Touched1",
+						"PortraitColorId2": "Emotion_Touched2",
+						"FacialExpressionId": "Sleeping",
+						"ReactionAnims": [],
+						"PlayMFXId": "Sleeping",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisBlackout_DisplayTextId",
+						"DescTextId": "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisBlackout_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "Convinced_Level2",
+						"ApplyScriptId": "Emotion_Convinced_Level2",
+						"EmotionColorId1": "Emotion_Touched1",
+						"EmotionColorId2": "Emotion_Touched2",
+						"PortraitColorId1": "Emotion_Touched1",
+						"PortraitColorId2": "Emotion_Touched2",
+						"FacialExpressionId": "Sleeping",
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Convinced_Confident",
+								"FaceAnimId": "None"
+							},
+							{
+								"BodyAnimId": "EmoReact_Convinced_Reaction_Convinced_Lv2",
+								"FaceAnimId": "EmoReactFace_Convinced_Reaction_Convinced_Lv2"
+							}
+						],
+						"PlayMFXId": "Sleeping",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "TipsyZois_Blackout_Emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=TipsyZois_Blackout_Emotion]",
+			"Value":
+			{
+				"type": "Convinced",
+				"tendency": "Positive",
+				"activateValue": 0,
+				"uIOrder": 13,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Tired.Buff_Icon_Tired'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_TipsyZoisHangover_Level1_DisplayTextId",
+						"DescTextId": "mod_Emotion_TipsyZoisHangover_Level1_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "Convinced_Level1",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Tired1",
+						"EmotionColorId2": "Emotion_Tired2",
+						"PortraitColorId1": "Emotion_Tired1",
+						"PortraitColorId2": "Emotion_Tired2",
+						"FacialExpressionId": "Convinced",
+						"ReactionAnims": [],
+						"PlayMFXId": "Convinced",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_TipsyZoisHangover_Level2_DisplayTextId",
+						"DescTextId": "mod_Emotion_TipsyZoisHangover_Level2_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "Convinced_Level2",
+						"ApplyScriptId": "Emotion_Convinced_Level2",
+						"EmotionColorId1": "Emotion_Tired1",
+						"EmotionColorId2": "Emotion_Tired2",
+						"PortraitColorId1": "Emotion_Tired1",
+						"PortraitColorId2": "Emotion_Tired2",
+						"FacialExpressionId": "Confident",
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Convinced_Confident",
+								"FaceAnimId": "None"
+							},
+							{
+								"BodyAnimId": "EmoReact_Convinced_Reaction_Convinced_Lv2",
+								"FaceAnimId": "EmoReactFace_Convinced_Reaction_Convinced_Lv2"
+							}
+						],
+						"PlayMFXId": "Confident",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "TipsyZois_Hangover_Emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion[Id=TipsyZois_Hangover_Emotion]",
+			"Value":
+			{
+				"type": "Convinced",
+				"tendency": "Negative",
+				"activateValue": 0,
+				"uIOrder": 13,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Fear.Buff_Icon_Fear'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_TipsyZoisAlcoholPoisoning_Level1_DisplayTextId",
+						"DescTextId": "mod_Emotion_TipsyZoisAlcoholPoisoning_Level1_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "None",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Worried1",
+						"EmotionColorId2": "Emotion_Worried2",
+						"PortraitColorId1": "Emotion_Worried1",
+						"PortraitColorId2": "Emotion_Worried2",
+						"FacialExpressionId": "Tired",
+						"ReactionAnims": [],
+						"PlayMFXId": "Tired",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_TipsyZoisAlcoholPoisoning_Level2_DisplayTextId",
+						"DescTextId": "mod_Emotion_TipsyZoisAlcoholPoisoning_Level2_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "None",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Worried1",
+						"EmotionColorId2": "Emotion_Worried2",
+						"PortraitColorId1": "Emotion_Worried1",
+						"PortraitColorId2": "Emotion_Worried2",
+						"FacialExpressionId": "Tired",
+						"ReactionAnims": [],
+						"PlayMFXId": "Tired",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Convinced_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Convinced_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": []
+					}
+				],
+				"admitDesireBuffLevelDatas": [],
+				"id": "TipsyZois_AlcoholPoisoning_Emotion"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Emotion",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoningCured_Emotion",
+				"Comment": "",
+				"Type": "Calm",
+				"Tendency": "Positive",
+				"ActivateValue": 0,
+				"UIOrder": 16,
+				"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Buff/Buff_Icon_Happy.Buff_Icon_Happy'",
+				"EmotionLevelDatas": [
+					{
+						"Level": 1,
+						"DisplayTextId": "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level1_DisplayTextId",
+						"DescTextId": "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level1_DescTextId",
+						"ValueGreaterThan": 0,
+						"ModifierId": "Calm_Level1",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Calm1",
+						"EmotionColorId2": "Emotion_Calm2",
+						"PortraitColorId1": "Emotion_Calm1",
+						"PortraitColorId2": "Emotion_Calm2",
+						"FacialExpressionId": "Calm",
+						"PlayMFXId": "Calm",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_OverLowTeen_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Child_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Toddler_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level1_GrowthStepDescTooltips_Infant_Calm_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": [],
+						"ReactionAnims": []
+					},
+					{
+						"Level": 2,
+						"DisplayTextId": "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level2_DisplayTextId",
+						"DescTextId": "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level2_DescTextId",
+						"ValueGreaterThan": 4,
+						"ModifierId": "Calm_Level2",
+						"ApplyScriptId": "None",
+						"EmotionColorId1": "Emotion_Calm1",
+						"EmotionColorId2": "Emotion_Calm2",
+						"PortraitColorId1": "Emotion_Calm1",
+						"PortraitColorId2": "Emotion_Calm2",
+						"FacialExpressionId": "Joyful",
+						"PlayMFXId": "Joyful",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_OverLowTeen_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Child_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Toddler_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level2_GrowthStepDescTooltips_Infant_Calm_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "",
+						"DisableInteractionBagTags": [],
+						"ReactionAnims": []
+					},
+					{
+						"Level": 3,
+						"DisplayTextId": "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level3_DisplayTextId",
+						"DescTextId": "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level3_DescTextId",
+						"ValueGreaterThan": 7,
+						"ModifierId": "Calm_Level3",
+						"ApplyScriptId": "Emotion_FX_Calm_Level3",
+						"EmotionColorId1": "Emotion_Calm1",
+						"EmotionColorId2": "Emotion_Calm2",
+						"PortraitColorId1": "Emotion_Calm1",
+						"PortraitColorId2": "Emotion_Calm2",
+						"FacialExpressionId": "Delighted",
+						"PlayMFXId": "Delighted",
+						"GrowthStepDescTooltips": [
+							{
+								"GrowthStepFlags": 504,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_OverLowTeen_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 4,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Child_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 2,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Toddler_Calm_DescTooltipTextId"
+							},
+							{
+								"GrowthStepFlags": 1,
+								"DescTooltipTextId": "Emotion_EmotionLevelDatas_Level3_GrowthStepDescTooltips_Infant_Calm_DescTooltipTextId"
+							}
+						],
+						"DisableTooltipTextId": "Emotion_EmotionLevelDatas_Level3_Calm_DisableTooltipTextId",
+						"DisableInteractionBagTags": [],
+						"ReactionAnims": [
+							{
+								"BodyAnimId": "EmoReact_Calm_Joyful",
+								"FaceAnimId": "EmoReactFace_Calm_Joyful"
+							},
+							{
+								"BodyAnimId": "EmoReact_Calm_Excited_Short",
+								"FaceAnimId": "EmoReactFace_Calm_Excited_Short"
+							},
+							{
+								"BodyAnimId": "EmoReact_Calm_Thrilled",
+								"FaceAnimId": "EmoReactFace_Calm_Thrilled"
+							},
+							{
+								"BodyAnimId": "EmoReact_Calm_Like_House",
+								"FaceAnimId": "EmoReactFace_Calm_Like_House"
+							},
+							{
+								"BodyAnimId": "EmoReact_Calm_Delighted",
+								"FaceAnimId": "EmoReactFace_Calm_Delighted"
+							}
+						]
+					}
+				],
+				"AdmitDesireBuffLevelDatas": []
+			},
+			"Enabled": true
+		}
+	]
+}

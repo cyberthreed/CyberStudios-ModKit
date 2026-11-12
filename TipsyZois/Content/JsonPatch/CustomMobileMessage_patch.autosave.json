@@ -1,0 +1,166 @@
+{
+	"Struct": "CustomMobileMessage",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "CustomMobileMessage",
+			"Value":
+			{
+				"Id": "Call_By_Court_TipsyZois_DUI",
+				"Comment": "",
+				"MobileMessageRewardId": "Business",
+				"ConditionId": "None",
+				"bNeedPhoneNumber": false,
+				"PositiveAnswerButtonStrId": "",
+				"NormalAnswerButtonStrId": "",
+				"NegativeAnswerButtonStrId": "",
+				"ReceivedScriptIds": [
+					"Pay_Fine_2400"
+				],
+				"OpenMessageScripts": [],
+				"PositiveAnswerScriptIds": [],
+				"NormalAnswerScriptIds": [],
+				"NegativeAnswerScriptIds": [],
+				"MessageData":
+				{
+					"ListKey": "",
+					"MessageStrId": "mod_Buff_TipsyZois_DUI__Message",
+					"PositiveAnswerStrId": "",
+					"NormalAnswerStrId": "",
+					"NegativeAnswerStrId": "",
+					"PositiveAnswerReplyStrId": "",
+					"NormalAnswerReplyStrId": "",
+					"NegativeAnswerReplyStrId": "",
+					"InvitationExpiredAnswerReplyStrId": "",
+					"bIsNeedConvertMessage": false
+				},
+				"ResponseTimeout": -1,
+				"CooltimeMinute": 0,
+				"MobileMessagePartiesId": "Court",
+				"UseDelayMessage": false,
+				"DelayInfo":
+				{
+					"DelayProbability": 0,
+					"IsWeekday": false,
+					"IsWeekend": false,
+					"DayOfWeek": "Invalid",
+					"DelayDate": 0,
+					"StartTime": 0,
+					"AddOffsetTime": 0,
+					"EndTime": 0
+				},
+				"MobileMessageTags": [],
+				"bIsCreateScheduleOnReply": false
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "CustomMobileMessage",
+			"Value":
+			{
+				"Id": "Call_By_Court_TipsyZois_DUI01",
+				"Comment": "",
+				"MobileMessageRewardId": "Business",
+				"ConditionId": "None",
+				"bNeedPhoneNumber": false,
+				"PositiveAnswerButtonStrId": "",
+				"NormalAnswerButtonStrId": "",
+				"NegativeAnswerButtonStrId": "",
+				"ReceivedScriptIds": [
+					"Pay_Fine_4000"
+				],
+				"OpenMessageScripts": [],
+				"PositiveAnswerScriptIds": [],
+				"NormalAnswerScriptIds": [],
+				"NegativeAnswerScriptIds": [],
+				"MessageData":
+				{
+					"ListKey": "",
+					"MessageStrId": "mod_Buff_TipsyZois_DUI_01_Message",
+					"PositiveAnswerStrId": "",
+					"NormalAnswerStrId": "",
+					"NegativeAnswerStrId": "",
+					"PositiveAnswerReplyStrId": "",
+					"NormalAnswerReplyStrId": "",
+					"NegativeAnswerReplyStrId": "",
+					"InvitationExpiredAnswerReplyStrId": "",
+					"bIsNeedConvertMessage": false
+				},
+				"ResponseTimeout": -1,
+				"CooltimeMinute": 0,
+				"MobileMessagePartiesId": "Court",
+				"UseDelayMessage": false,
+				"DelayInfo":
+				{
+					"DelayProbability": 0,
+					"IsWeekday": false,
+					"IsWeekend": false,
+					"DayOfWeek": "Invalid",
+					"DelayDate": 0,
+					"StartTime": 0,
+					"AddOffsetTime": 0,
+					"EndTime": 0
+				},
+				"MobileMessageTags": [],
+				"bIsCreateScheduleOnReply": false
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "CustomMobileMessage",
+			"Value":
+			{
+				"Id": "Call_By_Court_TipsyZois_DUI02",
+				"Comment": "",
+				"MobileMessageRewardId": "Business",
+				"ConditionId": "None",
+				"bNeedPhoneNumber": false,
+				"PositiveAnswerButtonStrId": "",
+				"NormalAnswerButtonStrId": "",
+				"NegativeAnswerButtonStrId": "",
+				"ReceivedScriptIds": [
+					"Pay_Fine_6400"
+				],
+				"OpenMessageScripts": [],
+				"PositiveAnswerScriptIds": [],
+				"NormalAnswerScriptIds": [],
+				"NegativeAnswerScriptIds": [],
+				"MessageData":
+				{
+					"ListKey": "",
+					"MessageStrId": "mod_Buff_TipsyZois_DUI_02_Message",
+					"PositiveAnswerStrId": "",
+					"NormalAnswerStrId": "",
+					"NegativeAnswerStrId": "",
+					"PositiveAnswerReplyStrId": "",
+					"NormalAnswerReplyStrId": "",
+					"NegativeAnswerReplyStrId": "",
+					"InvitationExpiredAnswerReplyStrId": "",
+					"bIsNeedConvertMessage": false
+				},
+				"ResponseTimeout": -1,
+				"CooltimeMinute": 0,
+				"MobileMessagePartiesId": "Court",
+				"UseDelayMessage": false,
+				"DelayInfo":
+				{
+					"DelayProbability": 0,
+					"IsWeekday": false,
+					"IsWeekend": false,
+					"DayOfWeek": "Invalid",
+					"DelayDate": 0,
+					"StartTime": 0,
+					"AddOffsetTime": 0,
+					"EndTime": 0
+				},
+				"MobileMessageTags": [],
+				"bIsCreateScheduleOnReply": false
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,92 @@
+{
+	"Struct": "Trait",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Trait",
+			"Value":
+			{
+				"Id": "TipsyZois_Lightweight",
+				"Comment": "",
+				"Category": "Characteristic",
+				"TraitNameTextId": "mod_Buff_TipsyZois_Trait_Lightweight_Name",
+				"TraitDescTextId": "mod_Buff_TipsyZois_Trait_Lightweight_Desc",
+				"SymbolIcon": "/Script/Engine.Texture2D'/Game/UI/Icon/Characteristic/Icon_Characteristic_Clumsiness.Icon_Characteristic_Clumsiness'",
+				"ExcludeCharacteristicIds": [],
+				"TraitValuePointId": "None",
+				"PerspectiveIdList": [],
+				"DisabledAmbitionItemIdList": [],
+				"KeywordInfoList": [],
+				"FeatureInfoList": [],
+				"AgingConditionFlags": 508,
+				"AddTraitScriptId": "None",
+				"RemoveTraitScriptId": "TipsyZois_RemoveTrait_Lightweight",
+				"RelatedPreferenceId": "None",
+				"TraitScripts": [],
+				"PreferredTendencyIds": [],
+				"DislikedTendencyIds": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Trait",
+			"Value":
+			{
+				"Id": "TipsyZois_Alcoholic",
+				"Comment": "",
+				"Category": "Characteristic",
+				"TraitNameTextId": "mod_Buff_TipsyZois_Trait_Alcoholic_Name",
+				"TraitDescTextId": "mod_Buff_TipsyZois_Trait_Alcoholic_Desc",
+				"SymbolIcon": "/Script/Engine.Texture2D'/Game/UI/Icon/Characteristic/Icon_Characteristic_SubMixologist_UIT.Icon_Characteristic_SubMixologist_UIT'",
+				"ExcludeCharacteristicIds": [
+					"TipsyZois_StraightEdge"
+				],
+				"TraitValuePointId": "None",
+				"PerspectiveIdList": [],
+				"DisabledAmbitionItemIdList": [],
+				"KeywordInfoList": [],
+				"FeatureInfoList": [],
+				"AgingConditionFlags": 508,
+				"AddTraitScriptId": "TipsyZois_AddTrait_Alcoholic",
+				"RemoveTraitScriptId": "TipsyZois_RemoveTrait_Alcoholic",
+				"RelatedPreferenceId": "None",
+				"TraitScripts": [],
+				"PreferredTendencyIds": [],
+				"DislikedTendencyIds": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Trait",
+			"Value":
+			{
+				"Id": "TipsyZois_StraightEdge",
+				"Comment": "",
+				"Category": "Characteristic",
+				"TraitNameTextId": "mod_Buff_TipsyZois_Trait_StraightEdge_Name",
+				"TraitDescTextId": "mod_Buff_TipsyZois_Trait_StraightEdge_Desc",
+				"SymbolIcon": "/Script/Engine.Texture2D'/Game/UI/Icon/Trait/TraitSelect_Image_Trait_08.TraitSelect_Image_Trait_08'",
+				"ExcludeCharacteristicIds": [
+					"TipsyZois_Alcoholic"
+				],
+				"TraitValuePointId": "None",
+				"PerspectiveIdList": [],
+				"DisabledAmbitionItemIdList": [],
+				"KeywordInfoList": [],
+				"FeatureInfoList": [],
+				"AgingConditionFlags": 508,
+				"AddTraitScriptId": "None",
+				"RemoveTraitScriptId": "TipsyZois_RemoveTrait_StraightEdge",
+				"RelatedPreferenceId": "None",
+				"TraitScripts": [],
+				"PreferredTendencyIds": [],
+				"DislikedTendencyIds": []
+			},
+			"Enabled": true
+		}
+	]
+}

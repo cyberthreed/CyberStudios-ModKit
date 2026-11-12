@@ -1,0 +1,35 @@
+{
+	"Struct": "LifeTrigger",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "LifeTrigger",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoning_Death",
+				"Comment": "Native poison-death route, used only after untreated alcohol-poisoning natural expiration.",
+				"LabelTextId": "mod_Buff_TipsyZois_AlcoholPoisoning_Death_Label",
+				"TriggerList": [
+					{
+						"AgingConditionFlags": 504,
+						"AlertPopupId": "None",
+						"EndPopupId": "TipsyZois_AlcoholPoisoning_DeathPopup",
+						"AlertDelayTime": 0,
+						"FromAlertTimeToEnd": 0,
+						"IsDeathTrigger": true,
+						"DeathReasonTextId": "mod_Buff_TipsyZois_AlcoholPoisoning_Death_Reason",
+						"TriggerInteractionId": "TipsyZois_AlcoholPoisoning_DeathBag",
+						"TriggerScriptId": "Howling_Death_Reaction_Poison",
+						"OnDeathScriptIds": [
+							"AddBuff_Death_Reaction_Adult"
+						],
+						"OnDeathSiteActionId": "None"
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

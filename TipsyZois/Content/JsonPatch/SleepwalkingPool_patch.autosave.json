@@ -1,0 +1,23 @@
+{
+	"Struct": "SleepwalkingPool",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "SleepwalkingPool",
+			"Value":
+			{
+				"Id": "TipsyZois_BlackoutWalkPool",
+				"Comment": "",
+				"SleepwalkingInteractionBags": [
+					{
+						"InteractionBagId": "TipsyZois_IB_BlackoutWalk",
+						"ConditionId": "None"
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

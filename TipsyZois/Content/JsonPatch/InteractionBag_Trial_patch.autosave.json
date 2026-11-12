@@ -1,0 +1,709 @@
+{
+	"Struct": "InteractionBag",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Trial",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Step01_Trial_User_AutoFind_Object_Chair",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "None",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "Group_Trial",
+				"PostureGroupId": "StandGroup",
+				"InteractionBagCategory": "Sit",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [
+					"Trial_User_Self"
+				],
+				"InteractionEnableConditionIds": [
+					"Trial_User_Self"
+				],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "Posture_Sit_Check",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "AutoFind_ChangePosture_Sit_Trial_User",
+								"Label": "A",
+								"SuccessNextLabel": "B",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "Self_Trial_Start",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "InteractionBag_DisplayInfo_Step01_Trial_User_AutoFind_Object_Chair_DisplayCategoryTextId",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Step01_Trial_User_AutoFind_Object_Chair_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Trial.Action_Talk_Trial'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": true
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": true,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [
+					"TipsyZois_DUI_Finish_Step01_Trial_User_AutoFind_Object_Chair"
+				],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "None",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Trial",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Step01_Trial_Host02_AutoFind_Object_Chair",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "None",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "Group_Trial",
+				"PostureGroupId": "StandGroup",
+				"InteractionBagCategory": "Sit",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"InteractionEnableConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "Posture_Sit_Check",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "AutoFind_ChangePosture_Sit_Trial_Host02",
+								"Label": "A",
+								"SuccessNextLabel": "B",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "Self_Defendant_Speak",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "InteractionBag_DisplayInfo_Step01_Trial_Host02_AutoFind_Object_Chair_DisplayCategoryTextId",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Step01_Trial_Host02_AutoFind_Object_Chair_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Trial.Action_Talk_Trial'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": true
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": true,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [
+					"TipsyZois_DUI_Finish_Step01_Trial_Host02_AutoFind_Object_Chair"
+				],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "None",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Trial",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Step02_Trial_Host02_AutoFind_Object_Chair",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "None",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "Group_Trial",
+				"PostureGroupId": "StandGroup",
+				"InteractionBagCategory": "Sit",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"InteractionEnableConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "Posture_Sit_Check",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "AutoFind_ChangePosture_Sit_Trial_Host02",
+								"Label": "A",
+								"SuccessNextLabel": "B",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "Self_Defendant_Speak",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "InteractionBag_DisplayInfo_Step02_Trial_Host02_AutoFind_Object_Chair_DisplayCategoryTextId",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Step02_Trial_Host02_AutoFind_Object_Chair_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Trial.Action_Talk_Trial'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": true
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": true,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [
+					"TipsyZois_DUI_Finish_Step02_Trial_Host02_AutoFind_Object_Chair"
+				],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "None",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Trial",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Step03_Trial_Host02_AutoFind_Object_Chair",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "None",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "Group_Trial",
+				"PostureGroupId": "StandGroup",
+				"InteractionBagCategory": "Sit",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"InteractionEnableConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "Posture_Sit_Check",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "AutoFind_ChangePosture_Sit_Trial_Host02",
+								"Label": "A",
+								"SuccessNextLabel": "B",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "Self_Defendant_Speak",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "InteractionBag_DisplayInfo_Step03_Trial_Host02_AutoFind_Object_Chair_DisplayCategoryTextId",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Step03_Trial_Host02_AutoFind_Object_Chair_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Trial.Action_Talk_Trial'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": true
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": true,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [
+					"TipsyZois_DUI_Finish_Step03_Trial_Host02_AutoFind_Object_Chair"
+				],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "None",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Trial",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Step04_Trial_Host02_AutoFind_Object_Chair",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "None",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "Group_Trial",
+				"PostureGroupId": "StandGroup",
+				"InteractionBagCategory": "Sit",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"InteractionEnableConditionIds": [
+					"Trial_Host02_Self"
+				],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "Posture_Sit_Check",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "AutoFind_ChangePosture_Sit_Trial_Host02",
+								"Label": "A",
+								"SuccessNextLabel": "B",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "Self_Defendant_Speak",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "InteractionBag_DisplayInfo_Step04_Trial_Host02_AutoFind_Object_Chair_DisplayCategoryTextId",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Step04_Trial_Host02_AutoFind_Object_Chair_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Trial.Action_Talk_Trial'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": true
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": true,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [
+					"TipsyZois_DUI_Finish_Step04_Trial_Host02_AutoFind_Object_Chair"
+				],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "None",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Trial",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Step05_Trial_Host01_AutoFind_Object_Chair",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "None",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "Group_Trial",
+				"PostureGroupId": "StandGroup",
+				"InteractionBagCategory": "Sit",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [
+					"Trial_Host01_Self"
+				],
+				"InteractionEnableConditionIds": [
+					"Trial_Host01_Self"
+				],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": true,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [
+							{
+								"ConditionId": "Posture_Sit_Check",
+								"StartLabel": "B"
+							}
+						],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "AutoFind_ChangePosture_Sit_Trial_Host01",
+								"Label": "A",
+								"SuccessNextLabel": "B",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							},
+							{
+								"InteractionId": "Self_Trial_Verdict",
+								"Label": "B",
+								"SuccessNextLabel": "None",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "InteractionBag_DisplayInfo_Step05_Trial_Host01_AutoFind_Object_Chair_DisplayCategoryTextId",
+					"DisplayTextId": "InteractionBag_DisplayInfo_Step05_Trial_Host01_AutoFind_Object_Chair_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_Talk_Trial.Action_Talk_Trial'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": true
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": true,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [
+					"TipsyZois_DUI_Finish_Step05_Trial_Host01_AutoFind_Object_Chair"
+				],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "None",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		}
+	]
+}

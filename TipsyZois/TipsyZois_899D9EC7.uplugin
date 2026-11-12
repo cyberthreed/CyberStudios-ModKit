@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "DDD5437247C6A6B771E24393B2EFA81A",
+	"FriendlyName": "TipsyZois",
+	"Description": "Add your summary here",
+	"Category": "UGC",
+	"CreatedBy": "cyberthreed",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "https://legacy.curseforge.com/inzoi/mod/tipsyzois-899d9ec7",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"ModCode": "899D9EC7",
+	"MigrationState": 5,
+	"CfUgcId": 1767936,
+	"AutoCookingType": "PCOnly"
+}

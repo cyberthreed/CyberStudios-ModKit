@@ -1,0 +1,405 @@
+{
+	"Struct": "Script",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261026.16562.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "TipsyZois_CureAlcoholPoisoning_Finish",
+				"Comment": "Completed private First Aid Kit treatment only; protect the removal callback before clearing poisoning and apply recovery.",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddEntityTag",
+								"S1": "TipsyZois_AlcoholPoisoning_Treated",
+								"S2": "None",
+								"F1": 10,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoning_DeathPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveLifeTrigger",
+								"S1": "TipsyZois_AlcoholPoisoning_Death",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_AlcoholPoisoningCured",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "TipsyZois_DUICrashResponse",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_DUICustody",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_DUICustody",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "TriggerCriminalBehavior",
+								"S1": "TipsyZois_DUI",
+								"S2": "TipsyZois_DUI_Crash",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "SystemMessage",
+								"S1": "mod_Buff_TipsyZois_DUI_Case_Opened",
+								"S2": "None",
+								"F1": 3,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "CreateSiteEvent",
+								"S1": "SocialEvent_Trial_TipsyZois_DUI",
+								"S2": "DaysFromNow",
+								"F1": 1,
+								"F2": 14,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "GoToJail",
+								"S1": "None",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Id": "TipsyZois_BeginBlackoutWalk",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_SleepwalkingPose",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddStat",
+								"S1": "Sleepwalking",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddHowling",
+								"S1": "Sleepwalking_Reaction",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Lightweight_QuickEffects",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				],
+				"Id": "TipsyZois_RemoveTrait_Lightweight",
+				"Comment": "Remove only this trait's supplemental moodlet when the trait is removed."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Alcoholic_Craving",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				],
+				"Id": "TipsyZois_RemoveTrait_Alcoholic",
+				"Comment": "Remove only this trait's supplemental moodlet when the trait is removed."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_FeelingGood",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Alcoholic_Craving",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				],
+				"Id": "TipsyZois_AddTrait_Alcoholic",
+				"Comment": "Begin craving only when no intoxication stage or poisoning is active."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_StraightEdge_Discomfort",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				],
+				"Id": "TipsyZois_RemoveTrait_StraightEdge",
+				"Comment": "Remove only this trait's supplemental moodlet when the trait is removed."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Interaction",
+			"Value":
+			{
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Hangover_Standard",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_HangoverLong",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				],
+				"Id": "TipsyZois_CureHangover_Finish",
+				"Comment": "Completed private medicine action only; removes either hangover duration without changing intoxication."
+			},
+			"Enabled": true
+		}
+	]
+}

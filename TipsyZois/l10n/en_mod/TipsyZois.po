@@ -1,0 +1,428 @@
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisFeelingGood_DisplayTextId"
+msgid "기분이 좋아요"
+msgstr "Feeling Good"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisFeelingGood_ReasonTextId"
+msgid "술을 조금 마셔 기분이 좋아졌습니다."
+msgstr "A little alcohol has lifted the mood."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisTipsy_DisplayTextId"
+msgid "술기운이 올라왔어요"
+msgstr "Tipsy"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisTipsy_ReasonTextId"
+msgid "술기운이 올라와 말이 조금 많아졌습니다."
+msgstr "Alcohol has loosened them up."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisDrunk_DisplayTextId"
+msgid "취했어요"
+msgstr "Drunk"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisDrunk_ReasonTextId"
+msgid "술에 취했습니다."
+msgstr "They are drunk."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisWasted_DisplayTextId"
+msgid "만취했어요"
+msgstr "Wasted"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisWasted_ReasonTextId"
+msgid "심하게 취했습니다."
+msgstr "They are very intoxicated."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisBlackout_DisplayTextId"
+msgid "필름이 끊겼어요"
+msgstr "Blackout"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisBlackout_ReasonTextId"
+msgid "기억이 끊길 정도로 취했습니다."
+msgstr "They are in a blackout state."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId"
+msgid "숙취가 있어요"
+msgstr "Hungover"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId"
+msgid "음주의 후유증으로 숙취를 겪고 있습니다."
+msgstr "They are feeling the aftereffects of drinking."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoning_DisplayTextId"
+msgid "알코올 중독"
+msgstr "Alcohol Poisoning"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoning_ReasonTextId"
+msgid "알코올 중독 상태입니다. 응급 처치가 필요합니다."
+msgstr "They have alcohol poisoning and need treatment."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoningCured_DisplayTextId"
+msgid "알코올 중독에서 회복했어요"
+msgstr "Recovered"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoningCured_ReasonTextId"
+msgid "응급 처치를 받고 알코올 중독에서 회복했습니다."
+msgstr "They have been treated for alcohol poisoning."
+
+msgctxt "mod_Emotion_TipsyZoisFeelingGood_Level1_DisplayTextId"
+msgid "기분이 좋아요"
+msgstr "Feeling Good"
+
+msgctxt "mod_Emotion_TipsyZoisFeelingGood_Level1_DescTextId"
+msgid "기분이 한결 밝아졌습니다."
+msgstr "Their mood has brightened."
+
+msgctxt "mod_Emotion_TipsyZoisFeelingGood_Level2_DisplayTextId"
+msgid "기분이 아주 좋아요"
+msgstr "Feeling Great"
+
+msgctxt "mod_Emotion_TipsyZoisFeelingGood_Level2_DescTextId"
+msgid "기분이 들떠 있습니다."
+msgstr "They feel noticeably uplifted."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisTipsy_DisplayTextId"
+msgid "술기운이 올라왔어요"
+msgstr "Tipsy"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisTipsy_DescTextId"
+msgid "가볍게 취해 있습니다."
+msgstr "They are lightly intoxicated."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisTipsy_DisplayTextId"
+msgid "제법 취했어요"
+msgstr "Quite Tipsy"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisTipsy_DescTextId"
+msgid "술기운이 더 강해졌습니다."
+msgstr "The alcohol is affecting them more."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisDrunk_DisplayTextId"
+msgid "취했어요"
+msgstr "Drunk"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisDrunk_DescTextId"
+msgid "술에 취해 있습니다."
+msgstr "They are drunk."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisDrunk_DisplayTextId"
+msgid "많이 취했어요"
+msgstr "Very Drunk"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisDrunk_DescTextId"
+msgid "취기가 강해졌습니다."
+msgstr "They are heavily intoxicated."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisWasted_DisplayTextId"
+msgid "만취했어요"
+msgstr "Wasted"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisWasted_DescTextId"
+msgid "심하게 취해 있습니다."
+msgstr "They are very intoxicated."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisWasted_DisplayTextId"
+msgid "정신을 못 차려요"
+msgstr "Extremely Wasted"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisWasted_DescTextId"
+msgid "몸을 가누기 힘들 정도로 취했습니다."
+msgstr "They can barely function from the alcohol."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisBlackout_DisplayTextId"
+msgid "필름이 끊겼어요"
+msgstr "Blackout"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level1_TipsyZoisBlackout_DescTextId"
+msgid "기억이 끊길 정도로 취했습니다."
+msgstr "They are in a blackout state."
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisBlackout_DisplayTextId"
+msgid "기억이 끊겼어요"
+msgstr "Severe Blackout"
+
+msgctxt "mod_Emotion_EmotionLevelDatas_Level2_TipsyZoisBlackout_DescTextId"
+msgid "술로 인해 의식을 잃을 수 있습니다."
+msgstr "They may lose consciousness from the alcohol."
+
+msgctxt "mod_Emotion_TipsyZoisHangover_Level1_DisplayTextId"
+msgid "숙취가 있어요"
+msgstr "Hungover"
+
+msgctxt "mod_Emotion_TipsyZoisHangover_Level1_DescTextId"
+msgid "음주의 후유증을 겪고 있습니다."
+msgstr "They are feeling the aftereffects of drinking."
+
+msgctxt "mod_Emotion_TipsyZoisHangover_Level2_DisplayTextId"
+msgid "숙취가 심해요"
+msgstr "Severely Hungover"
+
+msgctxt "mod_Emotion_TipsyZoisHangover_Level2_DescTextId"
+msgid "심한 숙취를 겪고 있습니다."
+msgstr "They have a severe hangover."
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoning_Level1_DisplayTextId"
+msgid "알코올 중독"
+msgstr "Alcohol Poisoning"
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoning_Level1_DescTextId"
+msgid "알코올 중독 상태입니다."
+msgstr "They have alcohol poisoning."
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoning_Level2_DisplayTextId"
+msgid "심각한 알코올 중독"
+msgstr "Severe Alcohol Poisoning"
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoning_Level2_DescTextId"
+msgid "즉각적인 치료가 필요한 심각한 상태입니다."
+msgstr "They need immediate treatment."
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level1_DisplayTextId"
+msgid "치료를 받았어요"
+msgstr "Treated"
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level1_DescTextId"
+msgid "치료를 받아 안정되었습니다."
+msgstr "They have received treatment."
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level2_DisplayTextId"
+msgid "회복했어요"
+msgstr "Recovered"
+
+msgctxt "mod_Emotion_TipsyZoisAlcoholPoisoningCured_Level2_DescTextId"
+msgid "알코올 중독에서 회복했습니다."
+msgstr "They have recovered from alcohol poisoning."
+
+msgctxt "mod_InteractionBag_TipsyZois_CureAlcoholPoisoning_DisplayTextId"
+msgid "알코올 중독 치료하기"
+msgstr "Cure Alcohol Poisoning"
+
+msgctxt "mod_InteractionBag_TipsyZois_CureAlcoholPoisoning_CategoryTextId"
+msgid "응급 처치"
+msgstr "First Aid"
+
+msgctxt "mod_TalkSelection_TipsyZois_DisplayStringTextId"
+msgid "취한 대화"
+msgstr "TipsyZois"
+
+msgctxt "mod_InteractionBag_TipsyZois_IB_LoosenUp_DisplayTextId"
+msgid "조금 더 솔직하게 이야기하기"
+msgstr "Talk a Little Too Freely"
+
+msgctxt "mod_InteractionBag_TipsyZois_IB_DrunkenStory_DisplayTextId"
+msgid "취한 이야기를 들려주기"
+msgstr "Tell a Drunken Story"
+
+msgctxt "mod_InteractionBag_TipsyZois_IB_BrilliantIdea_DisplayTextId"
+msgid "'기발한' 아이디어 설명하기"
+msgstr "Explain a 'Brilliant' Idea"
+
+msgctxt "mod_Trait_TraitNameTextId_TipsyZois_Lightweight"
+msgid "술에 약함"
+msgstr "Lightweight"
+
+msgctxt "mod_Trait_TraitDescTextId_TipsyZois_Lightweight"
+msgid "적은 양의 술에도 쉽게 취합니다."
+msgstr "Gets intoxicated more easily than others."
+
+msgctxt "mod_Trait_TraitNameTextId_TipsyZois_Alcoholic"
+msgid "알코올 의존"
+msgstr "Alcoholic"
+
+msgctxt "mod_Trait_TraitDescTextId_TipsyZois_Alcoholic"
+msgid "술을 자주 찾고 음주에 강하게 끌립니다."
+msgstr "Often craves alcohol and is strongly drawn to drinking."
+
+msgctxt "mod_Trait_TraitNameTextId_TipsyZois_StraightEdge"
+msgid "금주주의"
+msgstr "Straight Edge"
+
+msgctxt "mod_Trait_TraitDescTextId_TipsyZois_StraightEdge"
+msgid "술을 마시지 않고 취하는 것을 피합니다."
+msgstr "Avoids alcohol and dislikes becoming intoxicated."
+
+msgctxt "mod_TraitSelect3_TraitCategoryTextId_TipsyZois_TraitCategory"
+msgid "특성"
+msgstr "TipsyZois Traits"
+
+msgctxt "mod_Popup_TipsyZois_DUICrashPopup_Title"
+msgid "음주 운전 사고"
+msgstr "Drunk Driving Crash"
+
+msgctxt "mod_Popup_TipsyZois_DUICrashPopup_Desc"
+msgid "음주 상태로 운전하다 사고가 발생했습니다. 경찰이 현장으로 오고 있습니다."
+msgstr "You crashed while driving under the influence. Police are responding."
+
+msgctxt "mod_Popup_ButtonDetail_btn_TipsyZois_DUICrashPopup_ButtonText"
+msgid "계속"
+msgstr "Continue"
+
+msgctxt "mod_Crime_TipsyZois_DUI_DisplayTextId"
+msgid "음주 운전"
+msgstr "Driving Under the Influence (DUI)"
+
+msgctxt "mod_TipsyZois_DUI_CaseOpened"
+msgid "음주 운전 사고로 경찰에 신고되었습니다."
+msgstr "The crash has been reported as a DUI offense."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_DisplayInfo_NameTextId"
+msgid "음주 운전 재판"
+msgstr "DUI Trial"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_DisplayInfo_DescTextId"
+msgid "음주 운전 혐의에 대한 재판에 참석합니다."
+msgstr "Attend the trial for a driving-under-the-influence charge."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_ConditionInfo_DimmedToolTipTextId"
+msgid "음주 운전 재판에 참석할 수 없습니다."
+msgstr "You cannot attend the DUI trial."
+
+msgctxt "mod_ScheduleInfo_TipsyZois_DUI_Trial_TitleText"
+msgid "음주 운전 심리"
+msgstr "DUI Hearing"
+
+msgctxt "mod_ScheduleInfo_TipsyZois_DUI_Trial_DescText"
+msgid "음주 운전 혐의에 대한 법정 심리입니다."
+msgstr "A court hearing for the driving-under-the-influence charge."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role1_NameTextId"
+msgid "음주 운전 피고인"
+msgstr "DUI Defendant"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role1_RoleDescTextId"
+msgid "음주 운전 혐의에 답변하기 위해 법정에 출석합니다."
+msgstr "Appear in court to answer the driving-under-the-influence charge."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role2_NameTextId"
+msgid "판사"
+msgstr "Judge"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role2_RoleDescTextId"
+msgid "음주 운전 심리를 진행합니다."
+msgstr "Preside over the DUI hearing."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role3_NameTextId"
+msgid "변호인"
+msgstr "Defense Attorney"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role3_RoleDescTextId"
+msgid "법정에서 피고인을 변호합니다."
+msgstr "Represent the defendant in court."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role4_NameTextId"
+msgid "검사"
+msgstr "Prosecutor"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role4_RoleDescTextId"
+msgid "피고인에 대한 사건을 제시합니다."
+msgstr "Present the case against the defendant."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role5_NameTextId"
+msgid "증인"
+msgstr "Witness"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role5_RoleDescTextId"
+msgid "심리에서 증인으로 참석합니다."
+msgstr "Attend as a witness for the hearing."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role6_NameTextId"
+msgid "경찰관"
+msgstr "Police Officer"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role6_RoleDescTextId"
+msgid "체포 담당 경찰관으로 심리에 참석합니다."
+msgstr "Attend the hearing as the arresting officer."
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role7_NameTextId"
+msgid "법정 방청객"
+msgstr "Court Guest"
+
+msgctxt "mod_SocialEventTemplate_SocialEvent_Trial_TipsyZois_DUI_RoleInfos_Role7_RoleDescTextId"
+msgid "음주 운전 심리에 참석합니다."
+msgstr "Attend the DUI hearing."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_TitleStrId"
+msgid "음주 운전 재판"
+msgstr "DUI Hearing"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_MessageStrId"
+msgid "음주 상태로 운전한 혐의에 대해 어떻게 답변하시겠습니까?"
+msgstr "How do you plead to the charge of driving under the influence?"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_PositiveAnswerStrId"
+msgid "유죄를 인정합니다"
+msgstr "Plead guilty"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_NegativeTitleStrId"
+msgid "무죄를 주장합니다"
+msgstr "Plead not guilty"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Positive_1_TitleStrId"
+msgid "유죄"
+msgstr "Guilty"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Positive_1_ResultStrId"
+msgid "음주 운전 책임을 인정합니다."
+msgstr "You accept responsibility for driving under the influence."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Positive_1_AnswerStrId"
+msgid "유죄를 인정합니다."
+msgstr "I plead guilty."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Positive_2_TitleStrId"
+msgid "책임을 인정하고 선처를 구합니다"
+msgstr "Accept responsibility and ask for leniency"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Positive_2_ResultStrId"
+msgid "책임을 인정하고 법원에 선처를 요청합니다."
+msgstr "You accept responsibility and ask the court for leniency."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Positive_2_AnswerStrId"
+msgid "제가 잘못했습니다. 선처를 부탁드립니다."
+msgstr "I made a mistake. I ask the court for leniency."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Negative_1_TitleStrId"
+msgid "무죄"
+msgstr "Not guilty"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Negative_1_ResultStrId"
+msgid "혐의를 부인하고 재판을 진행합니다."
+msgstr "You deny the DUI charge and proceed to trial."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Negative_1_AnswerStrId"
+msgid "무죄를 주장합니다."
+msgstr "I plead not guilty."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Negative_2_TitleStrId"
+msgid "증거에 이의를 제기합니다"
+msgstr "Challenge the evidence"
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Negative_2_ResultStrId"
+msgid "사고 기록과 음주 운전 혐의를 다툽니다."
+msgstr "You challenge the crash record and the DUI charge."
+
+msgctxt "mod_ChoiceCard_ChoiceCard_Trial_TipsyZois_DUI_Start_Negative_2_AnswerStrId"
+msgid "증거에 이의를 제기합니다."
+msgstr "I challenge the evidence."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisLightweightQuickEffects_DisplayTextId"
+msgid "술기운이 빠르게 느껴짐"
+msgstr "Feeling It Already"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisLightweightQuickEffects_ReasonTextId"
+msgid "술 한 잔의 기운이 빠르게 느껴집니다."
+msgstr "That drink is already hitting you hard."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholicCraving_DisplayTextId"
+msgid "술에 대한 갈망"
+msgstr "Alcohol Craving"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholicCraving_ReasonTextId"
+msgid "음주 효과가 사라지면서 술에 대한 갈망이 다시 느껴집니다."
+msgstr "The craving returns as the effects wear off."
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisStraightEdgeDiscomfort_DisplayTextId"
+msgid "음주 후 불편함"
+msgstr "Alcohol Discomfort"
+
+msgctxt "mod_Buff_BuffDisplayInfo_TipsyZoisStraightEdgeDiscomfort_ReasonTextId"
+msgid "술을 마신 뒤 불편함을 느낍니다."
+msgstr "You feel uncomfortable after drinking."
+

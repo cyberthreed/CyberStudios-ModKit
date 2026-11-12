@@ -1,0 +1,842 @@
+{
+	"Struct": "SocialEventTemplate",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "SocialEventTemplate",
+			"Value":
+			{
+				"Id": "SocialEvent_Trial_TipsyZois_DUI",
+				"Comment": "",
+				"EventType": "SocialEvent",
+				"EventCategory": "Trial",
+				"DisplayInfo":
+				{
+					"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_NameTextId",
+					"DescTextId": "mod_Buff_TipsyZois_DUI_Trial_DescTextId",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/SocialEvent/SocialEvent_Icon_Trial.SocialEvent_Icon_Trial'",
+					"Thumbnail": "/Script/Engine.Texture2D'/Game/UI/Icon/SocialEvent/SocialEvent_Image_Party.SocialEvent_Image_Party'"
+				},
+				"ConditionInfo":
+				{
+					"ConditionId": "None",
+					"DimmedToolTipTextId": "mod_Buff_TipsyZois_DUI_Trial_Unavailable"
+				},
+				"DurationHour": 3,
+				"ScheduleInfoId": "TipsyZois_DUI_Trial",
+				"RoleInfos": [
+					{
+						"ListKey": "Role1",
+						"RoleId": "Trial_User",
+						"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_1_Name",
+						"RoleDescTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_1_Desc",
+						"bShowRoleName": true,
+						"PickType": "RelatedOnly",
+						"RequiredRole": true,
+						"IsFixedRole": true,
+						"MinRoleNum": 1,
+						"MaxRoleNum": 1,
+						"PickNum": 1,
+						"IsHostRole": true,
+						"IsPossessCharacterRole": false,
+						"ArrivedInteractionBagId": "Arrived_Trial_User_SitChair02_ChangePosture",
+						"RoleConditionId": "SocialEvent_Trial_User_Role",
+						"ActivityInfo":
+						{
+							"AutonomyPickRatio": 0.29999999999999999,
+							"RecommendedActivitys": [],
+							"BannedActivitys": [
+								"Event_Vocal",
+								"Event_TVWatching",
+								"Event_Bathing",
+								"Event_Cleaning",
+								"Event_Negative",
+								"Event_Fighting"
+							],
+							"DressCodeInfo":
+							{
+								"DressCodeType": "Formal",
+								"DefaultColorId": "None",
+								"ColorCode": "",
+								"OverrideCostumeId": "None"
+							}
+						},
+						"CreateScriptInfos": [],
+						"ArrivedScriptInfos": [
+							{
+								"ScriptId": "Trial_Start_User",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "AddStat_NotPlayerCharacter_All_50_Trial",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "Remove_Trial_Quest",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "Remove_SchoolBag",
+								"ScriptTargetRoleId": "Trial_User"
+							}
+						],
+						"StartScriptInfos": [
+							{
+								"ScriptId": "Start_Trial_User",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "TrialEvent_Start_Tooltip",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_AddWhitelist",
+								"ScriptTargetRoleId": "Trial_User"
+							}
+						],
+						"CancelScriptInfos": [
+							{
+								"ScriptId": "Trial_Ending_Check",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "Reset_Crime_TipsyZois_DUI",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_User"
+							}
+						],
+						"FinishScriptInfos": [
+							{
+								"ScriptId": "Trial_Ending_Check",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "Reset_Crime_TipsyZois_DUI",
+								"ScriptTargetRoleId": "Trial_User"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_User"
+							}
+						]
+					},
+					{
+						"ListKey": "Role2",
+						"RoleId": "Trial_Host01",
+						"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_2_Name",
+						"RoleDescTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_2_Desc",
+						"bShowRoleName": true,
+						"PickType": "AnyRelationship",
+						"RequiredRole": true,
+						"IsFixedRole": false,
+						"MinRoleNum": 1,
+						"MaxRoleNum": 1,
+						"PickNum": 1,
+						"IsHostRole": false,
+						"IsPossessCharacterRole": false,
+						"ArrivedInteractionBagId": "Arrived_Trial_Host01_SitChair02_ChangePosture",
+						"RoleConditionId": "SocialEvent_Trial_Host01_Role",
+						"ActivityInfo":
+						{
+							"AutonomyPickRatio": 0.29999999999999999,
+							"RecommendedActivitys": [],
+							"BannedActivitys": [
+								"Event_Vocal",
+								"Event_TVWatching",
+								"Event_Bathing",
+								"Event_Cleaning",
+								"Event_Negative",
+								"Event_Fighting"
+							],
+							"DressCodeInfo":
+							{
+								"DressCodeType": "None",
+								"DefaultColorId": "None",
+								"ColorCode": "",
+								"OverrideCostumeId": "Costume_Judge_01"
+							}
+						},
+						"CreateScriptInfos": [],
+						"ArrivedScriptInfos": [
+							{
+								"ScriptId": "Trial_Start_Host01",
+								"ScriptTargetRoleId": "Trial_Host01"
+							},
+							{
+								"ScriptId": "AddStat_NotPlayerCharacter_All_50_Trial",
+								"ScriptTargetRoleId": "Trial_Host01"
+							},
+							{
+								"ScriptId": "Remove_SchoolBag",
+								"ScriptTargetRoleId": "Trial_Host01"
+							}
+						],
+						"StartScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_AddWhitelist",
+								"ScriptTargetRoleId": "Trial_Host01"
+							}
+						],
+						"CancelScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host01"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host01"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host01"
+							}
+						],
+						"FinishScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host01"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host01"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host01"
+							}
+						]
+					},
+					{
+						"ListKey": "Role3",
+						"RoleId": "Trial_Host02",
+						"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_3_Name",
+						"RoleDescTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_3_Desc",
+						"bShowRoleName": true,
+						"PickType": "AnyRelationship",
+						"RequiredRole": true,
+						"IsFixedRole": false,
+						"MinRoleNum": 1,
+						"MaxRoleNum": 1,
+						"PickNum": 1,
+						"IsHostRole": false,
+						"IsPossessCharacterRole": false,
+						"ArrivedInteractionBagId": "Arrived_Trial_Host02_SitChair02_ChangePosture",
+						"RoleConditionId": "SocialEvent_Trial_Host02_Role",
+						"ActivityInfo":
+						{
+							"AutonomyPickRatio": 0.29999999999999999,
+							"RecommendedActivitys": [],
+							"BannedActivitys": [
+								"Event_Vocal",
+								"Event_TVWatching",
+								"Event_Bathing",
+								"Event_Cleaning",
+								"Event_Negative",
+								"Event_Fighting"
+							],
+							"DressCodeInfo":
+							{
+								"DressCodeType": "None",
+								"DefaultColorId": "None",
+								"ColorCode": "",
+								"OverrideCostumeId": "DW_RabbitHole_Job_Lawyer_01"
+							}
+						},
+						"CreateScriptInfos": [],
+						"ArrivedScriptInfos": [
+							{
+								"ScriptId": "Trial_Start_Host02",
+								"ScriptTargetRoleId": "Trial_Host02"
+							},
+							{
+								"ScriptId": "AddStat_NotPlayerCharacter_All_50_Trial",
+								"ScriptTargetRoleId": "Trial_Host02"
+							},
+							{
+								"ScriptId": "Remove_SchoolBag",
+								"ScriptTargetRoleId": "Trial_Host02"
+							}
+						],
+						"StartScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_AddWhitelist",
+								"ScriptTargetRoleId": "Trial_Host02"
+							}
+						],
+						"CancelScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host02"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host02"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host02"
+							}
+						],
+						"FinishScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host02"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host02"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host02"
+							}
+						]
+					},
+					{
+						"ListKey": "Role4",
+						"RoleId": "Trial_Host03",
+						"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_4_Name",
+						"RoleDescTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_4_Desc",
+						"bShowRoleName": true,
+						"PickType": "AnyRelationship",
+						"RequiredRole": true,
+						"IsFixedRole": false,
+						"MinRoleNum": 1,
+						"MaxRoleNum": 1,
+						"PickNum": 1,
+						"IsHostRole": false,
+						"IsPossessCharacterRole": false,
+						"ArrivedInteractionBagId": "Arrived_Trial_Host03_SitChair02_ChangePosture",
+						"RoleConditionId": "SocialEvent_Trial_Host03_Role",
+						"ActivityInfo":
+						{
+							"AutonomyPickRatio": 0.29999999999999999,
+							"RecommendedActivitys": [],
+							"BannedActivitys": [
+								"Event_Vocal",
+								"Event_TVWatching",
+								"Event_Bathing",
+								"Event_Cleaning",
+								"Event_Negative",
+								"Event_Fighting"
+							],
+							"DressCodeInfo":
+							{
+								"DressCodeType": "None",
+								"DefaultColorId": "None",
+								"ColorCode": "",
+								"OverrideCostumeId": "BB_RabbitHole_Job_Lawyer_01"
+							}
+						},
+						"CreateScriptInfos": [],
+						"ArrivedScriptInfos": [
+							{
+								"ScriptId": "Trial_Start_Host03",
+								"ScriptTargetRoleId": "Trial_Host03"
+							},
+							{
+								"ScriptId": "AddStat_NotPlayerCharacter_All_50_Trial",
+								"ScriptTargetRoleId": "Trial_Host03"
+							},
+							{
+								"ScriptId": "Remove_SchoolBag",
+								"ScriptTargetRoleId": "Trial_Host03"
+							}
+						],
+						"StartScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_AddWhitelist",
+								"ScriptTargetRoleId": "Trial_Host03"
+							}
+						],
+						"CancelScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host03"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host03"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host03"
+							}
+						],
+						"FinishScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host03"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host03"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host03"
+							}
+						]
+					},
+					{
+						"ListKey": "Role5",
+						"RoleId": "Trial_Host04",
+						"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_5_Name",
+						"RoleDescTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_5_Desc",
+						"bShowRoleName": true,
+						"PickType": "AnyRelationship",
+						"RequiredRole": false,
+						"IsFixedRole": false,
+						"MinRoleNum": 1,
+						"MaxRoleNum": 3,
+						"PickNum": 3,
+						"IsHostRole": false,
+						"IsPossessCharacterRole": false,
+						"ArrivedInteractionBagId": "Arrived_Trial_Host04_SitChair02_ChangePosture",
+						"RoleConditionId": "SocialEvent_Trial_Host04_Role",
+						"ActivityInfo":
+						{
+							"AutonomyPickRatio": 0.29999999999999999,
+							"RecommendedActivitys": [],
+							"BannedActivitys": [
+								"Event_Vocal",
+								"Event_TVWatching",
+								"Event_Bathing",
+								"Event_Cleaning",
+								"Event_Negative",
+								"Event_Fighting"
+							],
+							"DressCodeInfo":
+							{
+								"DressCodeType": "Formal",
+								"DefaultColorId": "None",
+								"ColorCode": "",
+								"OverrideCostumeId": "None"
+							}
+						},
+						"CreateScriptInfos": [],
+						"ArrivedScriptInfos": [
+							{
+								"ScriptId": "Trial_Start_Host04",
+								"ScriptTargetRoleId": "Trial_Host04"
+							},
+							{
+								"ScriptId": "AddStat_NotPlayerCharacter_All_50_Trial",
+								"ScriptTargetRoleId": "Trial_Host04"
+							},
+							{
+								"ScriptId": "Remove_SchoolBag",
+								"ScriptTargetRoleId": "Trial_Host04"
+							}
+						],
+						"StartScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_AddWhitelist",
+								"ScriptTargetRoleId": "Trial_Host04"
+							}
+						],
+						"CancelScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host04"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host04"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host04"
+							}
+						],
+						"FinishScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Host04"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Host04"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Host04"
+							}
+						]
+					},
+					{
+						"ListKey": "Role6",
+						"RoleId": "Trial_Police",
+						"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_6_Name",
+						"RoleDescTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_6_Desc",
+						"bShowRoleName": true,
+						"PickType": "AnyRelationship",
+						"RequiredRole": true,
+						"IsFixedRole": false,
+						"MinRoleNum": 1,
+						"MaxRoleNum": 1,
+						"PickNum": 1,
+						"IsHostRole": false,
+						"IsPossessCharacterRole": false,
+						"ArrivedInteractionBagId": "Arrived_Trial_Police_Object_SitChairWithoutTable_PostureSit",
+						"RoleConditionId": "SocialEvent_Trial_Police_Role",
+						"ActivityInfo":
+						{
+							"AutonomyPickRatio": 0.29999999999999999,
+							"RecommendedActivitys": [],
+							"BannedActivitys": [
+								"Event_Vocal",
+								"Event_TVWatching",
+								"Event_Bathing",
+								"Event_Cleaning",
+								"Event_Negative",
+								"Event_Fighting"
+							],
+							"DressCodeInfo":
+							{
+								"DressCodeType": "None",
+								"DefaultColorId": "None",
+								"ColorCode": "",
+								"OverrideCostumeId": "DW_RabbitHole_Job_Lawyer_01"
+							}
+						},
+						"CreateScriptInfos": [],
+						"ArrivedScriptInfos": [
+							{
+								"ScriptId": "Trial_Start_Police",
+								"ScriptTargetRoleId": "Trial_Police"
+							},
+							{
+								"ScriptId": "AddStat_NotPlayerCharacter_All_50_Trial",
+								"ScriptTargetRoleId": "Trial_Police"
+							},
+							{
+								"ScriptId": "Remove_SchoolBag",
+								"ScriptTargetRoleId": "Trial_Police"
+							}
+						],
+						"StartScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_AddWhitelist",
+								"ScriptTargetRoleId": "Trial_Police"
+							}
+						],
+						"CancelScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Police"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Police"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Police"
+							}
+						],
+						"FinishScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Police"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Police"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Police"
+							}
+						]
+					},
+					{
+						"ListKey": "Role7",
+						"RoleId": "Trial_Guest",
+						"NameTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_7_Name",
+						"RoleDescTextId": "mod_Buff_TipsyZois_DUI_Trial_Role_7_Desc",
+						"bShowRoleName": true,
+						"PickType": "AnyRelationship",
+						"RequiredRole": false,
+						"IsFixedRole": false,
+						"MinRoleNum": 1,
+						"MaxRoleNum": 4,
+						"PickNum": 4,
+						"IsHostRole": false,
+						"IsPossessCharacterRole": false,
+						"ArrivedInteractionBagId": "Arrived_Trial_Guest_Object_SitChairWithoutTable_PostureSit",
+						"RoleConditionId": "SocialEvent_Trial_Guest_Role",
+						"ActivityInfo":
+						{
+							"AutonomyPickRatio": 0.29999999999999999,
+							"RecommendedActivitys": [],
+							"BannedActivitys": [
+								"Event_Vocal",
+								"Event_TVWatching",
+								"Event_Bathing",
+								"Event_Cleaning",
+								"Event_Negative",
+								"Event_Fighting"
+							],
+							"DressCodeInfo":
+							{
+								"DressCodeType": "Formal",
+								"DefaultColorId": "None",
+								"ColorCode": "",
+								"OverrideCostumeId": "None"
+							}
+						},
+						"CreateScriptInfos": [],
+						"ArrivedScriptInfos": [
+							{
+								"ScriptId": "Trial_Start_Guest",
+								"ScriptTargetRoleId": "Trial_Guest"
+							},
+							{
+								"ScriptId": "AddStat_NotPlayerCharacter_All_50_Trial",
+								"ScriptTargetRoleId": "Trial_Guest"
+							},
+							{
+								"ScriptId": "Remove_SchoolBag",
+								"ScriptTargetRoleId": "Trial_Guest"
+							}
+						],
+						"StartScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_AddWhitelist",
+								"ScriptTargetRoleId": "Trial_Guest"
+							}
+						],
+						"CancelScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Guest"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Guest"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Guest"
+							}
+						],
+						"FinishScriptInfos": [
+							{
+								"ScriptId": "TipsyZois_DUI_TrialEndCleanup",
+								"ScriptTargetRoleId": "Trial_Guest"
+							},
+							{
+								"ScriptId": "RemoveBuff_Ignore_Door_Permission",
+								"ScriptTargetRoleId": "Trial_Guest"
+							},
+							{
+								"ScriptId": "TipsyZois_DUI_RemoveWhitelist",
+								"ScriptTargetRoleId": "Trial_Guest"
+							}
+						]
+					}
+				],
+				"SpawnObjectInfos": [],
+				"IsFixedOverrideTimeline": true,
+				"bAutoGrantDoorPrivilege": true,
+				"bHideUI": true,
+				"IsRepeatable": false,
+				"RepeatReminderMessageId": "None",
+				"RepeatDisbandMessageId": "None",
+				"SocialEventType": "Normal",
+				"AutoScenarioPlayMinute": 5,
+				"PresetObjectCategory": "None",
+				"FailConditionId": "None",
+				"GuideMainTextId": "mod_Buff_TipsyZois_DUI_Trial_GuideMainTextId",
+				"GuideSubTextId": "mod_Buff_TipsyZois_DUI_Trial_GuideSubTextId",
+				"ActionInfos": [
+					{
+						"ActionId": "ActionId1",
+						"VisibleConditions": [],
+						"InteractionBagId": "TipsyZois_DUI_Step01_Trial_User_AutoFind_Object_Chair",
+						"InteractionTargetInfo":
+						{
+							"TargetType": "Object",
+							"TargetId": "Chair02_v02_Trial_User",
+							"TargetTag": "None"
+						},
+						"bCanPlayAll": true,
+						"EvnetTargetInfo":
+						{
+							"RoleId": "Trial_User",
+							"TargetType": "Role",
+							"TargetRoleOption": "Any",
+							"ActionPlayCount": 1,
+							"FinishOption": "OneFinish"
+						},
+						"ActionDelayMinute": 2
+					},
+					{
+						"ActionId": "ActionId2",
+						"VisibleConditions": [],
+						"InteractionBagId": "TipsyZois_DUI_Step01_Trial_Host02_AutoFind_Object_Chair",
+						"InteractionTargetInfo":
+						{
+							"TargetType": "Object",
+							"TargetId": "Chair02_v02_Trial_Host02",
+							"TargetTag": "None"
+						},
+						"bCanPlayAll": true,
+						"EvnetTargetInfo":
+						{
+							"RoleId": "Trial_Host02",
+							"TargetType": "Role",
+							"TargetRoleOption": "Any",
+							"ActionPlayCount": 1,
+							"FinishOption": "OneFinish"
+						},
+						"ActionDelayMinute": 2
+					},
+					{
+						"ActionId": "ActionId3",
+						"VisibleConditions": [],
+						"InteractionBagId": "TipsyZois_DUI_Step02_Trial_Host02_AutoFind_Object_Chair",
+						"InteractionTargetInfo":
+						{
+							"TargetType": "Object",
+							"TargetId": "Chair02_v02_Trial_Host02",
+							"TargetTag": "None"
+						},
+						"bCanPlayAll": true,
+						"EvnetTargetInfo":
+						{
+							"RoleId": "Trial_Host02",
+							"TargetType": "Role",
+							"TargetRoleOption": "Any",
+							"ActionPlayCount": 1,
+							"FinishOption": "OneFinish"
+						},
+						"ActionDelayMinute": 2
+					},
+					{
+						"ActionId": "ActionId4",
+						"VisibleConditions": [],
+						"InteractionBagId": "TipsyZois_DUI_Step03_Trial_Host02_AutoFind_Object_Chair",
+						"InteractionTargetInfo":
+						{
+							"TargetType": "Object",
+							"TargetId": "Chair02_v02_Trial_Host02",
+							"TargetTag": "None"
+						},
+						"bCanPlayAll": true,
+						"EvnetTargetInfo":
+						{
+							"RoleId": "Trial_Host02",
+							"TargetType": "Role",
+							"TargetRoleOption": "Any",
+							"ActionPlayCount": 1,
+							"FinishOption": "OneFinish"
+						},
+						"ActionDelayMinute": 2
+					},
+					{
+						"ActionId": "ActionId5",
+						"VisibleConditions": [],
+						"InteractionBagId": "TipsyZois_DUI_Step04_Trial_Host02_AutoFind_Object_Chair",
+						"InteractionTargetInfo":
+						{
+							"TargetType": "Object",
+							"TargetId": "Chair02_v02_Trial_Host02",
+							"TargetTag": "None"
+						},
+						"bCanPlayAll": true,
+						"EvnetTargetInfo":
+						{
+							"RoleId": "Trial_Host02",
+							"TargetType": "Role",
+							"TargetRoleOption": "Any",
+							"ActionPlayCount": 1,
+							"FinishOption": "OneFinish"
+						},
+						"ActionDelayMinute": 2
+					},
+					{
+						"ActionId": "ActionId6",
+						"VisibleConditions": [],
+						"InteractionBagId": "TipsyZois_DUI_Step05_Trial_Host01_AutoFind_Object_Chair",
+						"InteractionTargetInfo":
+						{
+							"TargetType": "Object",
+							"TargetId": "Chair04_v04_Trial_Host01",
+							"TargetTag": "None"
+						},
+						"bCanPlayAll": true,
+						"EvnetTargetInfo":
+						{
+							"RoleId": "Trial_Host01",
+							"TargetType": "Role",
+							"TargetRoleOption": "Any",
+							"ActionPlayCount": 1,
+							"FinishOption": "OneFinish"
+						},
+						"ActionDelayMinute": 2
+					}
+				],
+				"RecommendSiteInfos": [
+					{
+						"MapName": "Gangnam_Map",
+						"SiteIds": [
+							"Gangnam_Court1"
+						],
+						"SitePresetId": "None"
+					},
+					{
+						"MapName": "RedCity_Map",
+						"SiteIds": [
+							"RedCity_Court2"
+						],
+						"SitePresetId": "None"
+					},
+					{
+						"MapName": "Cahaya_Map",
+						"SiteIds": [
+							"Cahaya_Business_PoliceStation1"
+						],
+						"SitePresetId": "None"
+					}
+				],
+				"ArrivedRoomPurposeId": "None",
+				"Moods": [],
+				"bGhostAvailable": false,
+				"DisableAutonomyDuringScenario": true,
+				"UIVisibleInfo":
+				{
+					"HideEventUI": false,
+					"VisibleScenarioPlayButton": false,
+					"VisibleScenarioResetButton": false,
+					"VisibleActionPlayButton": false,
+					"VisibleEventStopButton": false
+				},
+				"LoadingScreenUIType": "None"
+			},
+			"Enabled": true
+		}
+	]
+}

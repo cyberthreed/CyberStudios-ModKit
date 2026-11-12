@@ -1,0 +1,162 @@
+{
+	"Struct": "HowlingEffect",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "HowlingEffect",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step05_Trial_Host01_ChoiceCard",
+				"Comment": "",
+				"Cooltime": 0,
+				"Effects": [
+					{
+						"WeightInfo":
+						{
+							"BaseWeight": 1,
+							"ModifierSettings": []
+						},
+						"InteractionEffect":
+						{
+							"InteractionBagList": []
+						},
+						"ScriptEffect":
+						{
+							"StartScriptId": "TipsyZois_DUI_Script_Step05_Trial_Host01_ChoiceCard",
+							"TargetBaseObject": "Target"
+						}
+					}
+				],
+				"bOnlyForGhost": false,
+				"PlayReasonOverride": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "HowlingEffect",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step01_Trial_Host02_ChoiceCard",
+				"Comment": "",
+				"Cooltime": 0,
+				"Effects": [
+					{
+						"WeightInfo":
+						{
+							"BaseWeight": 1,
+							"ModifierSettings": []
+						},
+						"InteractionEffect":
+						{
+							"InteractionBagList": []
+						},
+						"ScriptEffect":
+						{
+							"StartScriptId": "TipsyZois_DUI_Script_Step01_Trial_Host02_ChoiceCard",
+							"TargetBaseObject": "Target"
+						}
+					}
+				],
+				"bOnlyForGhost": false,
+				"PlayReasonOverride": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "HowlingEffect",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step02_Trial_Host02_ChoiceCard",
+				"Comment": "",
+				"Cooltime": 0,
+				"Effects": [
+					{
+						"WeightInfo":
+						{
+							"BaseWeight": 1,
+							"ModifierSettings": []
+						},
+						"InteractionEffect":
+						{
+							"InteractionBagList": []
+						},
+						"ScriptEffect":
+						{
+							"StartScriptId": "TipsyZois_DUI_Script_Step02_Trial_Host02_ChoiceCard",
+							"TargetBaseObject": "Target"
+						}
+					}
+				],
+				"bOnlyForGhost": false,
+				"PlayReasonOverride": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "HowlingEffect",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step03_Trial_Host02_ChoiceCard",
+				"Comment": "",
+				"Cooltime": 0,
+				"Effects": [
+					{
+						"WeightInfo":
+						{
+							"BaseWeight": 1,
+							"ModifierSettings": []
+						},
+						"InteractionEffect":
+						{
+							"InteractionBagList": []
+						},
+						"ScriptEffect":
+						{
+							"StartScriptId": "TipsyZois_DUI_Script_Step03_Trial_Host02_ChoiceCard",
+							"TargetBaseObject": "Target"
+						}
+					}
+				],
+				"bOnlyForGhost": false,
+				"PlayReasonOverride": "None"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "HowlingEffect",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step04_Trial_Host02_ChoiceCard",
+				"Comment": "",
+				"Cooltime": 0,
+				"Effects": [
+					{
+						"WeightInfo":
+						{
+							"BaseWeight": 1,
+							"ModifierSettings": []
+						},
+						"InteractionEffect":
+						{
+							"InteractionBagList": []
+						},
+						"ScriptEffect":
+						{
+							"StartScriptId": "TipsyZois_DUI_Script_Step04_Trial_Host02_ChoiceCard",
+							"TargetBaseObject": "Target"
+						}
+					}
+				],
+				"bOnlyForGhost": false,
+				"PlayReasonOverride": "None"
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,448 @@
+{
+	"Struct": "Script",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Script_SiteEvent",
+			"Value":
+			{
+				"Id": "Reset_Crime_TipsyZois_DUI",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "ResetCrimeScore",
+								"S1": "TipsyZois_DUI",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "TipsyZois_DUI_CriminalBehavior",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "Pay_Find_TrafficAccident",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_DUICrashPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_DUICustody",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_DUI_VerdictOpened",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_SiteEvent",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_TrialEndCleanup",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_User",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Host01",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Host02",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Host03",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Host04",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Police",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Guest",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Lawyer",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Lawyer_Level_01",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Lawyer_Level_02",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Lawyer_Level_03",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Guilty_Point",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "NotGuilty_Point",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Quest_Group1",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Quest_Group2",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_Quest_Group3",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_RD",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Trial_C",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "DontTalkToMe",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveHowling",
+								"S1": "Howling_Police_Search_Crime_NotChoiceCard",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveHowling",
+								"S1": "Howling_Host03_Search_User_Talk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "TrialEvent_NotGuilty_Ending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "TrialEvent_Guilty_Ending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "TrialEvent_Guilty01_Ending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "TrialEvent_Guilty02_Ending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "TrialEvent_Guilty03_Ending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveQuest",
+								"S1": "Trial_Quest_Lawer",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveQuest",
+								"S1": "Trial_Quest_Group1",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveQuest",
+								"S1": "Trial_Quest_Group2",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveQuest",
+								"S1": "Trial_Quest_Group3",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveQuest",
+								"S1": "Trial_Quest_Group4",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveQuest",
+								"S1": "Trial_Quest_Group5",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveQuest",
+								"S1": "Trial_Quest_Group6",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_SiteEvent",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_AddWhitelist",
+				"Comment": "Private DUI hearing interaction whitelist; preserves native trial flow.",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_DUI_Whitelist_Trial",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_SiteEvent",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_RemoveWhitelist",
+				"Comment": "Private DUI hearing interaction whitelist; preserves native trial flow.",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_DUI_Whitelist_Trial",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

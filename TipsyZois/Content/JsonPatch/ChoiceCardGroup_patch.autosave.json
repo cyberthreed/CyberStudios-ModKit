@@ -1,0 +1,277 @@
+{
+	"Struct": "ChoiceCardGroup",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Start_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Start",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Self",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_NotGuilty_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step05_NotGuilty",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty01_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty01",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty02_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty02",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step02_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step02",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step03_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step03",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step04_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step04",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi_GoodRedirect_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi_GoodRedirect",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi_BadRedirect_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi_BadRedirect",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step02_GoodRedirect_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step02_GoodRedirect",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step02_BadRedirect_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step02_BadRedirect",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step03_GoodRedirect_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step03_GoodRedirect",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCardGroup",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step03_BadRedirect_ChoiceCard",
+				"Comment": "",
+				"ChoiceCards": [
+					{
+						"ChoiceCardId": "ChoiceCard_Trial_TipsyZois_DUI_Step03_BadRedirect",
+						"Ratio": 1
+					}
+				],
+				"Sender": "Target",
+				"Receiver": "Self"
+			},
+			"Enabled": true
+		}
+	]
+}

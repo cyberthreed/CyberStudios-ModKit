@@ -1,0 +1,108 @@
+{
+	"Struct": "InteractionBag",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "InteractionBag_Sleepwalking",
+			"Value":
+			{
+				"Id": "TipsyZois_IB_BlackoutWalk",
+				"Comment": "",
+				"InteractionRewards": [
+					{
+						"StatId": "None",
+						"Reward": 0,
+						"Tier": "Invalid"
+					}
+				],
+				"PreferenceRewards": [],
+				"InteractionBagTags": [
+					"TipsyZois_BlackoutSleepwalking"
+				],
+				"AddOnAnimId": "Default",
+				"TPOTags": [],
+				"CustomTPOPlanTag": "None",
+				"AutonomyGroupTag": "None",
+				"GroupID": "None",
+				"PostureGroupId": "StandGroup",
+				"InteractionBagCategory": "None",
+				"StrongEmotionFilters": [],
+				"EnqueueConditionIds": [],
+				"InteractionVisibleConditionIds": [],
+				"InteractionEnableConditionIds": [],
+				"AutonomyTimeRanges": [],
+				"AgingConditionFlags": 508,
+				"AutonomyAgingConditionFlags": 0,
+				"ZoiGroupFlags": 0,
+				"ZoiGroupRotationCoopId": "None",
+				"bAddSameInteractionToGroupMember": false,
+				"CompetitionRuleId": "None",
+				"RepeatCount": 1,
+				"InteractionSequence": [
+					{
+						"Id": "None",
+						"Probability": 1,
+						"bSequencial": false,
+						"EnableConditionId": "None",
+						"SequenceStartInfos": [],
+						"MainInteractionId": "None",
+						"InteractionInfos": [
+							{
+								"InteractionId": "TipsyZois_Self_BlackoutWalk",
+								"Label": "A",
+								"SuccessNextLabel": "A",
+								"FailNextLabel": "None",
+								"bIsOptional": false
+							}
+						],
+						"CoopId": "None",
+						"bIsTalk": false,
+						"NextInteractionBagId": "None"
+					}
+				],
+				"DisplayInfo":
+				{
+					"DisplayCategoryTextId": "InteractionBag_DisplayInfo_AutoFind_Sleepwalking_Walkaround_DisplayCategoryTextId",
+					"DisplayTextId": "InteractionBag_DisplayInfo_AutoFind_Sleepwalking_Walkaround_DisplayTextId",
+					"OverrideQueueTextId": "",
+					"Icon": "/Script/Engine.Texture2D'/Game/UI/Icon/Object/Action_SleepWalk01.Action_SleepWalk01'",
+					"InteractionQueueIcon": "None",
+					"PanelIcon": "None",
+					"PanelIconId": "None",
+					"PanelIconColorId": "None",
+					"LeftMarkerId": "None",
+					"PanelIconWithBG":
+					{
+						"IconId": "None",
+						"BGColor1Id": "None",
+						"BGColor2Id": "None"
+					},
+					"bHideUI": true
+				},
+				"bRejectable": false,
+				"bUniqueInQueue": false,
+				"bForFixedDesk": false,
+				"bNonCancelable": true,
+				"SelectedScriptId": "None",
+				"StartScriptIds": [],
+				"FinishScriptIds": [],
+				"StartHowlingInfos": [],
+				"ConsumeCurrencyId": "None",
+				"ConsumeCurrencyValue": 0,
+				"bIgnoreConsumeCurrencyCheck": false,
+				"bGhostAvailable": false,
+				"AutonomyCooltimeMin": 0,
+				"bAlwaysExposeToSLM": false,
+				"AutonomySLMCooltimeMin": 0,
+				"ActionsPerformedInThePastHourText": "None",
+				"ActionHintText": "None",
+				"CurrentStateHintText": "None",
+				"ActionHintTextForSLM": "Sleepwalking around aimlessly",
+				"ActionHintTextList": "None"
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"Struct": "InteractionBagWhitelistBuff",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "InteractionBagWhitelistBuff",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoningWhitelist",
+				"Comment": "",
+				"BuffTag": "WBuffTag_TipsyZoisAlcoholPoisoning",
+				"InteractionBagIds": [
+					"TipsyZois_CureAlcoholPoisoning"
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "InteractionBagWhitelistBuff",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Whitelist_Trial",
+				"Comment": "Private DUI hearing interaction whitelist; preserves native trial flow.",
+				"BuffTag": "WBuffTag_TipsyZois_DUI_Trial",
+				"InteractionBagIds": [
+					"Arrived_Trial_User_SitChair02_ChangePosture",
+					"Arrived_Trial_Host01_SitChair02_ChangePosture",
+					"Arrived_Trial_Host02_SitChair02_ChangePosture",
+					"Arrived_Trial_Host03_SitChair02_ChangePosture",
+					"Arrived_Trial_Host04_SitChair02_ChangePosture",
+					"Arrived_Trial_Police_Object_SitChairWithoutTable_PostureSit",
+					"Arrived_Trial_Guest_Object_SitChairWithoutTable_PostureSit",
+					"Step01_Trial_User_AutoFind_Object_Chair",
+					"Step01_Trial_Host02_AutoFind_Object_Chair",
+					"Step02_Trial_Host02_AutoFind_Object_Chair",
+					"Step03_Trial_Host02_AutoFind_Object_Chair",
+					"Step04_Trial_Host02_AutoFind_Object_Chair",
+					"Step05_Trial_Host01_AutoFind_Object_Chair",
+					"Co_Police_Catch_Criminal_NotChoiceCard",
+					"Co_Police_Catch_Criminal_NotChoiceCard_FeedBack",
+					"Next_Self_GotoPrison",
+					"Co_Host03_Search_User",
+					"Host03_Search_User_FeedBack",
+					"Next_Self_Trial_Happy",
+					"Self_Trial_Host01_Verdict_Reaction",
+					"Self_Trial_Host02_Reaction_Angry",
+					"Self_Trial_Host02_Reaction_Cheer",
+					"Self_Trial_Host03_Reaction_Cry",
+					"TeleportToSocialEvent",
+					"TeleportToFreelanceOrder",
+					"SocialEvent_GetOut_Prison",
+					"Self_GoHome",
+					"Self_GoHome_NonCancelable",
+					"Self_GetOut_Prison",
+					"WalkToScheduleSite",
+					"TipsyZois_DUI_Step01_Trial_User_AutoFind_Object_Chair",
+					"TipsyZois_DUI_Step01_Trial_Host02_AutoFind_Object_Chair",
+					"TipsyZois_DUI_Step02_Trial_Host02_AutoFind_Object_Chair",
+					"TipsyZois_DUI_Step03_Trial_Host02_AutoFind_Object_Chair",
+					"TipsyZois_DUI_Step04_Trial_Host02_AutoFind_Object_Chair",
+					"TipsyZois_DUI_Step05_Trial_Host01_AutoFind_Object_Chair"
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

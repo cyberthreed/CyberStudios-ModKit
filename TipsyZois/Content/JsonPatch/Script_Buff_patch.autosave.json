@@ -1,0 +1,523 @@
+{
+	"Struct": "Script",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_ApplyHangover",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_UpgradeInProgress",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Hangover_Standard",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_ApplyLongHangover",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_UpgradeInProgress",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_HangoverLong",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_StartSleepwalking",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoningPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_StopSleepwalking",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "EndSleepwalking",
+								"S1": "None",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveStat",
+								"S1": "Sleepwalking",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveHowling",
+								"S1": "Sleepwalking_Reaction",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_BlackoutDrowsiness",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_CancelSleepwalking",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoningPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_DUICrashCheck",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "PopupMessage",
+								"S1": "TipsyZois_DUICrashPopup",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_ApplyAlcoholCraving",
+				"Comment": "",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Trait",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_Alcoholic",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_UpgradeInProgress",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_Alcoholic_Craving",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoning_Begin",
+				"Comment": "Start a new poisoning episode; clear obsolete treatment protection and replace intoxication without an upgrade hangover.",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoning_DeathPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoningPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveEntityTag",
+								"S1": "TipsyZois_AlcoholPoisoning_Treated",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveLifeTrigger",
+								"S1": "TipsyZois_AlcoholPoisoning_Death",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_UpgradeInProgress",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_FeelingGood",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Tipsy",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Drunk",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Wasted_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_Blackout_Stage",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_SleepwalkingWindow",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_SleepwalkingPose",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_BlackoutDrowsiness",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoningCured",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoning_Expire",
+				"Comment": "Natural expiration marks an untreated death pending. Lua starts the existing native life trigger only after the poisoning buff and its whitelist are gone.",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "HasEntityTag",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoning_Treated",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_AlcoholPoisoning_DeathPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Script_Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_ResolveBlackoutPoisoning",
+				"Comment": "Resolve an extra drink only when the full Blackout stage finishes; upgrades/cancellations clear the pending marker.",
+				"Scripts": [
+					{
+						"IfType": "If",
+						"Conditions": [
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "Equal",
+								"UseHand": "Default",
+								"S1": "TipsyZois_AlcoholPoisoningPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "Buff",
+								"CompareType": "NotEqual",
+								"UseHand": "Default",
+								"S1": "TipsyZois_UpgradeInProgress",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0
+							}
+						],
+						"Executes": [
+							{
+								"BaseObject": "Self",
+								"Command": "RemoveBuff",
+								"S1": "TipsyZois_AlcoholPoisoningPending",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							},
+							{
+								"BaseObject": "Self",
+								"Command": "AddBuff",
+								"S1": "TipsyZois_AlcoholPoisoning_Active",
+								"S2": "None",
+								"F1": 0,
+								"F2": 0,
+								"Prob": 1
+							}
+						]
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

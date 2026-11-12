@@ -1,0 +1,885 @@
+{
+	"Struct": "ChoiceCard",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Start",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Start_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Start_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Start_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Start_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Start_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Start_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "2",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Start_PositiveChoiceCardAnswers_2_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Start_PositiveChoiceCardAnswers_2_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Start_PositiveChoiceCardAnswers_2_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Start_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Start_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Start_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Start_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "2",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Start_NegativeChoiceCardAnswers_2_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Start_NegativeChoiceCardAnswers_2_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Start_NegativeChoiceCardAnswers_2_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_NotGuilty",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Positive_1",
+							"Finish_SpeechBubble_NotGuilty_AB"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_NotGuilty_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Positive_1",
+							"Finish_SpeechBubble_NotGuilty_AB"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Positive_2",
+							"Finish_SpeechBubble_Guilty_AB",
+							"Message_Call_By_Court_TipsyZois_DUI"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Positive_2",
+							"Finish_SpeechBubble_Guilty_AB",
+							"Message_Call_By_Court_TipsyZois_DUI"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty01",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"TipsyZois_DUI_Finish_ChoiceCard_Trial_Negative_1",
+							"Finish_SpeechBubble_Guilty01_A",
+							"Message_Call_By_Court_TipsyZois_DUI01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty01_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"TipsyZois_DUI_Finish_ChoiceCard_Trial_Negative_1",
+							"Finish_SpeechBubble_Guilty03_B",
+							"Message_Call_By_Court_TipsyZois_DUI01",
+							"Message_Call_By_Court_ContemptOfCourt_Common"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step05_Guilty02",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"TipsyZois_DUI_Finish_ChoiceCard_Trial_Negative_2",
+							"Finish_SpeechBubble_Guilty02_A",
+							"Message_Call_By_Court_TipsyZois_DUI02"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step05_Guilty02_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"TipsyZois_DUI_Finish_ChoiceCard_Trial_Negative_2",
+							"Finish_SpeechBubble_Guilty03_B",
+							"Message_Call_By_Court_TipsyZois_DUI02",
+							"Message_Call_By_Court_ContemptOfCourt_Common"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "Quest_Alibi_Success",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_PositiveAnswer01",
+							"TipsyZois_DUI_Finish_ChoiceCard_Trial_Step01_Alibi_AddChoiceCard"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "2",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_2_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_2_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_2_AnswerStrId",
+						"ConditionId": "Condition_Lawyer_Level_01_OR_Lawyer_Level_02",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_PositiveAnswer02"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "3",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_3_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_3_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_3_AnswerStrId",
+						"ConditionId": "Condition_Lawyer_Level_03",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_PositiveAnswer03"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "4",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_4_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_4_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_PositiveChoiceCardAnswers_4_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_PositiveAnswer04"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step02",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step02_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "Quest_Step02_Success",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_NegativeAnswer01",
+							"TipsyZois_DUI_Finish_ChoiceCard_Trial_Step02_Alibi_AddChoiceCard"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "2",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_2_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_2_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_2_AnswerStrId",
+						"ConditionId": "Condition_Lawyer_Level_01_OR_Lawyer_Level_02_Step02",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_NegativeAnswer02"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "3",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_3_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_3_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_3_AnswerStrId",
+						"ConditionId": "Condition_Lawyer_Level_03_Step02",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_NegativeAnswer03"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "4",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_4_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_4_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_NegativeChoiceCardAnswers_4_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_NegativeAnswer04"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step03",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step03_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "Quest_Step03_Success",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_PositiveAnswer01",
+							"TipsyZois_DUI_Finish_ChoiceCard_Trial_Step03_Alibi_AddChoiceCard"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "2",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_2_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_2_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_2_AnswerStrId",
+						"ConditionId": "Condition_Lawyer_Level_01_OR_Lawyer_Level_02_Step03",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_PositiveAnswer02"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "3",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_3_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_3_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_3_AnswerStrId",
+						"ConditionId": "Condition_Lawyer_Level_03_Step03",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_PositiveAnswer03"
+						],
+						"Ratio": 10000,
+						"ColorId": "Emotion_Excited1"
+					},
+					{
+						"ListKey": "4",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_4_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_4_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_PositiveChoiceCardAnswers_4_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_PositiveAnswer04"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step03_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step04",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step04_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step04_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step04_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step04_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step04_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step04_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step04_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step04_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step04_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step04_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step04_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step04_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi_GoodRedirect",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_GoodRedirect_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_GoodRedirect_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_GoodRedirect_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step01_Alibi_BadRedirect",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_BadRedirect_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step01_Alibi_BadRedirect_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step01_Alibi_BadRedirect_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step02_GoodRedirect",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_GoodRedirect_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_GoodRedirect_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_GoodRedirect_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step02_BadRedirect",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_BadRedirect_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step02_BadRedirect_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step02_BadRedirect_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step03_GoodRedirect",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_GoodRedirect_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_GoodRedirect_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_GoodRedirect_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "ChoiceCard",
+			"Value":
+			{
+				"Id": "ChoiceCard_Trial_TipsyZois_DUI_Step03_BadRedirect",
+				"Comment": "",
+				"ChoiceCardType": "Common",
+				"DefaultSelect": "Random",
+				"ConditionId": "None",
+				"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_TitleStrId",
+				"MessageStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_MessageStrId",
+				"ColorId": "Emotion_Normal1",
+				"AudioId": "ChoiceCard_Open",
+				"PositiveAnswerConditionId": "None",
+				"PositiveAnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_PositiveAnswerStrId",
+				"PositiveChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_PositiveChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_PositiveChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_PositiveChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_BadRedirect_PositiveAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				],
+				"NegativeAnswerConditionId": "None",
+				"NegativeTitleStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_NegativeTitleStrId",
+				"NegativeChoiceCardAnswers": [
+					{
+						"ListKey": "1",
+						"TitleStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_NegativeChoiceCardAnswers_1_TitleStrId",
+						"ResultStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_NegativeChoiceCardAnswers_1_ResultStrId",
+						"AnswerStrId": "mod_Buff_TipsyZois_DUI_Step03_BadRedirect_NegativeChoiceCardAnswers_1_AnswerStrId",
+						"ConditionId": "None",
+						"FinishScriptIds": [
+							"Finish_ChoiceCard_Trial_Step03_BadRedirect_NegativeAnswer01"
+						],
+						"Ratio": 1,
+						"ColorId": "Emotion_Excited1"
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,687 @@
+{
+	"meta":
+	{
+		"schema": "DataAssetPatch",
+		"scriptPath": "/Script/BlueUtils.B1CaptureDataAsset",
+		"typeId": "DA_Capture"
+	},
+	"PatchList": [
+		{
+			"Method": "Override",
+			"Query": "DA_Capture.femaleEmotionPoseAnims.Adult",
+			"Value":
+			{
+				"animInfoList": [
+					{
+						"emotionId": "Sleep",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Asleep.ANIM_F_Face_Portrait_Asleep",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_IdleBase.ANIM_F_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "Normal",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Normal.ANIM_F_Face_Normal",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_IdleBase.ANIM_F_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "Preoccupied",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Preoccupied.ANIM_F_Face_Portrait_Preoccupied",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Preoccupied.ANIM_F_Portrait_Preoccupied"
+					},
+					{
+						"emotionId": "Preoccupied",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Immersed.ANIM_F_Face_Portrait_Immersed",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Immersed.ANIM_F_Portrait_Immersed"
+					},
+					{
+						"emotionId": "Curious",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Curious.ANIM_F_Face_Portrait_Curious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Curious.ANIM_F_Portrait_Curious"
+					},
+					{
+						"emotionId": "Curious",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Eureka.ANIM_F_Face_Portrait_Eureka",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Eureka.ANIM_F_Portrait_Eureka"
+					},
+					{
+						"emotionId": "Convinced",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Convinced.ANIM_F_Face_Portrait_Convinced",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Convinced.ANIM_F_Portrait_Convinced"
+					},
+					{
+						"emotionId": "Convinced",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Confident.ANIM_F_Face_Portrait_Confident",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Confident.ANIM_F_Portrait_Confident"
+					},
+					{
+						"emotionId": "Excited",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Excited.ANIM_F_Face_Portrait_Excited",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Excited.ANIM_F_Portrait_Excited"
+					},
+					{
+						"emotionId": "Excited",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Thrilled.ANIM_F_Face_Portrait_Thrilled",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Thrilled.ANIM_F_Portrait_Thrilled"
+					},
+					{
+						"emotionId": "Excited",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Enthusiastic.ANIM_F_Face_Portrait_Enthusiastic",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Enthusiastic.ANIM_F_Portrait_Enthusiastic"
+					},
+					{
+						"emotionId": "Enchanting",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Enchanting.ANIM_F_Face_Portrait_Enchanting",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Enchanting.ANIM_F_Portrait_Enchanting"
+					},
+					{
+						"emotionId": "Enchanting",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Sensual.ANIM_F_Face_Portrait_Sensual",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Sensual.ANIM_F_Portrait_Sensual"
+					},
+					{
+						"emotionId": "Funny",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Funny.ANIM_F_Face_Portrait_Funny",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Funny.ANIM_F_Portrait_Funny"
+					},
+					{
+						"emotionId": "Funny",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Giggling.ANIM_F_Face_Portrait_Giggling",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Giggling.ANIM_F_Portrait_Giggling"
+					},
+					{
+						"emotionId": "Funny",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Laughing.ANIM_F_Face_Portrait_Laughing",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Laughing.ANIM_F_Portrait_Laughing"
+					},
+					{
+						"emotionId": "Calm",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Calm.ANIM_F_Face_Portrait_Calm",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Calm.ANIM_F_Portrait_Calm"
+					},
+					{
+						"emotionId": "Calm",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Joyful.ANIM_F_Face_Portrait_Joyful",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Joyful.ANIM_F_Portrait_Joyful"
+					},
+					{
+						"emotionId": "Calm",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "None",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Delighted.ANIM_F_Portrait_Delighted"
+					},
+					{
+						"emotionId": "Touched",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Touched.ANIM_F_Face_Portrait_Touched",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Touched.ANIM_F_Portrait_Touched"
+					},
+					{
+						"emotionId": "Touched",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Deeplymoved.ANIM_F_Face_Portrait_Deeplymoved",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Deeplymoved.ANIM_F_Portrait_Deeplymoved"
+					},
+					{
+						"emotionId": "Bored",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Bored.ANIM_F_Face_Portrait_Bored",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Bored.ANIM_F_Portrait_Bored"
+					},
+					{
+						"emotionId": "Tired",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Tired.ANIM_F_Face_Portrait_Tired",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Tired.ANIM_F_Portrait_Tired"
+					},
+					{
+						"emotionId": "Sad",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Sad.ANIM_F_Face_Portrait_Sad",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Sad.ANIM_F_Portrait_Sad"
+					},
+					{
+						"emotionId": "Sad",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Depressed.ANIM_F_Face_Portrait_Depressed",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Depressed.ANIM_F_Portrait_Depressed"
+					},
+					{
+						"emotionId": "Sad",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Heartbroken.ANIM_F_Face_Portrait_Heartbroken",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Heartbroken.ANIM_F_Portrait_Heartbroken"
+					},
+					{
+						"emotionId": "Uncomfortable",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Uncomfortable.ANIM_F_Face_Portrait_Uncomfortable",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Uncomfortable.ANIM_F_Portrait_Uncomfortable"
+					},
+					{
+						"emotionId": "Uncomfortable",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Disgusted.ANIM_F_Face_Portrait_Disgusted",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Disgusted.ANIM_F_Portrait_Disgusted"
+					},
+					{
+						"emotionId": "Uneasy",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Uneasy.ANIM_F_Face_Portrait_Uneasy",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Uneasy.ANIM_F_Portrait_Uneasy"
+					},
+					{
+						"emotionId": "Uneasy",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Nervous.ANIM_F_Face_Portrait_Nervous",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Nervous.ANIM_F_Portrait_Nervous"
+					},
+					{
+						"emotionId": "Uneasy",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Breakdown.ANIM_F_Face_Portrait_Breakdown",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Breakdown.ANIM_F_Portrait_Breakdown"
+					},
+					{
+						"emotionId": "Cringing",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Cringing.ANIM_F_Face_Portrait_Cringing",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Cringing.ANIM_F_Portrait_Cringing"
+					},
+					{
+						"emotionId": "Cringing",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Embarassed.ANIM_F_Face_Portrait_Embarassed",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Embarassed.ANIM_F_Portrait_Embarassed"
+					},
+					{
+						"emotionId": "Cringing",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Humiliating.ANIM_F_Face_Portrait_Humiliating",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Humiliating.ANIM_F_Portrait_Humiliating"
+					},
+					{
+						"emotionId": "Irritated",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Irritated.ANIM_F_Face_Portrait_Irritated",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Irritated.ANIM_F_Portrait_Irritated"
+					},
+					{
+						"emotionId": "Irritated",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Angry.ANIM_F_Face_Portrait_Angry",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Angry.ANIM_F_Portrait_Angry"
+					},
+					{
+						"emotionId": "Irritated",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Furious.ANIM_F_Face_Portrait_Furious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Furious.ANIM_F_Portrait_Furious"
+					},
+					{
+						"emotionId": "Worried",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Worried.ANIM_F_Face_Portrait_Worried",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Worried.ANIM_F_Portrait_Worried"
+					},
+					{
+						"emotionId": "Worried",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Afraid.ANIM_F_Face_Portrait_Afraid",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Afraid.ANIM_F_Portrait_Afraid"
+					},
+					{
+						"emotionId": "Worried",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Terrified.ANIM_F_Face_Portrait_Terrified",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Terrified.ANIM_F_Portrait_Terrified"
+					},
+					{
+						"emotionId": "Surprised",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Surprised.ANIM_F_Face_Portrait_Surprised",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Surprised.ANIM_F_Portrait_Surprised"
+					},
+					{
+						"emotionId": "Surprised",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Shocked.ANIM_F_Face_Portrait_Shocked",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Shocked.ANIM_F_Portrait_Shocked"
+					},
+					{
+						"emotionId": "TipsyZois_FeelingGood_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Delighted.ANIM_F_Face_Portrait_Delighted",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Delighted.ANIM_F_Portrait_Delighted"
+					},
+					{
+						"emotionId": "TipsyZois_FeelingGood_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Delighted.ANIM_F_Face_Portrait_Delighted",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Happy_Idle_A.ANIM_F_Happy_Idle_A"
+					},
+					{
+						"emotionId": "TipsyZois_Tipsy_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Curious.ANIM_F_Face_Portrait_Curious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Curious.ANIM_F_Portrait_Curious"
+					},
+					{
+						"emotionId": "TipsyZois_Tipsy_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Curious.ANIM_F_Face_Portrait_Curious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Curious.ANIM_F_Portrait_Curious"
+					},
+					{
+						"emotionId": "TipsyZois_Drunk_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Eureka.ANIM_F_Face_Portrait_Eureka",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Eureka.ANIM_F_Portrait_Eureka"
+					},
+					{
+						"emotionId": "TipsyZois_Drunk_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Eureka.ANIM_F_Face_Portrait_Eureka",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Eureka.ANIM_F_Portrait_Eureka"
+					},
+					{
+						"emotionId": "TipsyZois_Wasted_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Shocked.ANIM_F_Face_Portrait_Shocked",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Shocked.ANIM_F_Portrait_Shocked"
+					},
+					{
+						"emotionId": "TipsyZois_Wasted_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Shocked.ANIM_F_Face_Portrait_Shocked",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Shocked.ANIM_F_Portrait_Shocked"
+					},
+					{
+						"emotionId": "TipsyZois_Blackout_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Asleep.ANIM_F_Face_Portrait_Asleep",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_IdleBase.ANIM_F_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "TipsyZois_Blackout_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Asleep.ANIM_F_Face_Portrait_Asleep",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_IdleBase.ANIM_F_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "TipsyZois_Hangover_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Tired.ANIM_F_Face_Portrait_Tired",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Tired.ANIM_F_Portrait_Tired"
+					},
+					{
+						"emotionId": "TipsyZois_Hangover_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Portrait_Tired.ANIM_F_Face_Portrait_Tired",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Body/ANIM_F_Portrait_Tired.ANIM_F_Portrait_Tired"
+					}
+				]
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "DA_Capture.femaleEmotionPoseAnims.Invalid",
+			"Value":
+			{
+				"animInfoList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "DA_Capture.maleEmotionPoseAnims.Adult",
+			"Value":
+			{
+				"animInfoList": [
+					{
+						"emotionId": "Normal",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Female/Emotion/Facial/ANIM_F_Face_Normal.ANIM_F_Face_Normal",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_IdleBase.ANIM_M_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "Sleep",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Asleep.ANIM_M_Face_Portrait_Asleep",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_IdleBase.ANIM_M_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "Preoccupied",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Preoccupied.ANIM_M_Face_Portrait_Preoccupied",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Preoccupied.ANIM_M_Portrait_Preoccupied"
+					},
+					{
+						"emotionId": "Preoccupied",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Immersed.ANIM_M_Face_Portrait_Immersed",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Immersed.ANIM_M_Portrait_Immersed"
+					},
+					{
+						"emotionId": "Curious",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Curious.ANIM_M_Face_Portrait_Curious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Curious.ANIM_M_Portrait_Curious"
+					},
+					{
+						"emotionId": "Curious",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Eureka.ANIM_M_Face_Portrait_Eureka",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Eureka.ANIM_M_Portrait_Eureka"
+					},
+					{
+						"emotionId": "Convinced",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Convinced.ANIM_M_Face_Portrait_Convinced",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Convinced.ANIM_M_Portrait_Convinced"
+					},
+					{
+						"emotionId": "Convinced",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Confident.ANIM_M_Face_Portrait_Confident",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Confident.ANIM_M_Portrait_Confident"
+					},
+					{
+						"emotionId": "Excited",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Excited.ANIM_M_Face_Portrait_Excited",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Excited.ANIM_M_Portrait_Excited"
+					},
+					{
+						"emotionId": "Excited",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Thrilled.ANIM_M_Face_Portrait_Thrilled",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Thrilled.ANIM_M_Portrait_Thrilled"
+					},
+					{
+						"emotionId": "Excited",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Enthusiastic.ANIM_M_Face_Portrait_Enthusiastic",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Enthusiastic.ANIM_M_Portrait_Enthusiastic"
+					},
+					{
+						"emotionId": "Enchanting",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Enchanting.ANIM_M_Face_Portrait_Enchanting",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Enchanting.ANIM_M_Portrait_Enchanting"
+					},
+					{
+						"emotionId": "Enchanting",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Sensual.ANIM_M_Face_Portrait_Sensual",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Sensual.ANIM_M_Portrait_Sensual"
+					},
+					{
+						"emotionId": "Funny",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Funny.ANIM_M_Face_Portrait_Funny",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Funny.ANIM_M_Portrait_Funny"
+					},
+					{
+						"emotionId": "Funny",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Giggling.ANIM_M_Face_Portrait_Giggling",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Giggling.ANIM_M_Portrait_Giggling"
+					},
+					{
+						"emotionId": "Funny",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Laughing.ANIM_M_Face_Portrait_Laughing",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Laughing.ANIM_M_Portrait_Laughing"
+					},
+					{
+						"emotionId": "Calm",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Calm.ANIM_M_Face_Portrait_Calm",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Calm.ANIM_M_Portrait_Calm"
+					},
+					{
+						"emotionId": "Calm",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Joyful.ANIM_M_Face_Portrait_Joyful",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Joyful.ANIM_M_Portrait_Joyful"
+					},
+					{
+						"emotionId": "Calm",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Delighted.ANIM_M_Face_Portrait_Delighted",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Delighted.ANIM_M_Portrait_Delighted"
+					},
+					{
+						"emotionId": "Touched",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Touched.ANIM_M_Face_Portrait_Touched",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Touched.ANIM_M_Portrait_Touched"
+					},
+					{
+						"emotionId": "Touched",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Deeplymoved.ANIM_M_Face_Portrait_Deeplymoved",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Deeplymoved.ANIM_M_Portrait_Deeplymoved"
+					},
+					{
+						"emotionId": "Bored",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Bored.ANIM_M_Face_Portrait_Bored",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Bored.ANIM_M_Portrait_Bored"
+					},
+					{
+						"emotionId": "Tired",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Tired.ANIM_M_Face_Portrait_Tired",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Tired.ANIM_M_Portrait_Tired"
+					},
+					{
+						"emotionId": "Sad",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Sad.ANIM_M_Face_Portrait_Sad",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Sad.ANIM_M_Portrait_Sad"
+					},
+					{
+						"emotionId": "Sad",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Depressed.ANIM_M_Face_Portrait_Depressed",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Depressed.ANIM_M_Portrait_Depressed"
+					},
+					{
+						"emotionId": "Sad",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Heartbroken.ANIM_M_Face_Portrait_Heartbroken",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Heartbroken.ANIM_M_Portrait_Heartbroken"
+					},
+					{
+						"emotionId": "Uncomfortable",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Uncomfortable.ANIM_M_Face_Portrait_Uncomfortable",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Uncomfortable.ANIM_M_Portrait_Uncomfortable"
+					},
+					{
+						"emotionId": "Uncomfortable",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Disgusted.ANIM_M_Face_Portrait_Disgusted",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Disgusted.ANIM_M_Portrait_Disgusted"
+					},
+					{
+						"emotionId": "Uneasy",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Uneasy.ANIM_M_Face_Portrait_Uneasy",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Uneasy.ANIM_M_Portrait_Uneasy"
+					},
+					{
+						"emotionId": "Uneasy",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Nervous.ANIM_M_Face_Portrait_Nervous",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Nervous.ANIM_M_Portrait_Nervous"
+					},
+					{
+						"emotionId": "Uneasy",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Breakdown.ANIM_M_Face_Portrait_Breakdown",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Breakdown.ANIM_M_Portrait_Breakdown"
+					},
+					{
+						"emotionId": "Cringing",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Cringing.ANIM_M_Face_Portrait_Cringing",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Cringing.ANIM_M_Portrait_Cringing"
+					},
+					{
+						"emotionId": "Cringing",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Embarassed.ANIM_M_Face_Portrait_Embarassed",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Embarassed.ANIM_M_Portrait_Embarassed"
+					},
+					{
+						"emotionId": "Cringing",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Humiliating.ANIM_M_Face_Portrait_Humiliating",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Humiliating.ANIM_M_Portrait_Humiliating"
+					},
+					{
+						"emotionId": "Irritated",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Irritated.ANIM_M_Face_Portrait_Irritated",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Irritated.ANIM_M_Portrait_Irritated"
+					},
+					{
+						"emotionId": "Irritated",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Angry.ANIM_M_Face_Portrait_Angry",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Angry.ANIM_M_Portrait_Angry"
+					},
+					{
+						"emotionId": "Irritated",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Furious.ANIM_M_Face_Portrait_Furious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Furious.ANIM_M_Portrait_Furious"
+					},
+					{
+						"emotionId": "Worried",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Worried.ANIM_M_Face_Portrait_Worried",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Worried.ANIM_M_Portrait_Worried"
+					},
+					{
+						"emotionId": "Worried",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Afraid.ANIM_M_Face_Portrait_Afraid",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Afraid.ANIM_M_Portrait_Afraid"
+					},
+					{
+						"emotionId": "Worried",
+						"emotionLevel": 3,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Terrified.ANIM_M_Face_Portrait_Terrified",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Terrified.ANIM_M_Portrait_Terrified"
+					},
+					{
+						"emotionId": "Surprised",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Surprised.ANIM_M_Face_Portrait_Surprised",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Surprised.ANIM_M_Portrait_Surprised"
+					},
+					{
+						"emotionId": "Surprised",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Shocked.ANIM_M_Face_Portrait_Shocked",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Shocked.ANIM_M_Portrait_Shocked"
+					},
+					{
+						"emotionId": "TipsyZois_FeelingGood_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Delighted.ANIM_M_Face_Portrait_Delighted",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Delighted.ANIM_M_Portrait_Delighted"
+					},
+					{
+						"emotionId": "TipsyZois_FeelingGood_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Delighted.ANIM_M_Face_Portrait_Delighted",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Delighted.ANIM_M_Portrait_Delighted"
+					},
+					{
+						"emotionId": "TipsyZois_Tipsy_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Curious.ANIM_M_Face_Portrait_Curious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Curious.ANIM_M_Portrait_Curious"
+					},
+					{
+						"emotionId": "TipsyZois_Tipsy_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Curious.ANIM_M_Face_Portrait_Curious",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Curious.ANIM_M_Portrait_Curious"
+					},
+					{
+						"emotionId": "TipsyZois_Drunk_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Eureka.ANIM_M_Face_Portrait_Eureka",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Eureka.ANIM_M_Portrait_Eureka"
+					},
+					{
+						"emotionId": "TipsyZois_Drunk_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Eureka.ANIM_M_Face_Portrait_Eureka",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Eureka.ANIM_M_Portrait_Eureka"
+					},
+					{
+						"emotionId": "TipsyZois_Wasted_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Shocked.ANIM_M_Face_Portrait_Shocked",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Shocked.ANIM_M_Portrait_Shocked"
+					},
+					{
+						"emotionId": "TipsyZois_Wasted_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Shocked.ANIM_M_Face_Portrait_Shocked",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Shocked.ANIM_M_Portrait_Shocked"
+					},
+					{
+						"emotionId": "TipsyZois_Blackout_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Asleep.ANIM_M_Face_Portrait_Asleep",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_IdleBase.ANIM_M_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "TipsyZois_Blackout_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Asleep.ANIM_M_Face_Portrait_Asleep",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_IdleBase.ANIM_M_Portrait_IdleBase"
+					},
+					{
+						"emotionId": "TipsyZois_Hangover_Emotion",
+						"emotionLevel": 1,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Tired.ANIM_M_Face_Portrait_Tired",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Tired.ANIM_M_Portrait_Tired"
+					},
+					{
+						"emotionId": "TipsyZois_Hangover_Emotion",
+						"emotionLevel": 2,
+						"emotionFacePoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Facial/ANIM_M_Face_Portrait_Tired.ANIM_M_Face_Portrait_Tired",
+						"emotionBodyPoseAnim": "/Game/Characters/Anims/Interaction/Male/Emotion/Body/ANIM_M_Portrait_Tired.ANIM_M_Portrait_Tired"
+					}
+				]
+			},
+			"Enabled": true
+		}
+	]
+}

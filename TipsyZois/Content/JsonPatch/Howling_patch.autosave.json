@@ -1,0 +1,445 @@
+{
+	"Struct": "Howling",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261011.16078.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Howling",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step05_Trial_Host01",
+				"Comment": "",
+				"bAllowObject": false,
+				"bAllowCharacter": true,
+				"bImmediate": true,
+				"bFilterSameSite": true,
+				"FiltersInfo":
+				{
+					"FilterCircle":
+					{
+						"Radius": 0,
+						"InnerRadius": 0
+					},
+					"FilterFacing":
+					{
+						"Length": 0,
+						"Angle": 0
+					},
+					"FilterCylinder":
+					{
+						"Radius": 0,
+						"InnerRadius": 0,
+						"Height": 0
+					},
+					"FilterBox":
+					{
+						"WidthAndDepth": 0,
+						"Height": 0
+					},
+					"FilterLineTrace":
+					{
+						"Length": 0,
+						"StartOffset":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					"FilterObjectTag":
+					{
+						"ObjectTags": []
+					},
+					"FilterFacingOrigin":
+					{
+						"bRequireFacingOrigin": false
+					},
+					"bUseUnionFilter": false,
+					"Prob": 1,
+					"ConditionId": "Howling_Target_Trial_User"
+				},
+				"EffectsInfo":
+				{
+					"HowlingEffectId": "TipsyZois_DUI_Howling_Step05_Trial_Host01_ChoiceCard"
+				},
+				"FrequencyInfo":
+				{
+					"Type": "OneTime",
+					"bAllowMultiple": false,
+					"CooldownTime": 10,
+					"Duration": 0
+				},
+				"bCheckLineTrace": false,
+				"bCheckSameFloor": true,
+				"TimeBasis": "WorldMinutes"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Howling",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step01_Trial_Host02",
+				"Comment": "",
+				"bAllowObject": false,
+				"bAllowCharacter": true,
+				"bImmediate": true,
+				"bFilterSameSite": true,
+				"FiltersInfo":
+				{
+					"FilterCircle":
+					{
+						"Radius": 0,
+						"InnerRadius": 0
+					},
+					"FilterFacing":
+					{
+						"Length": 0,
+						"Angle": 0
+					},
+					"FilterCylinder":
+					{
+						"Radius": 0,
+						"InnerRadius": 0,
+						"Height": 0
+					},
+					"FilterBox":
+					{
+						"WidthAndDepth": 0,
+						"Height": 0
+					},
+					"FilterLineTrace":
+					{
+						"Length": 0,
+						"StartOffset":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					"FilterObjectTag":
+					{
+						"ObjectTags": []
+					},
+					"FilterFacingOrigin":
+					{
+						"bRequireFacingOrigin": false
+					},
+					"bUseUnionFilter": false,
+					"Prob": 1,
+					"ConditionId": "Howling_Target_Trial_User"
+				},
+				"EffectsInfo":
+				{
+					"HowlingEffectId": "TipsyZois_DUI_Howling_Step01_Trial_Host02_ChoiceCard"
+				},
+				"FrequencyInfo":
+				{
+					"Type": "OneTime",
+					"bAllowMultiple": false,
+					"CooldownTime": 10,
+					"Duration": 0
+				},
+				"bCheckLineTrace": false,
+				"bCheckSameFloor": true,
+				"TimeBasis": "WorldMinutes"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Howling",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step02_Trial_Host02",
+				"Comment": "",
+				"bAllowObject": false,
+				"bAllowCharacter": true,
+				"bImmediate": true,
+				"bFilterSameSite": true,
+				"FiltersInfo":
+				{
+					"FilterCircle":
+					{
+						"Radius": 0,
+						"InnerRadius": 0
+					},
+					"FilterFacing":
+					{
+						"Length": 0,
+						"Angle": 0
+					},
+					"FilterCylinder":
+					{
+						"Radius": 0,
+						"InnerRadius": 0,
+						"Height": 0
+					},
+					"FilterBox":
+					{
+						"WidthAndDepth": 0,
+						"Height": 0
+					},
+					"FilterLineTrace":
+					{
+						"Length": 0,
+						"StartOffset":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					"FilterObjectTag":
+					{
+						"ObjectTags": []
+					},
+					"FilterFacingOrigin":
+					{
+						"bRequireFacingOrigin": false
+					},
+					"bUseUnionFilter": false,
+					"Prob": 1,
+					"ConditionId": "Howling_Target_Trial_User"
+				},
+				"EffectsInfo":
+				{
+					"HowlingEffectId": "TipsyZois_DUI_Howling_Step02_Trial_Host02_ChoiceCard"
+				},
+				"FrequencyInfo":
+				{
+					"Type": "OneTime",
+					"bAllowMultiple": false,
+					"CooldownTime": 10,
+					"Duration": 0
+				},
+				"bCheckLineTrace": false,
+				"bCheckSameFloor": true,
+				"TimeBasis": "WorldMinutes"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Howling",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step03_Trial_Host02",
+				"Comment": "",
+				"bAllowObject": false,
+				"bAllowCharacter": true,
+				"bImmediate": true,
+				"bFilterSameSite": true,
+				"FiltersInfo":
+				{
+					"FilterCircle":
+					{
+						"Radius": 0,
+						"InnerRadius": 0
+					},
+					"FilterFacing":
+					{
+						"Length": 0,
+						"Angle": 0
+					},
+					"FilterCylinder":
+					{
+						"Radius": 0,
+						"InnerRadius": 0,
+						"Height": 0
+					},
+					"FilterBox":
+					{
+						"WidthAndDepth": 0,
+						"Height": 0
+					},
+					"FilterLineTrace":
+					{
+						"Length": 0,
+						"StartOffset":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					"FilterObjectTag":
+					{
+						"ObjectTags": []
+					},
+					"FilterFacingOrigin":
+					{
+						"bRequireFacingOrigin": false
+					},
+					"bUseUnionFilter": false,
+					"Prob": 1,
+					"ConditionId": "Howling_Target_Trial_User"
+				},
+				"EffectsInfo":
+				{
+					"HowlingEffectId": "TipsyZois_DUI_Howling_Step03_Trial_Host02_ChoiceCard"
+				},
+				"FrequencyInfo":
+				{
+					"Type": "OneTime",
+					"bAllowMultiple": false,
+					"CooldownTime": 10,
+					"Duration": 0
+				},
+				"bCheckLineTrace": false,
+				"bCheckSameFloor": true,
+				"TimeBasis": "WorldMinutes"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Howling",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_Howling_Step04_Trial_Host02",
+				"Comment": "",
+				"bAllowObject": false,
+				"bAllowCharacter": true,
+				"bImmediate": true,
+				"bFilterSameSite": true,
+				"FiltersInfo":
+				{
+					"FilterCircle":
+					{
+						"Radius": 0,
+						"InnerRadius": 0
+					},
+					"FilterFacing":
+					{
+						"Length": 0,
+						"Angle": 0
+					},
+					"FilterCylinder":
+					{
+						"Radius": 0,
+						"InnerRadius": 0,
+						"Height": 0
+					},
+					"FilterBox":
+					{
+						"WidthAndDepth": 0,
+						"Height": 0
+					},
+					"FilterLineTrace":
+					{
+						"Length": 0,
+						"StartOffset":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					"FilterObjectTag":
+					{
+						"ObjectTags": []
+					},
+					"FilterFacingOrigin":
+					{
+						"bRequireFacingOrigin": false
+					},
+					"bUseUnionFilter": false,
+					"Prob": 1,
+					"ConditionId": "Howling_Target_Trial_User"
+				},
+				"EffectsInfo":
+				{
+					"HowlingEffectId": "TipsyZois_DUI_Howling_Step04_Trial_Host02_ChoiceCard"
+				},
+				"FrequencyInfo":
+				{
+					"Type": "OneTime",
+					"bAllowMultiple": false,
+					"CooldownTime": 10,
+					"Duration": 0
+				},
+				"bCheckLineTrace": false,
+				"bCheckSameFloor": true,
+				"TimeBasis": "WorldMinutes"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Howling",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_PoliceSearch",
+				"Comment": "DUI-only officer search across the courtroom, including the assigned officer's seat.",
+				"bAllowObject": false,
+				"bAllowCharacter": true,
+				"bImmediate": true,
+				"bFilterSameSite": true,
+				"FiltersInfo":
+				{
+					"FilterCircle":
+					{
+						"Radius": 5000,
+						"InnerRadius": 0
+					},
+					"FilterFacing":
+					{
+						"Length": 0,
+						"Angle": 0
+					},
+					"FilterCylinder":
+					{
+						"Radius": 0,
+						"InnerRadius": 0,
+						"Height": 0
+					},
+					"FilterBox":
+					{
+						"WidthAndDepth": 0,
+						"Height": 0
+					},
+					"FilterLineTrace":
+					{
+						"Length": 0,
+						"StartOffset":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					"FilterObjectTag":
+					{
+						"ObjectTags": []
+					},
+					"FilterFacingOrigin":
+					{
+						"bRequireFacingOrigin": false
+					},
+					"bUseUnionFilter": false,
+					"Prob": 1,
+					"ConditionId": "Howling_Police_Search_Crime_Trial"
+				},
+				"EffectsInfo":
+				{
+					"HowlingEffectId": "Howling_Police_Search_Crime_NotChoiceCard"
+				},
+				"FrequencyInfo":
+				{
+					"Type": "OneTime",
+					"bAllowMultiple": false,
+					"CooldownTime": 10,
+					"Duration": 0
+				},
+				"bCheckLineTrace": false,
+				"bCheckSameFloor": true,
+				"TimeBasis": "WorldMinutes"
+			},
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"settings":
+	{
+		"auto_require": false
+	},
+	"bindings":
+	{
+		"B2": [
+			{
+				"type": "Zoi",
+				"key": "*",
+				"script": "Zoi.TipsyZoisRuntime"
+			},
+			{
+				"type": "Zoi",
+				"key": "*",
+				"script": "Zoi.TipsyZoisDriving"
+			},
+			{
+				"type": "Vehicle",
+				"key": "Car",
+				"script": "Vehicles.TipsyZoisDriving"
+			},
+			{
+				"type": "Component",
+				"key": "Crime",
+				"script": "Components.TipsyZoisAccidents"
+			}
+		]
+	}
+}

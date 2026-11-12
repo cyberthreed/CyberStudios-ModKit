@@ -1,0 +1,1125 @@
+{
+	"Struct": "Buff",
+	"BaseVersion": "20261011.16078.W.MODKIT.EGS",
+	"SaveVersion": "20261026.16562.W.MODKIT.EGS",
+	"PatchList": [
+		{
+			"Method": "Append",
+			"Query": "Buff[Id=Talk_Special_DrinkGive]",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 60,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_FeelingGood_Emotion",
+					"EmotionValue": 10,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_Drink_BeverageCraft_Quality_Bad_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_Drink_BeverageCraft_Quality_Bad_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Calm1",
+					"EmotionColorId2": "Emotion_Calm2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": true,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"addScriptIdList": [],
+				"cancelScriptIdList": [],
+				"FinishScriptIdList": [
+					"TipsyZois_ApplyAlcoholCraving"
+				],
+				"tickScriptIdList": [],
+				"intervalScriptIdList": [],
+				"id": "TipsyZois_FeelingGood"
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff[Id=TipsyZois_FeelingGood]",
+			"Value":
+			{
+				"buffBasicInfo":
+				{
+					"isEssential": true,
+					"Duration": 480,
+					"expireTime":
+					{
+						"afterDay": -1,
+						"targetHour": -1,
+						"targetMinute": -1
+					},
+					"tickInterval": 0,
+					"scriptInterval": 0,
+					"emotionId": "TipsyZois_FeelingGood_Emotion",
+					"EmotionValue": 40,
+					"emotionReasonPriority": "Invalid",
+					"tags": [],
+					"tagIconId": "Buff_Icon_Convinced"
+				},
+				"buffDisplayInfo":
+				{
+					"displayTextId": "mod_Buff_BuffDisplayInfo_Talk_Special_DrinkGive_DisplayTextId",
+					"reasonTextId": "mod_Buff_BuffDisplayInfo_Talk_Special_DrinkGive_ReasonTextId",
+					"iconId": "None",
+					"emotionColorId1": "None",
+					"emotionColorId2": "None",
+					"hiddenFromUI": false,
+					"alarmIconMaterialId": "None",
+					"isHighlight": true,
+					"emotionReasonTitleTextId": "",
+					"emotionReasonDescTextId": ""
+				},
+				"addScriptIdList": [],
+				"cancelScriptIdList": [],
+				"FinishScriptIdList": [
+					"TipsyZois_ApplyHangover"
+				],
+				"tickScriptIdList": [],
+				"intervalScriptIdList": [],
+				"id": "TipsyZois_Wasted"
+			},
+			"Enabled": false
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_HangoverLong",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 240,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_Hangover_Emotion",
+					"EmotionValue": 9,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Tooltip_Icon_Sick"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Tired1",
+					"EmotionColorId2": "Emotion_Tired2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoningCured",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 90,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_AlcoholPoisoningCured_Emotion",
+					"EmotionValue": 10,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoningCured_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoningCured_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Calm1",
+					"EmotionColorId2": "Emotion_Calm2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_Drunk",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 90,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_Drunk_Emotion",
+					"EmotionValue": 30,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisDrunk_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisDrunk_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Cringing1",
+					"EmotionColorId2": "Emotion_Cringing2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [
+					"TipsyZois_ApplyHangover",
+					"TipsyZois_ApplyAlcoholCraving"
+				],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_Wasted_Stage",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 120,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_Wasted_Emotion",
+					"EmotionValue": 40,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisWasted_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisWasted_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Uncomfortable1",
+					"EmotionColorId2": "Emotion_Uncomfortable2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [
+					"TipsyZois_ApplyHangover",
+					"TipsyZois_ApplyAlcoholCraving"
+				],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_SleepwalkingWindow",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 90,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "Normal",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "Buff_BuffDisplayInfo_SleepWalking_Watch_Self_DisplayTextId",
+					"ReasonTextId": "",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [
+					"TipsyZois_StopSleepwalking"
+				],
+				"FinishScriptIdList": [
+					"TipsyZois_StopSleepwalking"
+				],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_Blackout_Stage",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 180,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_Blackout_Emotion",
+					"EmotionValue": 50,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "CatOperator_Icon_Like"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisBlackout_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisBlackout_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Touched1",
+					"EmotionColorId2": "Emotion_Touched2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [
+					"TipsyZois_StartSleepwalking"
+				],
+				"CancelScriptIdList": [
+					"TipsyZois_CancelSleepwalking"
+				],
+				"FinishScriptIdList": [
+					"TipsyZois_ApplyLongHangover",
+					"TipsyZois_ApplyAlcoholCraving",
+					"TipsyZois_ResolveBlackoutPoisoning"
+				],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_Hangover_Standard",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 120,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_Hangover_Emotion",
+					"EmotionValue": 9,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Tooltip_Icon_Sick"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Tired1",
+					"EmotionColorId2": "Emotion_Tired2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoning_Active",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 120,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_AlcoholPoisoning_Emotion",
+					"EmotionValue": 60,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [
+						"WBuffTag_TipsyZoisAlcoholPoisoning"
+					],
+					"TagIconId": "Buff_Icon_Afraid"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoning_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholPoisoning_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Worried1",
+					"EmotionColorId2": "Emotion_Worried2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [
+					"TipsyZois_AlcoholPoisoning_Begin"
+				],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [
+					"TipsyZois_AlcoholPoisoning_Expire"
+				],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Override",
+			"Query": "Buff[Id=TipsyZois_Tipsy].AddScriptIdList",
+			"Value": [],
+			"Enabled": false
+		},
+		{
+			"Method": "Override",
+			"Query": "Buff[Id=TipsyZois_Tipsy].CancelScriptIdList",
+			"Value": [],
+			"Enabled": false
+		},
+		{
+			"Method": "Override",
+			"Query": "Buff[Id=TipsyZois_Tipsy].TickScriptIdList",
+			"Value": [],
+			"Enabled": false
+		},
+		{
+			"Method": "Override",
+			"Query": "Buff[Id=TipsyZois_Tipsy].IntervalScriptIdList",
+			"Value": [],
+			"Enabled": false
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_Tipsy",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 60,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "TipsyZois_Tipsy_Emotion",
+					"EmotionValue": 20,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisTipsy_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisTipsy_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Funny1",
+					"EmotionColorId2": "Emotion_Funny2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": true,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [
+					"TipsyZois_ApplyAlcoholCraving"
+				],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_Lightweight_QuickEffects",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"Duration": 120,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "Cringing",
+					"EmotionValue": 1,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Tooltip_Icon_Sick"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisLightweightQuickEffects_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisLightweightQuickEffects_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Cringing1",
+					"EmotionColorId2": "Emotion_Cringing2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_Alcoholic_Craving",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"Duration": 240,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "Worried",
+					"EmotionValue": 1,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Afraid"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholicCraving_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisAlcoholicCraving_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Worried1",
+					"EmotionColorId2": "Emotion_Worried2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_StraightEdge_Discomfort",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"Duration": 120,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "Irritated",
+					"EmotionValue": 1,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisStraightEdgeDiscomfort_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisStraightEdgeDiscomfort_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "Emotion_Irritated1",
+					"EmotionColorId2": "Emotion_Irritated2",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_BlackoutDrowsiness",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"Duration": 1,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "Sleep",
+					"EmotionValue": 5,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "SocialEvent_Icon_Sleep"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "Buff_BuffDisplayInfo_Sleep_DisplayTextId",
+					"ReasonTextId": "Buff_BuffDisplayInfo_Sleep_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": false,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [
+					"AddModifier_Sleep"
+				],
+				"CancelScriptIdList": [
+					"RemoveModifier_Sleep"
+				],
+				"FinishScriptIdList": [
+					"RemoveModifier_Sleep"
+				],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_UpgradeInProgress",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"Duration": 1,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_SleepwalkingPose",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": false,
+					"Duration": 90,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_DUICrashPending",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": -1,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [
+					"TipsyZois_DUICrashCheck"
+				],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_DUICustody",
+				"Comment": "",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": -1,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_DUI_VerdictOpened",
+				"Comment": "One verdict choice card per DUI hearing; cleared by DUI event cleanup.",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": -1,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"Id": "TipsyZois_AlcoholPoisoningPending",
+				"Comment": "Extra completed drink during Blackout; hidden marker resolved at the original Blackout's natural expiration.",
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": -1,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": []
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": -1,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "None"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": [],
+				"Id": "TipsyZois_AlcoholPoisoning_DeathPending",
+				"Comment": "Hidden, persistent handoff from untreated poisoning expiration to the native death system after the poisoning whitelist clears."
+			},
+			"Enabled": true
+		},
+		{
+			"Method": "Append",
+			"Query": "Buff",
+			"Value":
+			{
+				"BuffBasicInfo":
+				{
+					"IsEssential": true,
+					"Duration": 1440,
+					"ExpireTime":
+					{
+						"AfterDay": -1,
+						"TargetHour": -1,
+						"TargetMinute": -1
+					},
+					"TickInterval": 0,
+					"ScriptInterval": 0,
+					"EmotionId": "None",
+					"EmotionValue": 0,
+					"EmotionReasonPriority": "Invalid",
+					"Tags": [],
+					"TagIconId": "Buff_Icon_Joyful"
+				},
+				"BuffDisplayInfo":
+				{
+					"DisplayTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_DisplayTextId",
+					"ReasonTextId": "mod_Buff_BuffDisplayInfo_TipsyZoisHangover_ReasonTextId",
+					"IconId": "None",
+					"EmotionColorId1": "None",
+					"EmotionColorId2": "None",
+					"HiddenFromUI": true,
+					"AlarmIconMaterialId": "None",
+					"IsHighlight": false,
+					"EmotionReasonTitleTextId": "",
+					"EmotionReasonDescTextId": ""
+				},
+				"AddScriptIdList": [],
+				"CancelScriptIdList": [],
+				"FinishScriptIdList": [],
+				"TickScriptIdList": [],
+				"IntervalScriptIdList": [],
+				"Id": "TipsyZois_DUIIncidentCooldown",
+				"Comment": "One DUI incident per Zoi per game day; native saved marker prevents duplicate accident/risk cases across reloads."
+			},
+			"Enabled": true
+		}
+	]
+}
