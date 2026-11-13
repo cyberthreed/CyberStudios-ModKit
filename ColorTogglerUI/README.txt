@@ -13,7 +13,7 @@ Baby Pink uses #F2BDCF with #DC507F accents.
 
 Coverage
 Refreshes supported widgets after loading a world and after each color switch.
-Targets exposed UMG borders, button states, named panel images, background blur tints, map and interaction images identified by their names, and blue/cyan progress fills. Rainbow modes distribute colors across captured widget properties. Black mode lightens captured dark neutral text.
+Targets exposed UMG borders, button states, named panel images, background blur tints, map, location, building, facility, destination, and interaction images identified by their names, using both brush tint and image color, and blue/cyan progress fills. Rainbow modes distribute colors across captured widget properties. Black mode lightens captured dark neutral text.
 Emotion and mood widgets and widget paths containing FamilyTies or CyberCore are excluded. Status meter fill hues outside blue/cyan are preserved.
 
 Limits
