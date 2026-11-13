@@ -36,12 +36,12 @@ local MODES = {
     },
     {
         Name = "Hot Pink",
-        Main = rgb(255, 20, 147),      -- #FF1493
-        MapIcon = rgb(255, 20, 147),   -- match the selected pink
-        Accent = rgb(200, 0, 105),     -- #C80069
-        Hover = rgb(255, 105, 180),    -- #FF69B4
-        Pressed = rgb(215, 0, 115),    -- #D70073
-        Disabled = rgb(249, 169, 208)  -- #F9A9D0
+        Main = rgb(247, 159, 198),     -- #F79FC6
+        MapIcon = rgb(235, 91, 157),   -- #EB5B9D
+        Accent = rgb(216, 69, 133),    -- #D84585
+        Hover = rgb(244, 134, 183),    -- #F486B7
+        Pressed = rgb(231, 111, 163),  -- #E76FA3
+        Disabled = rgb(239, 202, 219)  -- #EFCADB
     },
     {
         Name = "Lavender",
