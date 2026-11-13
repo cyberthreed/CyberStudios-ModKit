@@ -61,13 +61,16 @@ local MODES = {
         Main = rgb(191, 232, 208), MapIcon = rgb(107, 66, 38),
         Accent = rgb(107, 66, 38), Button = rgb(137, 91, 65),
         Hover = rgb(157, 111, 82), Pressed = rgb(112, 73, 51),
-        Disabled = rgb(191, 159, 138), ButtonText = rgb(255, 245, 229)
+        Disabled = rgb(191, 159, 138), ButtonText = rgb(255, 245, 229),
+        Card = rgb(137, 91, 65), CardText = rgb(255, 245, 229)
     },
     {
         Name = "Neapolitan",
-        Main = rgb(255, 241, 214), MapIcon = rgb(242, 189, 207),
-        Accent = rgb(107, 66, 38), Hover = rgb(242, 189, 207),
-        Pressed = rgb(231, 185, 192), Disabled = rgb(246, 232, 219)
+        Main = rgb(255, 241, 220), MapIcon = rgb(222, 135, 166),
+        Accent = rgb(115, 73, 53), Button = rgb(244, 183, 204),
+        Hover = rgb(249, 202, 218), Pressed = rgb(230, 156, 183),
+        Disabled = rgb(236, 215, 207), Text = rgb(100, 64, 48),
+        Card = rgb(244, 183, 204), CardText = rgb(100, 64, 48)
     },
     {
         Name = "Red",
@@ -297,6 +300,12 @@ local function isMapIcon(widget)
     return containsAny(searchName, MAP_CONTEXT_WORDS) and containsAny(searchName, MAP_ICON_WORDS)
 end
 
+local function isZoiCard(widget)
+    return containsAny(lowerName(widget), {
+        "wbp_hud_playerportrait", "wbp_hud_playerprofile", "wbp_hud_familyinfo"
+    })
+end
+
 local function isPhoneIcon(widget)
     local name = lowerName(widget)
     local resourceName = safe(function()
@@ -498,6 +507,10 @@ local function applyWidget(widget)
             if target then
                 local color = mode[item.ColorKey]
                 if item.ColorKey == "Button" then color = mode.Button or mode.Main end
+                if isZoiCard(widget) then
+                    if item.ColorKey == "Main" and mode.Card then color = mode.Card end
+                    if item.ColorKey == "Text" and mode.CardText then color = mode.CardText end
+                end
                 if item.ColorKey == "Text" and mode.ButtonText then
                     local parent = safe(function() return widget:GetParent() end)
                     for depth = 1, 8 do
