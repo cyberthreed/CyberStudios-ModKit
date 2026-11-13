@@ -244,11 +244,13 @@ local BACKGROUND_WORDS = {
 }
 local MAP_CONTEXT_WORDS = {
     "map", "minimap", "mini_map", "world_map", "interaction", "waypoint",
-    "objective", "worldindicator", "world_marker"
+    "objective", "worldindicator", "world_marker", "location", "landmark",
+    "building", "lotmarker", "poi", "facility", "destination"
 }
 local MAP_ICON_WORDS = {
     "mapicon", "map_icon", "map-pin", "map_pin", "mappin", "mapmarker", "map_marker",
-    "poi", "pin", "marker", "landmark", "location", "icon", "indicator", "target", "quest"
+    "poi", "pin", "marker", "landmark", "location", "icon", "indicator", "target", "quest",
+    "symbol", "facility", "destination"
 }
 
 local function safe(fn)
@@ -412,10 +414,16 @@ local function widgetPlan(widget)
     end
 
     if isA(widget, "/Script/UMG.Image") and (isMapIcon(widget) or isNamedPanelImage(widget)) then
+        local mapIcon = isMapIcon(widget)
         local item = makePath(widget, { "Brush", "TintColor" })
+        local opacity = mapIcon and makePath(widget, { "ColorAndOpacity" }) or nil
         if item then
-            item.ColorKey = isMapIcon(widget) and "MapIcon" or "Main"
+            item.ColorKey = mapIcon and (opacity and "MapBrush" or "MapIcon") or "Main"
             plan[#plan + 1] = item
+        end
+        if opacity then
+            opacity.ColorKey = "MapIcon"
+            plan[#plan + 1] = opacity
         end
     end
 
@@ -443,6 +451,7 @@ local function redrawWidget(widget)
         safe(function() widget:SetStyle(widget.WidgetStyle) end)
     elseif isA(widget, "/Script/UMG.Image") then
         safe(function() widget:SetBrush(widget.Brush) end)
+        safe(function() widget:SetColorAndOpacity(widget.ColorAndOpacity) end)
     elseif isA(widget, "/Script/UMG.TextBlock") then
         safe(function() widget:SetColorAndOpacity(widget.ColorAndOpacity) end)
     elseif isA(widget, "/Script/UMG.ProgressBar") then
@@ -475,9 +484,10 @@ local function applyWidget(widget)
             local target = safe(function() return getPath(widget, item.Path) end)
             if target then
                 local color = mode[item.ColorKey]
-                if item.ColorKey ~= "Text" and mode.Rainbow == "vivid" then
+                if item.ColorKey == "MapBrush" then color = rgb(255, 255, 255) end
+                if item.ColorKey ~= "Text" and item.ColorKey ~= "MapBrush" and mode.Rainbow == "vivid" then
                     color = RAINBOW_VIVID[((record.Sequence + itemIndex - 2) % #RAINBOW_VIVID) + 1]
-                elseif item.ColorKey ~= "Text" and mode.Rainbow == "pastel" then
+                elseif item.ColorKey ~= "Text" and item.ColorKey ~= "MapBrush" and mode.Rainbow == "pastel" then
                     color = RAINBOW_PASTEL[((record.Sequence + itemIndex - 2) % #RAINBOW_PASTEL) + 1]
                 end
                 if color then writeColor(target, color) else writeColor(target, item.Original) end
