@@ -236,8 +236,6 @@ The repository does not currently document an automated test suite for this mod.
 - Complete HUD coverage has not been confirmed in-game.
 - Some interface elements use materials, baked artwork, or Slate-only rendering.
 - Late game-driven color updates may override some changes.
-- Selected themes do not persist between game sessions.
-- The script starts in Baby Pink on each load.
 - Native palette notifications may not appear in every HUD configuration.
 - Widget-name exclusions cannot identify all anonymous widgets.
 
