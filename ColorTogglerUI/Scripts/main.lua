@@ -176,6 +176,44 @@ local MODES = {
 }
 local TAG = "[Color Toggler UI] "
 local modeIndex = 2
+local scriptSource = debug.getinfo(1, "S").source
+local scriptDirectory = scriptSource:match("^@(.+[/\\])")
+local settingsPath = scriptDirectory and (scriptDirectory .. "theme.txt") or nil
+
+local function loadTheme()
+    if not settingsPath then
+        print(TAG .. "Cannot locate theme settings file.\n")
+        return
+    end
+    local file = io.open(settingsPath, "r")
+    if not file then return end
+    local name = file:read("*l")
+    file:close()
+    if not name then return end
+    name = name:gsub("%s+$", "")
+    for index, mode in ipairs(MODES) do
+        if mode.Name == name then
+            modeIndex = index
+            return
+        end
+    end
+end
+
+local function saveTheme()
+    if not settingsPath then return end
+    local file, failure = io.open(settingsPath, "w")
+    if not file then
+        print(TAG .. "Could not save theme: " .. tostring(failure) .. "\n")
+        return
+    end
+    local written, writeFailure = file:write(MODES[modeIndex].Name .. "\n")
+    local closed, closeFailure = file:close()
+    if not written or not closed then
+        print(TAG .. "Could not save theme: " .. tostring(writeFailure or closeFailure) .. "\n")
+    end
+end
+
+loadTheme()
 local saved = {}
 local handled = 0
 local skipped = 0
@@ -549,6 +587,7 @@ end
 
 local function changeMode(direction)
     modeIndex = ((modeIndex - 1 + direction) % #MODES) + 1
+    saveTheme()
     ExecuteInGameThread(function()
         if MODES[modeIndex].Name == "Off" then
             restoreAll()
@@ -565,4 +604,4 @@ RegisterKeyBind(Key.C, { ModifierKey.CONTROL, ModifierKey.ALT, ModifierKey.SHIFT
     changeMode(1)
 end)
 
-print(TAG .. "Loaded in Baby Pink. Press CTRL+ALT+SHIFT+C to cycle colors.\n")
+print(TAG .. "Loaded theme: " .. MODES[modeIndex].Name .. ". Press CTRL+ALT+SHIFT+C to cycle colors.\n")
