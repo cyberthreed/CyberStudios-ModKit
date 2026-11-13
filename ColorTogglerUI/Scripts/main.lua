@@ -59,8 +59,9 @@ local MODES = {
     {
         Name = "Mint-Choco",
         Main = rgb(191, 232, 208), MapIcon = rgb(107, 66, 38),
-        Accent = rgb(107, 66, 38), Hover = rgb(151, 213, 176),
-        Pressed = rgb(127, 190, 151), Disabled = rgb(221, 236, 226)
+        Accent = rgb(107, 66, 38), Button = rgb(137, 91, 65),
+        Hover = rgb(157, 111, 82), Pressed = rgb(112, 73, 51),
+        Disabled = rgb(191, 159, 138), ButtonText = rgb(255, 245, 229)
     },
     {
         Name = "Neapolitan",
@@ -401,7 +402,7 @@ local function widgetPlan(widget)
 
     if isA(widget, "/Script/UMG.Button") then
         local states = {
-            { "Normal", "Main" }, { "Hovered", "Hover" },
+            { "Normal", "Button" }, { "Hovered", "Hover" },
             { "Pressed", "Pressed" }, { "Disabled", "Disabled" }
         }
         for _, state in ipairs(states) do
@@ -496,6 +497,18 @@ local function applyWidget(widget)
             local target = safe(function() return getPath(widget, item.Path) end)
             if target then
                 local color = mode[item.ColorKey]
+                if item.ColorKey == "Button" then color = mode.Button or mode.Main end
+                if item.ColorKey == "Text" and mode.ButtonText then
+                    local parent = safe(function() return widget:GetParent() end)
+                    for depth = 1, 8 do
+                        if not parent or safe(function() return parent:IsValid() end) ~= true then break end
+                        if isA(parent, "/Script/UMG.Button") then
+                            color = mode.ButtonText
+                            break
+                        end
+                        parent = safe(function() return parent:GetParent() end)
+                    end
+                end
                 if item.ColorKey == "PhoneIcon" then
                     color = mode.Name == "Black" and rgb(235, 235, 238) or mode.Accent
                 end
