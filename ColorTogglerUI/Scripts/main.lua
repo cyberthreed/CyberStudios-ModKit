@@ -296,6 +296,17 @@ local function isMapIcon(widget)
     return containsAny(searchName, MAP_CONTEXT_WORDS) and containsAny(searchName, MAP_ICON_WORDS)
 end
 
+local function isPhoneIcon(widget)
+    local name = lowerName(widget)
+    local resourceName = safe(function()
+        return string.lower(widget.Brush.ResourceObject:GetFullName())
+    end) or ""
+    local combined = name .. " " .. resourceName
+    return containsAny(combined, { "phone", "smartphone", "cellphone" })
+        and containsAny(combined, { "icon", "image", "img", "symbol", "sprite" })
+        and not isNonUIArt(widget)
+end
+
 local function isA(widget, className)
     return safe(function() return widget:IsA(className) end) == true
 end
@@ -413,8 +424,9 @@ local function widgetPlan(widget)
         end
     end
 
-    if isA(widget, "/Script/UMG.Image") and (isMapIcon(widget) or isNamedPanelImage(widget)) then
-        local mapIcon = isMapIcon(widget)
+    if isA(widget, "/Script/UMG.Image") and (isMapIcon(widget) or isNamedPanelImage(widget) or isPhoneIcon(widget)) then
+        local phoneIcon = isPhoneIcon(widget)
+        local mapIcon = isMapIcon(widget) or phoneIcon
         local item = makePath(widget, { "Brush", "TintColor" })
         local opacity = mapIcon and makePath(widget, { "ColorAndOpacity" }) or nil
         if item then
@@ -422,7 +434,7 @@ local function widgetPlan(widget)
             plan[#plan + 1] = item
         end
         if opacity then
-            opacity.ColorKey = "MapIcon"
+            opacity.ColorKey = phoneIcon and "PhoneIcon" or "MapIcon"
             plan[#plan + 1] = opacity
         end
     end
@@ -484,6 +496,9 @@ local function applyWidget(widget)
             local target = safe(function() return getPath(widget, item.Path) end)
             if target then
                 local color = mode[item.ColorKey]
+                if item.ColorKey == "PhoneIcon" then
+                    color = mode.Name == "Black" and rgb(235, 235, 238) or mode.Accent
+                end
                 if item.ColorKey == "MapBrush" then color = rgb(255, 255, 255) end
                 if item.ColorKey ~= "Text" and item.ColorKey ~= "MapBrush" and mode.Rainbow == "vivid" then
                     color = RAINBOW_VIVID[((record.Sequence + itemIndex - 2) % #RAINBOW_VIVID) + 1]
